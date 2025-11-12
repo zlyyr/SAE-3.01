@@ -1,0 +1,64 @@
+/* ==== Body & Fond ==== */
+body {
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    background: linear-gradient(180deg, #fffae5, #ffe6b3);
+}
+
+/* ==== Header ==== */
+header {
+    background: linear-gradient(90deg, #ffbf00, #ff6600);
+    color:white;
+    text-align:center;
+    padding:1rem;
+    font-size:1.8rem;
+    font-weight:600;
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* ==== Carte ==== */
+#map {
+    flex:1;
+    width:100%;
+}
+
+/* ==== Footer ==== */
+footer {
+    background: linear-gradient(90deg, #ff6600, #ff3300);
+    color:white;
+    text-align:center;
+    padding:0.5rem;
+    font-size:0.9rem;
+}
+
+/* ==== Barre de recherche ==== */
+#searchBar {
+    position:absolute;
+    top:80px;
+    right:10px; /* à droite */
+    z-index:1000;
+    display:flex;
+    gap:5px;
+}
+
+#searchBar input {
+    padding:0.5rem;
+    border-radius:5px;
+    border:1px solid #ff6600;
+}
+
+#searchBar button {
+    padding:0.5rem 1rem;
+    border:none;
+    border-radius:5px;
+    background:#ff6600;
+    color:white;
+    cursor:pointer;
+}
+
+#searchBar button:hover {
+    background:#ff3300;
+}
