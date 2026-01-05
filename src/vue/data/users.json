@@ -1,0 +1,17 @@
+[
+    {
+        "username": "gab",
+        "password": "$2y$12$iFuKZEI7OHxQowh15vQxKemdDZtZ6LS2G0XcjPukpo.04JG\/TnuVm",
+        "city": "london"
+    },
+    {
+        "username": "alex",
+        "password": "$2y$12$TnJ37vdzA6suq237k5a5e.RY7n4.1UreC2D87M6x.BLJHPyPPhtRS",
+        "city": "metz"
+    },
+    {
+        "username": "ben",
+        "password": "$2y$12$iCtTdKTZ0xvHNX2ArwZdo.P.3TIkwN3jfL6b2pwqaIk.IU0qBd58C",
+        "city": "metz"
+    }
+]
