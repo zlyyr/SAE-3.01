@@ -46,7 +46,6 @@ footer {
   font-size: 0.9rem;
 }
 
-
 #searchBar {
   position: absolute;
   bottom: 40px;
@@ -62,7 +61,7 @@ footer {
   padding: 8px 12px;
 
   border-radius: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 #searchBar input {
@@ -84,7 +83,7 @@ footer {
   font-weight: 600;
   cursor: pointer;
 
-  box-shadow: 0 3px 7px rgba(0,0,0,0.2);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
   transition: 0.15s ease;
 }
 
@@ -93,9 +92,62 @@ footer {
   background: linear-gradient(135deg, #ff7a00, #ff2a00);
 }
 
+.icon-menu {
+  width: 80px;
+}
+
+.nav-content {
+  display: none;
+  height: 100vh;
+  margin-left: 20px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-content hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+nav.Lt {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  z-index: 2000;
+}
+
+.nav-content {
+  display: none;
+  height: 100vh;
+  margin-left: 20px;
+}
+
+nav.Lt.open .nav-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav.Lt a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+
 /* === Responsive === */
 @media (max-width: 700px) {
-
   header {
     font-size: 1.4rem;
     padding: 0.8rem;
@@ -143,5 +195,3 @@ footer {
     width: 100%;
   }
 }
-
-

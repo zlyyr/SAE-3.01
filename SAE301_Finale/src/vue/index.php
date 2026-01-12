@@ -33,6 +33,34 @@ if (!isset($_SESSION["user"])) {
     <button id="nearestBtn">Le plus proche</button>
   </div>
 
+  <nav class="Lt" id="menu">
+    <img src="./images/menu.png" alt="Menu" class="icon-menu" id="menu-btn">
+
+    <div class="nav-content">
+      <a href="Inscription.html">
+        <div class="nav-content">
+          <a href="Profil.html">👤 Profil</a>
+          <a href="Parametres.html">⚙️ Paramètres</a>
+          <a href="Filtres.html">Filtres</a>
+          <a href="Aide.html">❓ Aide / Support</a>
+
+          <hr>
+
+          <a href="Deconnexion.html" class="logout">🚪 Se déconnecter</a>
+        </div>
+      </a>
+    </div>
+  </nav>
+  <script>
+    const menu = document.getElementById("menu");
+    const btn = document.getElementById("menu-btn");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+  </script>
+
+
   <div id="map"></div>
 
   <footer>© 2025 Sparking — L’étincelle qui te guide vers ta place</footer>
@@ -40,7 +68,6 @@ if (!isset($_SESSION["user"])) {
   <script type="module">
     globalThis.userCity = <?= json_encode($_SESSION['city']) ?>;
   </script>
-
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
