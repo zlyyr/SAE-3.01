@@ -35,16 +35,15 @@ export function loadParkings() {
             iconUrl: "./images/location.png",
             iconSize: [32, 32],
           }),
-        })
+        });
         parkingClusterGroup.addLayer(marker);
 
         //Objet parking avec les bons noms comme dans l'API
-        const parking = 
-        {
+        const parking = {
           lat,
           lon,
           name: p.lib,
-          free: p.place_libre
+          free: p.place_libre,
         };
 
         parkingList.push(parking);
@@ -66,9 +65,7 @@ export function loadParkings() {
       });
       map.addLayer(parkingClusterGroup);
     })
-    
+
     //Erreur si on récupère pas les données de l'API
-    .catch((err) =>
-      console.error("Erreur chargement parkings API :", err)
-    );
+    .catch((err) => console.error("Erreur chargement parkings API :", err));
 }
