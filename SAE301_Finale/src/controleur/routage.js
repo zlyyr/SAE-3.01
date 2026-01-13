@@ -4,6 +4,8 @@ import { userMarker } from "../modele/geoLoc.js";
 let routeControl = null;
 let currentTarget = null;
 
+const arretTrajetBtn = document.getElementById("arretTrajet");
+
 export function goToParking(lat, lon) {
   //On vérifie qu'on a la position de l'utilisateur
   if (!userMarker) {
@@ -19,31 +21,40 @@ export function goToParking(lat, lon) {
   if (routeControl) map.removeControl(routeControl);
 
   routeControl = L.Routing.control({
-    waypoints: [
-      L.latLng(userLat, userLon),
-      L.latLng(lat, lon)
-    ],
+    waypoints: [L.latLng(userLat, userLon), L.latLng(lat, lon)],
     //Pour enlever les marqueurs bleus de Leaflet
     createMarker: () => null,
     routeWhileDragging: false,
     //Options de la route
     lineOptions: {
       addWaypoints: false,
-      styles: [{ color: "red", weight: 8, opacity: 1 }]
+      styles: [{ color: "red", weight: 8, opacity: 1 }],
     },
     router: L.Routing.osrmv1({
-      serviceUrl: "https://router.project-osrm.org/route/v1"
+      serviceUrl: "https://router.project-osrm.org/route/v1",
     }),
     show: false,
-    collapsible: true
+    collapsible: true,
   }).addTo(map);
 
   //On zoom sur le départ et l'arrivée
   map.fitBounds([
     [userLat, userLon],
-    [lat, lon]
+    [lat, lon],
   ]);
+  arretTrajetBtn.hidden = false;
 }
+
+// Annuler le trajet
+arretTrajetBtn.addEventListener("click", () => {
+  if (routeControl) {
+    map.removeControl(routeControl);
+    routeControl = null;
+    currentTarget = null;
+  }
+  // Cacher le bouton après annulation
+  arretTrajetBtn.hidden = true;
+});
 
 //On recalcule la position si l'utilisateur bouge
 export function recalculateRoute() {
@@ -53,4 +64,3 @@ export function recalculateRoute() {
 
 //On rend la fonction globale
 globalThis.goToParking = goToParking;
-

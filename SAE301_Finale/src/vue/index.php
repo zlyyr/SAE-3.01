@@ -31,6 +31,7 @@ if (!isset($_SESSION["username"])) {
     <input type="text" id="parkingName" placeholder="Rechercher un parking…" />
     <button id="goButton">Aller</button>
     <button id="nearestBtn">Le plus proche</button>
+    <button hidden=false id="arretTrajet">Annuler le trajet</button>
   </div>
 
   <nav class="Lt" id="menu">
