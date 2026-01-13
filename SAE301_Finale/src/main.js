@@ -16,4 +16,3 @@ loadLondonParkings();
 initSearch();
 initNearest();
 initMobilities();
-

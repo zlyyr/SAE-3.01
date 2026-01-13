@@ -99,7 +99,7 @@ footer {
 }
 
 .nav-content {
-  top: -800%;
+  top: -1000%;
   display: none;
   height: 100vh;
   margin-left: 20px;
@@ -119,7 +119,7 @@ footer {
 
 nav.Lt {
   position: fixed;
-  bottom: 2%;
+  bottom: 5%;
   right: 0;
   transform: translateY(-50%);
   display: flex;
@@ -153,7 +153,6 @@ nav.Lt .nav-content {
   display: none;
   opacity: 0;
   transition: opacity 0.3s ease;
-  top: 0;
 }
 
 nav.Lt.open .nav-content {
