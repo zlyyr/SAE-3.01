@@ -1,18 +1,22 @@
 <?php
 session_start();
-require_once 'data/users.php'; // On inclut la connexion
+require_once 'data/connexion.class.php'; // On inclut la connexion
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $username = $_POST['username'] ?? '';
   $password = $_POST['password'] ?? '';
 
-  // Requête pour trouver l'utilisateur
-  $stmt = $pdo->prepare("SELECT * FROM Users WHERE username = ?");
-  $stmt->execute([$username]);
-  $user = $stmt->fetch(PDO::FETCH_ASSOC);
+  $conn = new Connexion();
+
+  $res = $conn->execSQL(
+    "SELECT * FROM Users WHERE username = ?",
+    [$username]
+  );
+
+  $user = $res[0] ?? null;
 
   if ($user && password_verify($password, $user['password'])) {
-    $_SESSION['user'] = $user['username'];
+    $_SESSION['userdevbdd.iutmetz.univ-lorraine.fr'] = $user['username'];
     $_SESSION['user_id'] = $user['ID_User']; // Utile pour les futures requêtes
     $_SESSION['city'] = $user['city'];
     header("Location: index.php");

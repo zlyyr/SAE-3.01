@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'data/users.php';
+require_once 'data/connexion.class.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $username = $_POST['username'] ?? '';
