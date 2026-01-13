@@ -95,7 +95,7 @@ footer {
 }
 
 .icon-menu {
-  width: 80px;
+  width: 60px;
 }
 
 .nav-content {
@@ -149,30 +149,26 @@ nav.Lt a {
   color: black;
 }
 
-/* Cache le contenu par défaut */
 nav.Lt .nav-content {
   display: none;
   opacity: 0;
   transition: opacity 0.3s ease;
+  top: 0;
 }
 
-/* Affiche le contenu quand le menu a la classe .open */
 nav.Lt.open .nav-content {
   display: flex;
-  /* Aligne les liens verticalement */
   opacity: 1;
   background: white;
   box-shadow: -5px 0 150px rgba(0, 0, 0, 0.1);
   position: fixed;
   right: 0;
   width: 250px;
-  /* Largeur du menu déplié */
   height: 100vh;
   padding: 20px;
   z-index: 1999;
 }
 
-/* L'icône doit rester au-dessus */
 .icon-menu {
   position: relative;
   z-index: 2001;
@@ -182,7 +178,6 @@ nav.Lt.open .nav-content {
 
 nav.Lt.open .icon-menu {
   transform: rotate(180deg);
-  /* Petit effet de rotation à l'ouverture */
 }
 
 /* === Responsive === */
@@ -197,7 +192,7 @@ nav.Lt.open .icon-menu {
   }
 
   #searchBar {
-    bottom: 20px;
+    bottom: 50px;
     padding: 6px 10px;
     width: 95%;
   }
@@ -222,7 +217,7 @@ nav.Lt.open .icon-menu {
 @media (max-width: 420px) {
   #searchBar {
     width: 95%;
-    bottom: 40px;
+    bottom: 50px;
     gap: 6px;
   }
 

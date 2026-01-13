@@ -38,54 +38,29 @@ if (!isset($_SESSION["username"])) {
     <img src="./images/menu.png" alt="Menu" class="icon-menu" id="menu-btn">
 
     <div class="nav-content">
-      <div class="nav-content">
-        <a href="Profil.html">👤 Profil</a>
-        <a href="Parametres.html">⚙️ Paramètres</a>
-        <!DOCTYPE html>
-        <html>
 
-        <head>
-          <meta charset="UTF-8">
-          <link rel="stylesheet" href="vue/style/index.css">
-          <link rel="stylesheet" href="vue/style/login_register_save.css">
-          <a href="Aide.php">❓ Aide / Support</a>
-          <title>Filtres de véhicule</title>
-        </head>
+      <a href="Profil.html">👤 Profil</a>
+      <a href="Parametres.html">⚙️ Paramètres</a>
+      <a href="Aide.php">❓ Aide / Support</a>
 
-        <body>
-          <div class="form-container">
-            <h2>Filtres</h2>
-            <div style="text-align: left; margin: 20px 0;">
-              <p><input type="checkbox" id="v"> 🚲 Vélos uniquement</p>
-              <p><input type="checkbox" id="pmr"> ♿ Places Handicapées (PMR)</p>
-              <p><input type="checkbox" id="e"> ⚡ Bornes Électriques</p>
-              <p><input type="checkbox" id="p"> 💷 Gratuits</p>
-            </div>
-          </div>
+      <div class="form-container">
+        <h2>Filtres</h2>
 
-          <script>
-            const k = "filters_<?php echo $_SESSION['username'] ?? 'guest'; ?>";
-
-            const cb = {
-              v: document.getElementById('v'),
-              pmr: document.getElementById('pmr'),
-              e: document.getElementById('e'),
-              p: document.getElementById('p')
-            };
-
-            // Charger filtres
-            const d = JSON.parse(localStorage.getItem(k)) || { v: false, pmr: false, e: false, p: false };
-            cb.v.checked = d.v;
-            cb.pmr.checked = d.pmr;
-            cb.e.checked = d.e;
-            cb.p.checked = d.p;
-          </script>
-          <hr>
-          <a href="logout.php" class="logout">🚪 Se déconnecter</a>
+        <div style="text-align: left; margin: 20px 0;">
+          <p><input type="checkbox" id="v"> 🚲 Vélos uniquement</p>
+          <p><input type="checkbox" id="pmr"> ♿ Places Handicapées (PMR)</p>
+          <p><input type="checkbox" id="e"> ⚡ Bornes Électriques</p>
+          <p><input type="checkbox" id="p"> 💷 Gratuits</p>
+        </div>
       </div>
-      </a>
+
+      <hr>
+
+      <a href="logout.php" class="logout">🚪 Se déconnecter</a>
+
     </div>
   </nav>
+
   <script>
     const menu = document.getElementById("menu");
     const btn = document.getElementById("menu-btn");
@@ -93,8 +68,22 @@ if (!isset($_SESSION["username"])) {
     btn.addEventListener("click", () => {
       menu.classList.toggle("open");
     });
-  </script>
 
+    const k = "filters_<?php echo $_SESSION['username'] ?? 'guest'; ?>";
+
+    const cb = {
+      v: document.getElementById('v'),
+      pmr: document.getElementById('pmr'),
+      e: document.getElementById('e'),
+      p: document.getElementById('p')
+    };
+
+    const d = JSON.parse(localStorage.getItem(k)) || { v: false, pmr: false, e: false, p: false };
+    cb.v.checked = d.v;
+    cb.pmr.checked = d.pmr;
+    cb.e.checked = d.e;
+    cb.p.checked = d.p;
+  </script>
 
   <div id="map"></div>
 

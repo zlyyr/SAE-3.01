@@ -1,0 +1,9986 @@
+[
+  {
+    "stop_id": "0:JPJEAN2",
+    "stop_name": "JP JEAN",
+    "lat": 49.1257141,
+    "lon": 6.2173416
+  },
+  {
+    "stop_id": "0:WOI01",
+    "stop_name": "P+R WOIPPY",
+    "lat": 49.1503509,
+    "lon": 6.1733174
+  },
+  {
+    "stop_id": "0:FALOGNE2",
+    "stop_name": "FALOGNE",
+    "lat": 49.098218,
+    "lon": 6.2403288
+  },
+  {
+    "stop_id": "0:WOI02",
+    "stop_name": "P+R WOIPPY",
+    "lat": 49.1503146,
+    "lon": 6.1733288
+  },
+  {
+    "stop_id": "0:MAT02",
+    "stop_name": "MATERNITE",
+    "lat": 49.0821637,
+    "lon": 6.2390101
+  },
+  {
+    "stop_id": "0:HSCHUMA1",
+    "stop_name": "HOPITAL SCHUMAN",
+    "lat": 49.1232846,
+    "lon": 6.24213
+  },
+  {
+    "stop_id": "0:PEMG2",
+    "stop_name": "POLE MULTIMODAL",
+    "lat": 49.107093,
+    "lon": 6.1772056
+  },
+  {
+    "stop_id": "0:PREVILL1",
+    "stop_name": "PREVILLE",
+    "lat": 49.1022747,
+    "lon": 6.1050587
+  },
+  {
+    "stop_id": "0:FRENES1",
+    "stop_name": "FRENES",
+    "lat": 49.131799,
+    "lon": 6.2112061
+  },
+  {
+    "stop_id": "0:GAREAUG1",
+    "stop_name": "GARE D'AUGNY",
+    "lat": 49.0702409,
+    "lon": 6.1376125
+  },
+  {
+    "stop_id": "0:LADONCH2",
+    "stop_name": "LADONCHAMPS",
+    "lat": 49.1540654,
+    "lon": 6.1525015
+  },
+  {
+    "stop_id": "0:STBRICE2",
+    "stop_name": "ST-BRICE",
+    "lat": 49.0606319,
+    "lon": 6.1492456
+  },
+  {
+    "stop_id": "0:LADONCH1",
+    "stop_name": "LADONCHAMPS",
+    "lat": 49.1543292,
+    "lon": 6.15308
+  },
+  {
+    "stop_id": "0:GAREAUG2",
+    "stop_name": "GARE D'AUGNY",
+    "lat": 49.0701705,
+    "lon": 6.1375534
+  },
+  {
+    "stop_id": "0:POLY01",
+    "stop_name": "POLYGONE",
+    "lat": 49.0977929,
+    "lon": 6.1807876
+  },
+  {
+    "stop_id": "0:MIC02",
+    "stop_name": "JULES MICHELET",
+    "lat": 49.1076224,
+    "lon": 6.2285949
+  },
+  {
+    "stop_id": "0:MIC01",
+    "stop_name": "JULES MICHELET",
+    "lat": 49.1076954,
+    "lon": 6.2285583
+  },
+  {
+    "stop_id": "0:FALOGNE1",
+    "stop_name": "FALOGNE",
+    "lat": 49.0980035,
+    "lon": 6.2402742
+  },
+  {
+    "stop_id": "0:CHDAMES1",
+    "stop_name": "CHEMIN DES DAMES",
+    "lat": 49.1171886,
+    "lon": 6.087776
+  },
+  {
+    "stop_id": "0:FELIX376",
+    "stop_name": "FELIX MARECHAL",
+    "lat": 49.1291654,
+    "lon": 6.1378091
+  },
+  {
+    "stop_id": "0:CHDAMES2",
+    "stop_name": "CHEMIN DES DAMES",
+    "lat": 49.1169133,
+    "lon": 6.0883353
+  },
+  {
+    "stop_id": "0:STANDRE3",
+    "stop_name": "ST-ANDRE",
+    "lat": 49.095164,
+    "lon": 6.1590036
+  },
+  {
+    "stop_id": "0:STANDRE2",
+    "stop_name": "ST-ANDRE",
+    "lat": 49.0949136,
+    "lon": 6.1579195
+  },
+  {
+    "stop_id": "0:STANDRE1",
+    "stop_name": "ST-ANDRE",
+    "lat": 49.0960527,
+    "lon": 6.1590851
+  },
+  {
+    "stop_id": "0:MONTAG02",
+    "stop_name": "ST-PRIVAT MONTAGNE",
+    "lat": 49.1849303,
+    "lon": 6.0454263
+  },
+  {
+    "stop_id": "0:MONTAG01",
+    "stop_name": "ST-PRIVAT MONTAGNE",
+    "lat": 49.1848461,
+    "lon": 6.0444881
+  },
+  {
+    "stop_id": "0:PTICLOU2",
+    "stop_name": "PETIT CLOU",
+    "lat": 49.076013,
+    "lon": 6.1839716
+  },
+  {
+    "stop_id": "0:PTICLOU1",
+    "stop_name": "PETIT CLOU",
+    "lat": 49.0765517,
+    "lon": 6.1840184
+  },
+  {
+    "stop_id": "0:JERUSAL2",
+    "stop_name": "JERUSALEM",
+    "lat": 49.0918722,
+    "lon": 6.1671472
+  },
+  {
+    "stop_id": "0:JERUSAL1",
+    "stop_name": "JERUSALEM",
+    "lat": 49.0917877,
+    "lon": 6.1672791
+  },
+  {
+    "stop_id": "0:ERABLE1",
+    "stop_name": "ERABLES",
+    "lat": 49.1316567,
+    "lon": 6.2054106
+  },
+  {
+    "stop_id": "0:ERABLE2",
+    "stop_name": "ERABLES",
+    "lat": 49.131664,
+    "lon": 6.2051368
+  },
+  {
+    "stop_id": "0:PLAQUET2",
+    "stop_name": "LES PLAQUETTES",
+    "lat": 49.1692087,
+    "lon": 6.0512521
+  },
+  {
+    "stop_id": "0:PLAQUET1",
+    "stop_name": "LES PLAQUETTES",
+    "lat": 49.1690515,
+    "lon": 6.0514212
+  },
+  {
+    "stop_id": "0:SERRURR1",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1182634,
+    "lon": 6.2401295
+  },
+  {
+    "stop_id": "0:STPAUL01",
+    "stop_name": "ST-PAUL",
+    "lat": 49.0833653,
+    "lon": 6.0870627
+  },
+  {
+    "stop_id": "0:SERRURR2",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1186088,
+    "lon": 6.2400003
+  },
+  {
+    "stop_id": "0:STPAUL02",
+    "stop_name": "ST-PAUL",
+    "lat": 49.0831513,
+    "lon": 6.086639
+  },
+  {
+    "stop_id": "0:FALEE1",
+    "stop_name": "FALEE",
+    "lat": 49.1328915,
+    "lon": 6.2525912
+  },
+  {
+    "stop_id": "0:PLGAUL04",
+    "stop_name": "PLACE DE GAULLE",
+    "lat": 49.0601019,
+    "lon": 6.1625643
+  },
+  {
+    "stop_id": "0:FALEE2",
+    "stop_name": "FALEE",
+    "lat": 49.1328785,
+    "lon": 6.2530703
+  },
+  {
+    "stop_id": "0:ARSLAQU2",
+    "stop_name": "ARS LAQUENEXY",
+    "lat": 49.0928601,
+    "lon": 6.2703587
+  },
+  {
+    "stop_id": "0:RUEECO01",
+    "stop_name": "RUE DES ECOLES",
+    "lat": 49.1889281,
+    "lon": 6.0381807
+  },
+  {
+    "stop_id": "0:ARSLAQU1",
+    "stop_name": "ARS LAQUENEXY",
+    "lat": 49.0927773,
+    "lon": 6.2700931
+  },
+  {
+    "stop_id": "0:RUEECO02",
+    "stop_name": "RUE DES ECOLES",
+    "lat": 49.1887633,
+    "lon": 6.0379377
+  },
+  {
+    "stop_id": "0:ACACIAS2",
+    "stop_name": "ACACIAS",
+    "lat": 49.0732292,
+    "lon": 6.1844307
+  },
+  {
+    "stop_id": "0:ACACIAS1",
+    "stop_name": "ACACIAS",
+    "lat": 49.073443,
+    "lon": 6.1845123
+  },
+  {
+    "stop_id": "0:LMOULIN2",
+    "stop_name": "LES MOULINS",
+    "lat": 49.130021,
+    "lon": 6.2379169
+  },
+  {
+    "stop_id": "0:MIRABEL1",
+    "stop_name": "MIRABELLES",
+    "lat": 49.1311949,
+    "lon": 6.145885
+  },
+  {
+    "stop_id": "0:MIRABEL2",
+    "stop_name": "MIRABELLES",
+    "lat": 49.1305955,
+    "lon": 6.1454098
+  },
+  {
+    "stop_id": "0:ARENES2",
+    "stop_name": "ARENES",
+    "lat": 49.1058398,
+    "lon": 6.1735517
+  },
+  {
+    "stop_id": "0:ARENES1",
+    "stop_name": "ARENES",
+    "lat": 49.1060288,
+    "lon": 6.1735495
+  },
+  {
+    "stop_id": "0:PARKDU01",
+    "stop_name": "PARKING DUPUIS",
+    "lat": 49.1129518,
+    "lon": 6.1703549
+  },
+  {
+    "stop_id": "0:LMOULIN1",
+    "stop_name": "LES MOULINS",
+    "lat": 49.1299808,
+    "lon": 6.2374071
+  },
+  {
+    "stop_id": "0:MARCSAN2",
+    "stop_name": "MARC SANGNIER",
+    "lat": 49.0892442,
+    "lon": 6.1593004
+  },
+  {
+    "stop_id": "0:MARCSAN1",
+    "stop_name": "MARC SANGNIER",
+    "lat": 49.0893589,
+    "lon": 6.1593896
+  },
+  {
+    "stop_id": "0:HTRHELE1",
+    "stop_name": "HAUT-RHELE",
+    "lat": 49.0990656,
+    "lon": 6.1323278
+  },
+  {
+    "stop_id": "0:HTRHELE2",
+    "stop_name": "HAUT-RHELE",
+    "lat": 49.0990825,
+    "lon": 6.1323699
+  },
+  {
+    "stop_id": "0:BRIEYS01",
+    "stop_name": "BRIEY",
+    "lat": 49.1599795,
+    "lon": 6.1042948
+  },
+  {
+    "stop_id": "0:BRIEYS02",
+    "stop_name": "BRIEY",
+    "lat": 49.1608461,
+    "lon": 6.1031395
+  },
+  {
+    "stop_id": "0:ARSENAL2",
+    "stop_name": "ARSENAL",
+    "lat": 49.1228317,
+    "lon": 6.1870414
+  },
+  {
+    "stop_id": "0:VACQUI02",
+    "stop_name": "VACQUINIERE",
+    "lat": 49.1066444,
+    "lon": 6.1587167
+  },
+  {
+    "stop_id": "0:ARSENAL1",
+    "stop_name": "ARSENAL",
+    "lat": 49.1229503,
+    "lon": 6.1869801
+  },
+  {
+    "stop_id": "0:VACQUI01",
+    "stop_name": "VACQUINIERE",
+    "lat": 49.106426,
+    "lon": 6.1581277
+  },
+  {
+    "stop_id": "0:VEZON1",
+    "stop_name": "VEZON",
+    "lat": 49.0065511,
+    "lon": 6.0948609
+  },
+  {
+    "stop_id": "0:PLALBLA1",
+    "stop_name": "PLACE ALBERT-LAS",
+    "lat": 49.1024301,
+    "lon": 6.1820316
+  },
+  {
+    "stop_id": "0:PLALBLA2",
+    "stop_name": "PLACE ALBERT-LAS",
+    "lat": 49.1025326,
+    "lon": 6.1819008
+  },
+  {
+    "stop_id": "0:SAR01",
+    "stop_name": "SARRE",
+    "lat": 49.1145635,
+    "lon": 6.231824
+  },
+  {
+    "stop_id": "0:SAR02",
+    "stop_name": "SARRE",
+    "lat": 49.1147111,
+    "lon": 6.2336975
+  },
+  {
+    "stop_id": "0:CAMELIA1",
+    "stop_name": "CAMELIAS",
+    "lat": 49.0659738,
+    "lon": 6.1596493
+  },
+  {
+    "stop_id": "0:GUY01",
+    "stop_name": "GUYENNE",
+    "lat": 49.1114287,
+    "lon": 6.2188669
+  },
+  {
+    "stop_id": "0:FRENES2",
+    "stop_name": "FRENES",
+    "lat": 49.1319925,
+    "lon": 6.2117118
+  },
+  {
+    "stop_id": "0:GUY02",
+    "stop_name": "GUYENNE",
+    "lat": 49.1115792,
+    "lon": 6.2189585
+  },
+  {
+    "stop_id": "0:VEZON2",
+    "stop_name": "VEZON",
+    "lat": 49.006519,
+    "lon": 6.0947085
+  },
+  {
+    "stop_id": "0:PRENET1",
+    "stop_name": "PRE NET",
+    "lat": 49.0811992,
+    "lon": 6.3080919
+  },
+  {
+    "stop_id": "0:PTCOEUR1",
+    "stop_name": "PETIT COEUR",
+    "lat": 49.1661099,
+    "lon": 6.0403811
+  },
+  {
+    "stop_id": "0:PRENET2",
+    "stop_name": "PRE NET",
+    "lat": 49.0811225,
+    "lon": 6.3082651
+  },
+  {
+    "stop_id": "0:COUBERT1",
+    "stop_name": "COUBERTIN",
+    "lat": 49.0918472,
+    "lon": 6.1447984
+  },
+  {
+    "stop_id": "0:COUBERT2",
+    "stop_name": "COUBERTIN",
+    "lat": 49.0921347,
+    "lon": 6.1448158
+  },
+  {
+    "stop_id": "0:PEUMONT2",
+    "stop_name": "PEUMONT",
+    "lat": 49.0768143,
+    "lon": 6.2321419
+  },
+  {
+    "stop_id": "0:HTWOICO1",
+    "stop_name": "HAUT DE WOICON",
+    "lat": 49.1327757,
+    "lon": 6.1353128
+  },
+  {
+    "stop_id": "0:SANSONN2",
+    "stop_name": "SANSONNET",
+    "lat": 49.1364734,
+    "lon": 6.1470422
+  },
+  {
+    "stop_id": "0:SANSONN1",
+    "stop_name": "SANSONNET",
+    "lat": 49.1362974,
+    "lon": 6.1472372
+  },
+  {
+    "stop_id": "0:PEUMONT1",
+    "stop_name": "PEUMONT",
+    "lat": 49.0766994,
+    "lon": 6.2320662
+  },
+  {
+    "stop_id": "0:PAQUERE1",
+    "stop_name": "PAQUERETTES",
+    "lat": 49.0944002,
+    "lon": 6.123852
+  },
+  {
+    "stop_id": "0:CHENOIR2",
+    "stop_name": "CHEMIN NOIR",
+    "lat": 49.1141784,
+    "lon": 6.0981099
+  },
+  {
+    "stop_id": "0:PAQUERE2",
+    "stop_name": "PAQUERETTES",
+    "lat": 49.0944293,
+    "lon": 6.1237715
+  },
+  {
+    "stop_id": "0:BUCHOZ2",
+    "stop_name": "BUCHOZ",
+    "lat": 49.1353701,
+    "lon": 6.1496629
+  },
+  {
+    "stop_id": "0:HSORET1",
+    "stop_name": "HAUT SORET",
+    "lat": 49.1350219,
+    "lon": 6.213847
+  },
+  {
+    "stop_id": "0:BUCHOZ1",
+    "stop_name": "BUCHOZ",
+    "lat": 49.1353787,
+    "lon": 6.1493343
+  },
+  {
+    "stop_id": "0:HSORET2",
+    "stop_name": "HAUT SORET",
+    "lat": 49.1355858,
+    "lon": 6.2136214
+  },
+  {
+    "stop_id": "0:CHENOIR1",
+    "stop_name": "CHEMIN NOIR",
+    "lat": 49.1141823,
+    "lon": 6.0979593
+  },
+  {
+    "stop_id": "0:LACROIX1",
+    "stop_name": "LA CROIX",
+    "lat": 49.1290346,
+    "lon": 6.1303971
+  },
+  {
+    "stop_id": "0:RUCHER1",
+    "stop_name": "RUCHER",
+    "lat": 49.144801,
+    "lon": 6.147905
+  },
+  {
+    "stop_id": "0:RUCHER2",
+    "stop_name": "RUCHER",
+    "lat": 49.1451132,
+    "lon": 6.1480063
+  },
+  {
+    "stop_id": "0:DUCROCQ1",
+    "stop_name": "DUCROCQ",
+    "lat": 49.1013962,
+    "lon": 6.1884502
+  },
+  {
+    "stop_id": "0:LILAS3",
+    "stop_name": "LILAS",
+    "lat": 49.095481,
+    "lon": 6.1434842
+  },
+  {
+    "stop_id": "0:DUCROCQ2",
+    "stop_name": "DUCROCQ",
+    "lat": 49.1013348,
+    "lon": 6.1883916
+  },
+  {
+    "stop_id": "0:FRONTIG1",
+    "stop_name": "FRONTIGNY",
+    "lat": 49.0585193,
+    "lon": 6.2640851
+  },
+  {
+    "stop_id": "0:LILAS4",
+    "stop_name": "LILAS",
+    "lat": 49.095509,
+    "lon": 6.1437873
+  },
+  {
+    "stop_id": "0:CHA01",
+    "stop_name": "DOCTEUR CHARCOT",
+    "lat": 49.1483314,
+    "lon": 6.1669799
+  },
+  {
+    "stop_id": "0:CHA02",
+    "stop_name": "DOCTEUR CHARCOT",
+    "lat": 49.1484909,
+    "lon": 6.167072
+  },
+  {
+    "stop_id": "0:COL01",
+    "stop_name": "COLOMBEY",
+    "lat": 49.1108465,
+    "lon": 6.2305092
+  },
+  {
+    "stop_id": "0:COL02",
+    "stop_name": "COLOMBEY",
+    "lat": 49.1109517,
+    "lon": 6.2306117
+  },
+  {
+    "stop_id": "0:FRONTIG2",
+    "stop_name": "FRONTIGNY",
+    "lat": 49.0585638,
+    "lon": 6.263773
+  },
+  {
+    "stop_id": "0:TOURAIN2",
+    "stop_name": "TOURAINE",
+    "lat": 49.0951287,
+    "lon": 6.1373379
+  },
+  {
+    "stop_id": "0:TOURAIN1",
+    "stop_name": "TOURAINE",
+    "lat": 49.0955705,
+    "lon": 6.13868
+  },
+  {
+    "stop_id": "0:MALMAIS1",
+    "stop_name": "MALMAISON",
+    "lat": 49.1249596,
+    "lon": 6.0170038
+  },
+  {
+    "stop_id": "0:OBERL193",
+    "stop_name": "OBERLING",
+    "lat": 49.1032563,
+    "lon": 6.202763
+  },
+  {
+    "stop_id": "0:HAMEAUX2",
+    "stop_name": "LES HAMEAUX",
+    "lat": 49.0598797,
+    "lon": 6.1412031
+  },
+  {
+    "stop_id": "0:HAMEAUX1",
+    "stop_name": "LES HAMEAUX",
+    "lat": 49.060008,
+    "lon": 6.141115
+  },
+  {
+    "stop_id": "0:MALMAIS2",
+    "stop_name": "MALMAISON",
+    "lat": 49.1250968,
+    "lon": 6.0172723
+  },
+  {
+    "stop_id": "0:PORTALL1",
+    "stop_name": "PORTE DES ALLEMANDS",
+    "lat": 49.1177238,
+    "lon": 6.1842048
+  },
+  {
+    "stop_id": "0:SEI01",
+    "stop_name": "SEILLE",
+    "lat": 49.1117398,
+    "lon": 6.1859067
+  },
+  {
+    "stop_id": "0:SEI02",
+    "stop_name": "SEILLE",
+    "lat": 49.1116523,
+    "lon": 6.1854764
+  },
+  {
+    "stop_id": "0:CHAULME2",
+    "stop_name": "LES CHAULMES",
+    "lat": 49.1337173,
+    "lon": 6.2758736
+  },
+  {
+    "stop_id": "0:CHAULME1",
+    "stop_name": "LES CHAULMES",
+    "lat": 49.1337735,
+    "lon": 6.276124
+  },
+  {
+    "stop_id": "0:CTU02",
+    "stop_name": "CITE U",
+    "lat": 49.1199905,
+    "lon": 6.1596813
+  },
+  {
+    "stop_id": "0:CTU01",
+    "stop_name": "CITE U",
+    "lat": 49.1203175,
+    "lon": 6.1595642
+  },
+  {
+    "stop_id": "0:MERMAT01",
+    "stop_name": "MERCY MATERNITE",
+    "lat": 49.0850037,
+    "lon": 6.2374751
+  },
+  {
+    "stop_id": "0:MERMAT02",
+    "stop_name": "MERCY MATERNITE",
+    "lat": 49.0850875,
+    "lon": 6.2373707
+  },
+  {
+    "stop_id": "0:LELAC1",
+    "stop_name": "LE LAC",
+    "lat": 49.0964078,
+    "lon": 6.2383793
+  },
+  {
+    "stop_id": "0:TOURNEB1",
+    "stop_name": "TOURNEBRIDE",
+    "lat": 49.0855135,
+    "lon": 6.1136582
+  },
+  {
+    "stop_id": "0:OBERL183",
+    "stop_name": "OBERLING",
+    "lat": 49.1032452,
+    "lon": 6.2025019
+  },
+  {
+    "stop_id": "0:TANNEUR2",
+    "stop_name": "TANNEURS",
+    "lat": 49.1201081,
+    "lon": 6.1842142
+  },
+  {
+    "stop_id": "0:TANNEUR1",
+    "stop_name": "TANNEURS",
+    "lat": 49.1194338,
+    "lon": 6.1818148
+  },
+  {
+    "stop_id": "0:TREIZE1",
+    "stop_name": "TREIZE",
+    "lat": 49.1101319,
+    "lon": 6.1895361
+  },
+  {
+    "stop_id": "0:ROSEGON1",
+    "stop_name": "ROSE GONTHIER",
+    "lat": 49.1032353,
+    "lon": 6.2434795
+  },
+  {
+    "stop_id": "0:ROSEGON2",
+    "stop_name": "ROSE GONTHIER",
+    "lat": 49.1033875,
+    "lon": 6.2431738
+  },
+  {
+    "stop_id": "0:QUOITY1",
+    "stop_name": "LE QUOITY",
+    "lat": 49.1232774,
+    "lon": 6.094884
+  },
+  {
+    "stop_id": "0:POMMERA2",
+    "stop_name": "LA POMMERAIE",
+    "lat": 49.0335885,
+    "lon": 6.1619885
+  },
+  {
+    "stop_id": "0:GENDARM1",
+    "stop_name": "GENDARMERIE",
+    "lat": 49.1047567,
+    "lon": 6.1994705
+  },
+  {
+    "stop_id": "0:POMMERA1",
+    "stop_name": "LA POMMERAIE",
+    "lat": 49.0334786,
+    "lon": 6.1624061
+  },
+  {
+    "stop_id": "0:GENDARM2",
+    "stop_name": "GENDARMERIE",
+    "lat": 49.104569,
+    "lon": 6.1997604
+  },
+  {
+    "stop_id": "0:MAZELLE1",
+    "stop_name": "MAZELLE",
+    "lat": 49.1141267,
+    "lon": 6.182421
+  },
+  {
+    "stop_id": "0:MIGETTE2",
+    "stop_name": "MIGETTE",
+    "lat": 49.1140027,
+    "lon": 6.1385356
+  },
+  {
+    "stop_id": "0:FOCH2",
+    "stop_name": "FOCH",
+    "lat": 49.1209069,
+    "lon": 6.1484133
+  },
+  {
+    "stop_id": "0:MIGETTE1",
+    "stop_name": "MIGETTE",
+    "lat": 49.1140944,
+    "lon": 6.139158
+  },
+  {
+    "stop_id": "0:CLMADER1",
+    "stop_name": "CLEMENT ADER",
+    "lat": 49.0893087,
+    "lon": 6.1496452
+  },
+  {
+    "stop_id": "0:FOCH1",
+    "stop_name": "FOCH",
+    "lat": 49.1207704,
+    "lon": 6.1484736
+  },
+  {
+    "stop_id": "0:PON01",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1270597,
+    "lon": 6.1748382
+  },
+  {
+    "stop_id": "0:PON02",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1272358,
+    "lon": 6.1749861
+  },
+  {
+    "stop_id": "0:SERPEN01",
+    "stop_name": "RUE SERPENOISE",
+    "lat": 49.1171624,
+    "lon": 6.1754928
+  },
+  {
+    "stop_id": "0:CLMADER2",
+    "stop_name": "CLEMENT ADER",
+    "lat": 49.0893572,
+    "lon": 6.1495111
+  },
+  {
+    "stop_id": "0:MAZELLE2",
+    "stop_name": "MAZELLE",
+    "lat": 49.1149778,
+    "lon": 6.1849407
+  },
+  {
+    "stop_id": "0:CASERNE1",
+    "stop_name": "CASERNE",
+    "lat": 49.1250417,
+    "lon": 6.1803769
+  },
+  {
+    "stop_id": "0:CHARDIN2",
+    "stop_name": "DE CHARDIN",
+    "lat": 49.1440744,
+    "lon": 6.1721372
+  },
+  {
+    "stop_id": "0:CHARDIN1",
+    "stop_name": "DE CHARDIN",
+    "lat": 49.1445226,
+    "lon": 6.1718629
+  },
+  {
+    "stop_id": "0:COLSON2",
+    "stop_name": "COLSON",
+    "lat": 49.0898563,
+    "lon": 6.1661335
+  },
+  {
+    "stop_id": "0:CUVRY1",
+    "stop_name": "CUVRY",
+    "lat": 49.0429232,
+    "lon": 6.1588067
+  },
+  {
+    "stop_id": "0:ABBEBAU1",
+    "stop_name": "ABBE BAUZIN",
+    "lat": 49.1891175,
+    "lon": 6.0353093
+  },
+  {
+    "stop_id": "0:CUVRY2",
+    "stop_name": "CUVRY",
+    "lat": 49.0429232,
+    "lon": 6.1588067
+  },
+  {
+    "stop_id": "0:PLAPEVI1",
+    "stop_name": "PLAPPEVILLE",
+    "lat": 49.1305295,
+    "lon": 6.1244681
+  },
+  {
+    "stop_id": "0:FEI01",
+    "stop_name": "FEIVRES",
+    "lat": 49.114725,
+    "lon": 6.239867
+  },
+  {
+    "stop_id": "0:ROU01",
+    "stop_name": "EMILE ROUX",
+    "lat": 49.1446421,
+    "lon": 6.1663016
+  },
+  {
+    "stop_id": "0:ROU02",
+    "stop_name": "EMILE ROUX",
+    "lat": 49.144812,
+    "lon": 6.1663395
+  },
+  {
+    "stop_id": "0:INTJOBA1",
+    "stop_name": "INTENDANTS JOBA",
+    "lat": 49.1416783,
+    "lon": 6.1650644
+  },
+  {
+    "stop_id": "0:INTJOBA2",
+    "stop_name": "INTENDANTS JOBA",
+    "lat": 49.1411281,
+    "lon": 6.1657987
+  },
+  {
+    "stop_id": "0:FEI02",
+    "stop_name": "FEIVRES",
+    "lat": 49.114796,
+    "lon": 6.2385692
+  },
+  {
+    "stop_id": "0:TIGNO290",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1262134,
+    "lon": 6.1594851
+  },
+  {
+    "stop_id": "0:GARCE",
+    "stop_name": "GARE",
+    "lat": 49.1112353,
+    "lon": 6.1770896
+  },
+  {
+    "stop_id": "0:SEBASTO1",
+    "stop_name": "SEBASTOPOL",
+    "lat": 49.1078923,
+    "lon": 6.2376305
+  },
+  {
+    "stop_id": "0:SEBASTO2",
+    "stop_name": "SEBASTOPOL",
+    "lat": 49.107589,
+    "lon": 6.2392015
+  },
+  {
+    "stop_id": "0:PINOTSM2",
+    "stop_name": "PINOTS MELES",
+    "lat": 49.1343715,
+    "lon": 6.2716775
+  },
+  {
+    "stop_id": "0:BEAUSOL2",
+    "stop_name": "BEAUSOLEIL",
+    "lat": 49.0755869,
+    "lon": 6.1864658
+  },
+  {
+    "stop_id": "0:PINOTSM1",
+    "stop_name": "PINOTS MELES",
+    "lat": 49.134573,
+    "lon": 6.270552
+  },
+  {
+    "stop_id": "0:BEAUSOL1",
+    "stop_name": "BEAUSOLEIL",
+    "lat": 49.0758239,
+    "lon": 6.1873707
+  },
+  {
+    "stop_id": "0:VERNEVI1",
+    "stop_name": "VERNEVILLE",
+    "lat": 49.1452615,
+    "lon": 6.0053498
+  },
+  {
+    "stop_id": "0:VERNEVI2",
+    "stop_name": "VERNEVILLE",
+    "lat": 49.1450446,
+    "lon": 6.0057486
+  },
+  {
+    "stop_id": "0:GARCS",
+    "stop_name": "GARE",
+    "lat": 49.1107714,
+    "lon": 6.1769378
+  },
+  {
+    "stop_id": "0:BELFONT2",
+    "stop_name": "BELLE FONTAINE",
+    "lat": 49.0669469,
+    "lon": 6.1427953
+  },
+  {
+    "stop_id": "0:ABBEBAU2",
+    "stop_name": "ABBE BAUZIN",
+    "lat": 49.1891337,
+    "lon": 6.0364495
+  },
+  {
+    "stop_id": "0:BELFONT1",
+    "stop_name": "BELLE FONTAINE",
+    "lat": 49.0668779,
+    "lon": 6.1426815
+  },
+  {
+    "stop_id": "0:GRA02",
+    "stop_name": "GRAHAM BELL",
+    "lat": 49.1052069,
+    "lon": 6.2233733
+  },
+  {
+    "stop_id": "0:COLSON1",
+    "stop_name": "COLSON",
+    "lat": 49.0903956,
+    "lon": 6.1664953
+  },
+  {
+    "stop_id": "0:GRA01",
+    "stop_name": "GRAHAM BELL",
+    "lat": 49.1050003,
+    "lon": 6.2233605
+  },
+  {
+    "stop_id": "0:PUYMAIG1",
+    "stop_name": "PUYMAIGRE",
+    "lat": 49.1070963,
+    "lon": 6.1947356
+  },
+  {
+    "stop_id": "0:MUSE01",
+    "stop_name": "MUSE",
+    "lat": 49.1059501,
+    "lon": 6.181631
+  },
+  {
+    "stop_id": "0:MUSE02",
+    "stop_name": "MUSE",
+    "lat": 49.105745,
+    "lon": 6.1815636
+  },
+  {
+    "stop_id": "0:SLIVIER2",
+    "stop_name": "ST-LIVIER",
+    "lat": 49.1008941,
+    "lon": 6.1751263
+  },
+  {
+    "stop_id": "0:CHMA1",
+    "stop_name": "CHATEL MAIRIE",
+    "lat": 49.1222075,
+    "lon": 6.0815359
+  },
+  {
+    "stop_id": "0:SLIVIER1",
+    "stop_name": "ST-LIVIER",
+    "lat": 49.1003251,
+    "lon": 6.1755436
+  },
+  {
+    "stop_id": "0:ARP309",
+    "stop_name": "AUBEPINE",
+    "lat": 49.07234,
+    "lon": 6.1931831
+  },
+  {
+    "stop_id": "0:LOTHAIR4",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.1003324,
+    "lon": 6.1810531
+  },
+  {
+    "stop_id": "0:LOTHAIR3",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.1003107,
+    "lon": 6.181874
+  },
+  {
+    "stop_id": "0:MARRONN2",
+    "stop_name": "MARRONNIERS",
+    "lat": 49.1344059,
+    "lon": 6.2153447
+  },
+  {
+    "stop_id": "0:LOTHAIR5",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.1005259,
+    "lon": 6.1819009
+  },
+  {
+    "stop_id": "0:MARRONN1",
+    "stop_name": "MARRONNIERS",
+    "lat": 49.1339674,
+    "lon": 6.2155917
+  },
+  {
+    "stop_id": "0:SOLIDAR2",
+    "stop_name": "SOLIDARITE",
+    "lat": 49.1077579,
+    "lon": 6.2432829
+  },
+  {
+    "stop_id": "0:VOLO1",
+    "stop_name": "VOLO",
+    "lat": 49.1255665,
+    "lon": 6.2070355
+  },
+  {
+    "stop_id": "0:COTEAUX2",
+    "stop_name": "COTEAUX",
+    "lat": 49.1545664,
+    "lon": 6.1481422
+  },
+  {
+    "stop_id": "0:VOLO2",
+    "stop_name": "VOLO",
+    "lat": 49.1252775,
+    "lon": 6.2064006
+  },
+  {
+    "stop_id": "0:COTEAUX1",
+    "stop_name": "COTEAUX",
+    "lat": 49.1546969,
+    "lon": 6.1479718
+  },
+  {
+    "stop_id": "0:SOLIDAR1",
+    "stop_name": "SOLIDARITE",
+    "lat": 49.1080861,
+    "lon": 6.2431253
+  },
+  {
+    "stop_id": "0:VOLO3",
+    "stop_name": "VOLO",
+    "lat": 49.1253404,
+    "lon": 6.2070764
+  },
+  {
+    "stop_id": "0:MARLY2",
+    "stop_name": "MARLY",
+    "lat": 49.0610094,
+    "lon": 6.166714
+  },
+  {
+    "stop_id": "0:MARLY1",
+    "stop_name": "MARLY",
+    "lat": 49.0610094,
+    "lon": 6.166714
+  },
+  {
+    "stop_id": "0:VALMETZ1",
+    "stop_name": "VAL DE METZ",
+    "lat": 49.0932711,
+    "lon": 6.0934073
+  },
+  {
+    "stop_id": "0:VALMETZ2",
+    "stop_name": "VAL DE METZ",
+    "lat": 49.0933655,
+    "lon": 6.0925361
+  },
+  {
+    "stop_id": "0:BOTANIQ1",
+    "stop_name": "BOTANIQUE",
+    "lat": 49.1036225,
+    "lon": 6.162082
+  },
+  {
+    "stop_id": "0:ROEDERE1",
+    "stop_name": "ROEDERER",
+    "lat": 49.0978757,
+    "lon": 6.202403
+  },
+  {
+    "stop_id": "0:BOTANIQ2",
+    "stop_name": "BOTANIQUE",
+    "lat": 49.1037411,
+    "lon": 6.1620207
+  },
+  {
+    "stop_id": "0:ROEDERE2",
+    "stop_name": "ROEDERER",
+    "lat": 49.0985664,
+    "lon": 6.2035009
+  },
+  {
+    "stop_id": "0:CHEVROT1",
+    "stop_name": "CHEVROTTES",
+    "lat": 49.0927248,
+    "lon": 6.2743376
+  },
+  {
+    "stop_id": "0:CHEVROT2",
+    "stop_name": "CHEVROTTES",
+    "lat": 49.0926892,
+    "lon": 6.2746506
+  },
+  {
+    "stop_id": "0:REPLYD",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.114481,
+    "lon": 6.1720797
+  },
+  {
+    "stop_id": "0:VERGERS1",
+    "stop_name": "VERGERS",
+    "lat": 49.1022972,
+    "lon": 6.1464056
+  },
+  {
+    "stop_id": "0:REPLYA",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1144389,
+    "lon": 6.1723101
+  },
+  {
+    "stop_id": "0:RUELLCH1",
+    "stop_name": "RUELLE CHENEAU",
+    "lat": 49.1150722,
+    "lon": 6.1969821
+  },
+  {
+    "stop_id": "0:RUELLCH2",
+    "stop_name": "RUELLE CHENEAU",
+    "lat": 49.1151028,
+    "lon": 6.1978613
+  },
+  {
+    "stop_id": "0:RONC4",
+    "stop_name": "RONCOURT",
+    "lat": 49.2036605,
+    "lon": 6.049756
+  },
+  {
+    "stop_id": "0:STEXUPE1",
+    "stop_name": "ST-EXUPERY",
+    "lat": 49.0863844,
+    "lon": 6.1544407
+  },
+  {
+    "stop_id": "0:ALIZES1",
+    "stop_name": "LES ALIZES",
+    "lat": 49.0621353,
+    "lon": 6.1375329
+  },
+  {
+    "stop_id": "0:STEXUPE2",
+    "stop_name": "ST-EXUPERY",
+    "lat": 49.0865738,
+    "lon": 6.1540823
+  },
+  {
+    "stop_id": "0:VERGERS2",
+    "stop_name": "VERGERS",
+    "lat": 49.1019077,
+    "lon": 6.1461626
+  },
+  {
+    "stop_id": "0:AUBIGNY1",
+    "stop_name": "AUBIGNY",
+    "lat": 49.094184,
+    "lon": 6.26999
+  },
+  {
+    "stop_id": "0:LYAUT104",
+    "stop_name": "LYAUTEY",
+    "lat": 49.0935403,
+    "lon": 6.1680439
+  },
+  {
+    "stop_id": "0:CHAPELL1",
+    "stop_name": "CHAPELLE",
+    "lat": 49.1416717,
+    "lon": 6.1160339
+  },
+  {
+    "stop_id": "0:CLAUDEL1",
+    "stop_name": "CLAUDEL",
+    "lat": 49.101719,
+    "lon": 6.1996666
+  },
+  {
+    "stop_id": "0:LASSAUX2",
+    "stop_name": "LASSAUX",
+    "lat": 49.116287,
+    "lon": 6.0979892
+  },
+  {
+    "stop_id": "0:CHAPELL2",
+    "stop_name": "CHAPELLE",
+    "lat": 49.1417756,
+    "lon": 6.1151488
+  },
+  {
+    "stop_id": "0:LASSAUX1",
+    "stop_name": "LASSAUX",
+    "lat": 49.1161899,
+    "lon": 6.0979149
+  },
+  {
+    "stop_id": "0:CLAUDEL2",
+    "stop_name": "CLAUDEL",
+    "lat": 49.1015892,
+    "lon": 6.1987953
+  },
+  {
+    "stop_id": "0:BAZIN1",
+    "stop_name": "BAZIN",
+    "lat": 49.1088321,
+    "lon": 6.0876754
+  },
+  {
+    "stop_id": "0:GARGE",
+    "stop_name": "GARE",
+    "lat": 49.1103847,
+    "lon": 6.1752281
+  },
+  {
+    "stop_id": "0:STREMY1",
+    "stop_name": "ST-REMY",
+    "lat": 49.1737638,
+    "lon": 6.1620179
+  },
+  {
+    "stop_id": "0:LAUVALL1",
+    "stop_name": "LAUVALLIERES",
+    "lat": 49.1240425,
+    "lon": 6.2600289
+  },
+  {
+    "stop_id": "0:STREMY2",
+    "stop_name": "ST-REMY",
+    "lat": 49.1738637,
+    "lon": 6.1623259
+  },
+  {
+    "stop_id": "0:LAUVALL2",
+    "stop_name": "LAUVALLIERES",
+    "lat": 49.1241615,
+    "lon": 6.2599541
+  },
+  {
+    "stop_id": "0:JURY2",
+    "stop_name": "JURY",
+    "lat": 49.0696393,
+    "lon": 6.2535814
+  },
+  {
+    "stop_id": "0:BOR02",
+    "stop_name": "LES BORDES",
+    "lat": 49.1144404,
+    "lon": 6.2209869
+  },
+  {
+    "stop_id": "0:BOR01",
+    "stop_name": "LES BORDES",
+    "lat": 49.1143865,
+    "lon": 6.2209835
+  },
+  {
+    "stop_id": "0:GARGS",
+    "stop_name": "GARE",
+    "lat": 49.1100655,
+    "lon": 6.1757294
+  },
+  {
+    "stop_id": "0:CITSNCF2",
+    "stop_name": "CITE SNCF",
+    "lat": 49.0906134,
+    "lon": 6.1272546
+  },
+  {
+    "stop_id": "0:HAMJER03",
+    "stop_name": "HAMEAU JERUSALEM",
+    "lat": 49.1861083,
+    "lon": 6.0383308
+  },
+  {
+    "stop_id": "0:HAMJER04",
+    "stop_name": "HAMEAU JERUSALEM",
+    "lat": 49.1861515,
+    "lon": 6.0387589
+  },
+  {
+    "stop_id": "0:JURY1",
+    "stop_name": "JURY",
+    "lat": 49.0695572,
+    "lon": 6.2532887
+  },
+  {
+    "stop_id": "0:PLATEAU1",
+    "stop_name": "PLATEAU",
+    "lat": 49.0823863,
+    "lon": 6.184226
+  },
+  {
+    "stop_id": "0:EGLISE2",
+    "stop_name": "EGLISE",
+    "lat": 49.0986289,
+    "lon": 6.1733293
+  },
+  {
+    "stop_id": "0:HAMJER01",
+    "stop_name": "HAMEAU JERUSALEM",
+    "lat": 49.1859417,
+    "lon": 6.0374426
+  },
+  {
+    "stop_id": "0:CITSNCF1",
+    "stop_name": "CITE SNCF",
+    "lat": 49.090923,
+    "lon": 6.1295339
+  },
+  {
+    "stop_id": "0:EGLISE1",
+    "stop_name": "EGLISE",
+    "lat": 49.0990234,
+    "lon": 6.1737235
+  },
+  {
+    "stop_id": "0:PLATEAU2",
+    "stop_name": "PLATEAU",
+    "lat": 49.0817296,
+    "lon": 6.184898
+  },
+  {
+    "stop_id": "0:DEVILLY1",
+    "stop_name": "DEVILLY",
+    "lat": 49.1049704,
+    "lon": 6.1944812
+  },
+  {
+    "stop_id": "0:FELIX320",
+    "stop_name": "FELIX MARECHAL",
+    "lat": 49.1292885,
+    "lon": 6.137227
+  },
+  {
+    "stop_id": "0:ATELMUN1",
+    "stop_name": "ATELIERS MUNICIPAUX",
+    "lat": 49.1425623,
+    "lon": 6.1222866
+  },
+  {
+    "stop_id": "0:PREVIL01",
+    "stop_name": "PREVILLE",
+    "lat": 49.1022875,
+    "lon": 6.1049088
+  },
+  {
+    "stop_id": "0:ATELMUN2",
+    "stop_name": "ATELIERS MUNICIPAUX",
+    "lat": 49.1424589,
+    "lon": 6.1214164
+  },
+  {
+    "stop_id": "0:GROSNOY1",
+    "stop_name": "GROS NOYERS",
+    "lat": 49.1338169,
+    "lon": 6.2801448
+  },
+  {
+    "stop_id": "0:PRO02",
+    "stop_name": "PROVENCE",
+    "lat": 49.113278,
+    "lon": 6.2166789
+  },
+  {
+    "stop_id": "0:FRANCLO1",
+    "stop_name": "FRANCLONCHAMPS",
+    "lat": 49.1711495,
+    "lon": 6.1898251
+  },
+  {
+    "stop_id": "0:PRO01",
+    "stop_name": "PROVENCE",
+    "lat": 49.1132653,
+    "lon": 6.2168152
+  },
+  {
+    "stop_id": "0:BOILVIN1",
+    "stop_name": "BOILVIN",
+    "lat": 49.1033665,
+    "lon": 6.1748666
+  },
+  {
+    "stop_id": "0:BOILVIN2",
+    "stop_name": "BOILVIN",
+    "lat": 49.1035523,
+    "lon": 6.174645
+  },
+  {
+    "stop_id": "0:GDECOLE1",
+    "stop_name": "GRANDES ECOLES",
+    "lat": 49.0936756,
+    "lon": 6.2298911
+  },
+  {
+    "stop_id": "0:VILLORM1",
+    "stop_name": "VILLERS-L'ORME",
+    "lat": 49.1519417,
+    "lon": 6.2475738
+  },
+  {
+    "stop_id": "0:GDECOLE2",
+    "stop_name": "GRANDES ECOLES",
+    "lat": 49.0936758,
+    "lon": 6.23022
+  },
+  {
+    "stop_id": "0:RUISSEA2",
+    "stop_name": "RUISSEAU",
+    "lat": 49.1510797,
+    "lon": 6.1586159
+  },
+  {
+    "stop_id": "0:CHANTRE1",
+    "stop_name": "CHANTRENNE",
+    "lat": 49.1440903,
+    "lon": 6.0104521
+  },
+  {
+    "stop_id": "0:RUISSEA1",
+    "stop_name": "RUISSEAU",
+    "lat": 49.151052,
+    "lon": 6.1586416
+  },
+  {
+    "stop_id": "0:STMAXI1",
+    "stop_name": "ST-MAXIMIN",
+    "lat": 49.1057994,
+    "lon": 6.1968074
+  },
+  {
+    "stop_id": "0:STMAXI2",
+    "stop_name": "ST-MAXIMIN",
+    "lat": 49.1057233,
+    "lon": 6.1966246
+  },
+  {
+    "stop_id": "0:SVICTOR1",
+    "stop_name": "ST-VICTOR",
+    "lat": 49.0983199,
+    "lon": 6.1474385
+  },
+  {
+    "stop_id": "0:2FONTAI1",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.1480575,
+    "lon": 6.1715719
+  },
+  {
+    "stop_id": "0:PONTVER2",
+    "stop_name": "PONT DE VERDUN",
+    "lat": 49.1195687,
+    "lon": 6.1445346
+  },
+  {
+    "stop_id": "0:2FONTAI2",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.1489572,
+    "lon": 6.1715722
+  },
+  {
+    "stop_id": "0:SVICTOR2",
+    "stop_name": "ST-VICTOR",
+    "lat": 49.0979633,
+    "lon": 6.1462795
+  },
+  {
+    "stop_id": "0:LIBERTE1",
+    "stop_name": "LIBERTE",
+    "lat": 49.1073505,
+    "lon": 6.1161491
+  },
+  {
+    "stop_id": "0:VIGNES2",
+    "stop_name": "LES VIGNES",
+    "lat": 49.1289033,
+    "lon": 6.1450877
+  },
+  {
+    "stop_id": "0:BONSEC1",
+    "stop_name": "BON SECOURS",
+    "lat": 49.1074251,
+    "lon": 6.1690573
+  },
+  {
+    "stop_id": "0:LIBERTE2",
+    "stop_name": "LIBERTE",
+    "lat": 49.1076138,
+    "lon": 6.1167542
+  },
+  {
+    "stop_id": "0:BONSEC2",
+    "stop_name": "BON SECOURS",
+    "lat": 49.1068958,
+    "lon": 6.1683123
+  },
+  {
+    "stop_id": "0:PONTVER1",
+    "stop_name": "PONT DE VERDUN",
+    "lat": 49.1190685,
+    "lon": 6.1443946
+  },
+  {
+    "stop_id": "0:VIGNES1",
+    "stop_name": "LES VIGNES",
+    "lat": 49.1293729,
+    "lon": 6.145363
+  },
+  {
+    "stop_id": "0:COUROR1",
+    "stop_name": "COUR D'OR",
+    "lat": 49.1205297,
+    "lon": 6.1788249
+  },
+  {
+    "stop_id": "0:COLOMBI1",
+    "stop_name": "COLOMBIER",
+    "lat": 49.0482731,
+    "lon": 6.1855409
+  },
+  {
+    "stop_id": "0:CHAPITR1",
+    "stop_name": "CHAPITRE",
+    "lat": 49.1521124,
+    "lon": 6.1614361
+  },
+  {
+    "stop_id": "0:CHAPITR2",
+    "stop_name": "CHAPITRE",
+    "lat": 49.152103,
+    "lon": 6.1617922
+  },
+  {
+    "stop_id": "0:FOURNIE2",
+    "stop_name": "FOURNIER",
+    "lat": 49.1224124,
+    "lon": 6.1835059
+  },
+  {
+    "stop_id": "0:FOURNIE1",
+    "stop_name": "FOURNIER",
+    "lat": 49.1225149,
+    "lon": 6.1833751
+  },
+  {
+    "stop_id": "0:BAUCHEZ1",
+    "stop_name": "BAUCHEZ",
+    "lat": 49.1365295,
+    "lon": 6.1431784
+  },
+  {
+    "stop_id": "0:BAUCHEZ2",
+    "stop_name": "BAUCHEZ",
+    "lat": 49.136477,
+    "lon": 6.1427776
+  },
+  {
+    "stop_id": "0:POINCAR2",
+    "stop_name": "POINCARE",
+    "lat": 49.1176455,
+    "lon": 6.1691205
+  },
+  {
+    "stop_id": "0:MASLIEV1",
+    "stop_name": "MAS AU LIEVRE",
+    "lat": 49.1297715,
+    "lon": 6.2760354
+  },
+  {
+    "stop_id": "0:MASLIEV2",
+    "stop_name": "MAS AU LIEVRE",
+    "lat": 49.1302715,
+    "lon": 6.2755185
+  },
+  {
+    "stop_id": "0:POINCAR1",
+    "stop_name": "POINCARE",
+    "lat": 49.1164273,
+    "lon": 6.1685662
+  },
+  {
+    "stop_id": "0:BILAIN1",
+    "stop_name": "PAUL BILAINE",
+    "lat": 49.1655664,
+    "lon": 6.0344631
+  },
+  {
+    "stop_id": "0:M113A",
+    "stop_name": "M113A",
+    "lat": 49.0621141,
+    "lon": 6.1613313
+  },
+  {
+    "stop_id": "0:STQUENT1",
+    "stop_name": "ST-QUENTIN",
+    "lat": 49.0973749,
+    "lon": 6.1443527
+  },
+  {
+    "stop_id": "0:STQUENT2",
+    "stop_name": "ST-QUENTIN",
+    "lat": 49.0970431,
+    "lon": 6.1432775
+  },
+  {
+    "stop_id": "0:MARIEUL1",
+    "stop_name": "MARIEULLES",
+    "lat": 48.9988243,
+    "lon": 6.1003087
+  },
+  {
+    "stop_id": "0:MARIEUL2",
+    "stop_name": "MARIEULLES",
+    "lat": 48.9989997,
+    "lon": 6.1001414
+  },
+  {
+    "stop_id": "0:PJOLY2",
+    "stop_name": "PAUL JOLY",
+    "lat": 49.0638083,
+    "lon": 6.1482197
+  },
+  {
+    "stop_id": "0:METMAN1",
+    "stop_name": "METMAN",
+    "lat": 49.1201386,
+    "lon": 6.2084543
+  },
+  {
+    "stop_id": "0:PJOLY1",
+    "stop_name": "PAUL JOLY",
+    "lat": 49.0639489,
+    "lon": 6.1483515
+  },
+  {
+    "stop_id": "0:METMAN2",
+    "stop_name": "METMAN",
+    "lat": 49.120099,
+    "lon": 6.2102752
+  },
+  {
+    "stop_id": "0:ROSEMAR2",
+    "stop_name": "ROSE MARCUS",
+    "lat": 49.1473311,
+    "lon": 6.1485252
+  },
+  {
+    "stop_id": "0:ROSEMAR1",
+    "stop_name": "ROSE MARCUS",
+    "lat": 49.1474177,
+    "lon": 6.1486539
+  },
+  {
+    "stop_id": "0:VCANADI2",
+    "stop_name": "VILLAGE CANADIEN",
+    "lat": 49.0553715,
+    "lon": 6.2400892
+  },
+  {
+    "stop_id": "0:CHENEAU2",
+    "stop_name": "CHENEAU",
+    "lat": 49.1089113,
+    "lon": 6.1208481
+  },
+  {
+    "stop_id": "0:VCANADI1",
+    "stop_name": "VILLAGE CANADIEN",
+    "lat": 49.0562088,
+    "lon": 6.2397444
+  },
+  {
+    "stop_id": "0:CHENEAU1",
+    "stop_name": "CHENEAU",
+    "lat": 49.1088778,
+    "lon": 6.1207501
+  },
+  {
+    "stop_id": "0:RONEGL2",
+    "stop_name": "RONCOURT EGLISE",
+    "lat": 49.1994909,
+    "lon": 6.0363849
+  },
+  {
+    "stop_id": "0:RONEGL1",
+    "stop_name": "RONCOURT EGLISE",
+    "lat": 49.1993672,
+    "lon": 6.0359383
+  },
+  {
+    "stop_id": "0:DOLICHE1",
+    "stop_name": "DOLICHE",
+    "lat": 49.0943261,
+    "lon": 6.2458269
+  },
+  {
+    "stop_id": "0:VAUTRIN2",
+    "stop_name": "QUAI VAUTRIN",
+    "lat": 49.1196083,
+    "lon": 6.1714615
+  },
+  {
+    "stop_id": "0:DOLICHE2",
+    "stop_name": "DOLICHE",
+    "lat": 49.0946297,
+    "lon": 6.2459145
+  },
+  {
+    "stop_id": "0:VAUTRIN3",
+    "stop_name": "QUAI VAUTRIN",
+    "lat": 49.1191736,
+    "lon": 6.1708865
+  },
+  {
+    "stop_id": "0:LOUVIE02",
+    "stop_name": "LOUVIERE",
+    "lat": 49.039376,
+    "lon": 6.1513363
+  },
+  {
+    "stop_id": "0:LOUVIE01",
+    "stop_name": "LOUVIERE",
+    "lat": 49.0392718,
+    "lon": 6.1508509
+  },
+  {
+    "stop_id": "0:RONCEN1",
+    "stop_name": "RONCOURT CENTRE",
+    "lat": 49.2022232,
+    "lon": 6.0411311
+  },
+  {
+    "stop_id": "0:RONCEN2",
+    "stop_name": "RONCOURT CENTRE",
+    "lat": 49.2019903,
+    "lon": 6.04109
+  },
+  {
+    "stop_id": "0:BOUZONV4",
+    "stop_name": "BOUZONVILLE",
+    "lat": 49.1378984,
+    "lon": 6.2176598
+  },
+  {
+    "stop_id": "0:BOUZONV3",
+    "stop_name": "BOUZONVILLE",
+    "lat": 49.1378178,
+    "lon": 6.2169691
+  },
+  {
+    "stop_id": "0:VALERIA2",
+    "stop_name": "VALERIANE",
+    "lat": 49.0705174,
+    "lon": 6.1903179
+  },
+  {
+    "stop_id": "0:BLEUETS1",
+    "stop_name": "BLEUETS",
+    "lat": 49.0664947,
+    "lon": 6.1644743
+  },
+  {
+    "stop_id": "0:CLO01",
+    "stop_name": "CLOUTIERS",
+    "lat": 49.1139807,
+    "lon": 6.2300741
+  },
+  {
+    "stop_id": "0:FRICHES1",
+    "stop_name": "LES FRICHES",
+    "lat": 49.0999563,
+    "lon": 6.1419879
+  },
+  {
+    "stop_id": "0:FRICHES2",
+    "stop_name": "LES FRICHES",
+    "lat": 49.1000935,
+    "lon": 6.1419003
+  },
+  {
+    "stop_id": "0:VALERIA1",
+    "stop_name": "VALERIANE",
+    "lat": 49.0709825,
+    "lon": 6.1887303
+  },
+  {
+    "stop_id": "0:VALLONS1",
+    "stop_name": "LES VALLONS",
+    "lat": 49.0784,
+    "lon": 6.2653506
+  },
+  {
+    "stop_id": "0:VALLONS2",
+    "stop_name": "LES VALLONS",
+    "lat": 49.0777587,
+    "lon": 6.2651047
+  },
+  {
+    "stop_id": "0:CLO02",
+    "stop_name": "CLOUTIERS",
+    "lat": 49.1141499,
+    "lon": 6.2301395
+  },
+  {
+    "stop_id": "0:LAVOIR2",
+    "stop_name": "LAVOIR",
+    "lat": 49.0968344,
+    "lon": 6.175179
+  },
+  {
+    "stop_id": "0:LIBERAT1",
+    "stop_name": "LIBERATION",
+    "lat": 49.0612545,
+    "lon": 6.1181446
+  },
+  {
+    "stop_id": "0:LAVOIR1",
+    "stop_name": "LAVOIR",
+    "lat": 49.0973875,
+    "lon": 6.1746785
+  },
+  {
+    "stop_id": "0:LIBERAT2",
+    "stop_name": "LIBERATION",
+    "lat": 49.0612533,
+    "lon": 6.1178433
+  },
+  {
+    "stop_id": "0:GIRAUDO2",
+    "stop_name": "GIRAUDOUX",
+    "lat": 49.0972095,
+    "lon": 6.2003886
+  },
+  {
+    "stop_id": "0:GRAVIER1",
+    "stop_name": "GRAVIERES",
+    "lat": 49.0808021,
+    "lon": 6.110389
+  },
+  {
+    "stop_id": "0:PENSEES1",
+    "stop_name": "PENSEES",
+    "lat": 49.1347943,
+    "lon": 6.2736653
+  },
+  {
+    "stop_id": "0:GIRAUDO1",
+    "stop_name": "GIRAUDOUX",
+    "lat": 49.0975799,
+    "lon": 6.1996578
+  },
+  {
+    "stop_id": "0:PENSEES2",
+    "stop_name": "PENSEES",
+    "lat": 49.1346323,
+    "lon": 6.2739979
+  },
+  {
+    "stop_id": "0:COSTEBE4",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0820395,
+    "lon": 6.1485597
+  },
+  {
+    "stop_id": "0:LUX03",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1211729,
+    "lon": 6.1687742
+  },
+  {
+    "stop_id": "0:STNICOL3",
+    "stop_name": "ST-NICOLAS",
+    "lat": 49.1123375,
+    "lon": 6.1769242
+  },
+  {
+    "stop_id": "0:COSTEBE3",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0821814,
+    "lon": 6.1482943
+  },
+  {
+    "stop_id": "0:HAIEBRU2",
+    "stop_name": "HAIE BRULEE",
+    "lat": 49.1110697,
+    "lon": 6.0968823
+  },
+  {
+    "stop_id": "0:HAIEBRU1",
+    "stop_name": "HAIE BRULEE",
+    "lat": 49.1107332,
+    "lon": 6.0973693
+  },
+  {
+    "stop_id": "0:LUX01",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1212412,
+    "lon": 6.1689155
+  },
+  {
+    "stop_id": "0:LUX02",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1214388,
+    "lon": 6.1692703
+  },
+  {
+    "stop_id": "0:PROVENC1",
+    "stop_name": "PROVENCE",
+    "lat": 49.112789,
+    "lon": 6.215785
+  },
+  {
+    "stop_id": "0:PROVENC2",
+    "stop_name": "PROVENCE",
+    "lat": 49.1126937,
+    "lon": 6.2159847
+  },
+  {
+    "stop_id": "0:COSTEBE2",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0842403,
+    "lon": 6.149392
+  },
+  {
+    "stop_id": "0:HORGNE1",
+    "stop_name": "LA HORGNE",
+    "lat": 49.0932717,
+    "lon": 6.1724259
+  },
+  {
+    "stop_id": "0:COSTEBE1",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0834435,
+    "lon": 6.1488915
+  },
+  {
+    "stop_id": "0:HORGNE2",
+    "stop_name": "LA HORGNE",
+    "lat": 49.0939236,
+    "lon": 6.1719314
+  },
+  {
+    "stop_id": "0:STNICOL4",
+    "stop_name": "ST-NICOLAS",
+    "lat": 49.1125376,
+    "lon": 6.1771832
+  },
+  {
+    "stop_id": "0:PARAIGE1",
+    "stop_name": "PARAIGES",
+    "lat": 49.117231,
+    "lon": 6.1797055
+  },
+  {
+    "stop_id": "0:THERMES1",
+    "stop_name": "THERMES",
+    "lat": 49.0502911,
+    "lon": 6.1834196
+  },
+  {
+    "stop_id": "0:AUGNYMA1",
+    "stop_name": "AUGNY MAIRIE",
+    "lat": 49.0586829,
+    "lon": 6.1218787
+  },
+  {
+    "stop_id": "0:JUNGLIN1",
+    "stop_name": "JUNGLING",
+    "lat": 49.1485179,
+    "lon": 6.1526849
+  },
+  {
+    "stop_id": "0:JUNGLIN2",
+    "stop_name": "JUNGLING",
+    "lat": 49.148391,
+    "lon": 6.1523754
+  },
+  {
+    "stop_id": "0:VOLONTA2",
+    "stop_name": "VOLONTAIRES",
+    "lat": 49.0868419,
+    "lon": 6.1568934
+  },
+  {
+    "stop_id": "0:VOLONTA1",
+    "stop_name": "VOLONTAIRES",
+    "lat": 49.0863241,
+    "lon": 6.1563961
+  },
+  {
+    "stop_id": "0:FRECOT2",
+    "stop_name": "FRECOT",
+    "lat": 49.0913167,
+    "lon": 6.181363
+  },
+  {
+    "stop_id": "0:FRECOT1",
+    "stop_name": "FRECOT",
+    "lat": 49.0906594,
+    "lon": 6.18172
+  },
+  {
+    "stop_id": "0:IKEA2",
+    "stop_name": "IKEA",
+    "lat": 49.1517688,
+    "lon": 6.1880959
+  },
+  {
+    "stop_id": "0:IKEA1",
+    "stop_name": "IKEA",
+    "lat": 49.1517322,
+    "lon": 6.1891362
+  },
+  {
+    "stop_id": "0:FON02",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.1494333,
+    "lon": 6.1722872
+  },
+  {
+    "stop_id": "0:FON01",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.149323,
+    "lon": 6.1720335
+  },
+  {
+    "stop_id": "0:BERNANO1",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1329797,
+    "lon": 6.1680431
+  },
+  {
+    "stop_id": "0:BERNANO2",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1329683,
+    "lon": 6.1677956
+  },
+  {
+    "stop_id": "0:CENTRAL1",
+    "stop_name": "CENTRALE",
+    "lat": 49.1550548,
+    "lon": 6.1859935
+  },
+  {
+    "stop_id": "0:CENTRAL2",
+    "stop_name": "CENTRALE",
+    "lat": 49.1546587,
+    "lon": 6.1863395
+  },
+  {
+    "stop_id": "0:BERLANG1",
+    "stop_name": "BERLANGE",
+    "lat": 49.1557439,
+    "lon": 6.1571171
+  },
+  {
+    "stop_id": "0:BERLANG2",
+    "stop_name": "BERLANGE",
+    "lat": 49.1561467,
+    "lon": 6.1571965
+  },
+  {
+    "stop_id": "0:DURUTTE1",
+    "stop_name": "DURUTTE",
+    "lat": 49.1137344,
+    "lon": 6.2026157
+  },
+  {
+    "stop_id": "0:DURUTTE2",
+    "stop_name": "DURUTTE",
+    "lat": 49.1135112,
+    "lon": 6.2028897
+  },
+  {
+    "stop_id": "0:MANGIN1",
+    "stop_name": "MANGIN",
+    "lat": 49.1029288,
+    "lon": 6.1648491
+  },
+  {
+    "stop_id": "0:GAMBETT1",
+    "stop_name": "GAMBETTA",
+    "lat": 49.1494134,
+    "lon": 6.1597076
+  },
+  {
+    "stop_id": "0:GAMBETT2",
+    "stop_name": "GAMBETTA",
+    "lat": 49.1490382,
+    "lon": 6.1599453
+  },
+  {
+    "stop_id": "0:PASSERE2",
+    "stop_name": "LA PASSERELLE",
+    "lat": 49.0748783,
+    "lon": 6.2565128
+  },
+  {
+    "stop_id": "0:PASSERE1",
+    "stop_name": "LA PASSERELLE",
+    "lat": 49.075071,
+    "lon": 6.2563742
+  },
+  {
+    "stop_id": "0:CHESNM4",
+    "stop_name": "CHESNY MAIRIE",
+    "lat": 49.0539272,
+    "lon": 6.2415873
+  },
+  {
+    "stop_id": "0:LEMUD03",
+    "stop_name": "LEMUD",
+    "lat": 49.1039104,
+    "lon": 6.17982
+  },
+  {
+    "stop_id": "0:LEMUD04",
+    "stop_name": "LEMUD",
+    "lat": 49.1041897,
+    "lon": 6.1794671
+  },
+  {
+    "stop_id": "0:LEPATIS1",
+    "stop_name": "LE PATIS",
+    "lat": 49.1564476,
+    "lon": 6.1388182
+  },
+  {
+    "stop_id": "0:COUPILL2",
+    "stop_name": "COUPILLON",
+    "lat": 49.1416449,
+    "lon": 6.1481657
+  },
+  {
+    "stop_id": "0:FRIANT1",
+    "stop_name": "FRIANT",
+    "lat": 49.1085321,
+    "lon": 6.1877654
+  },
+  {
+    "stop_id": "0:ARDECHE1",
+    "stop_name": "ARDECHE",
+    "lat": 49.1010446,
+    "lon": 6.106698
+  },
+  {
+    "stop_id": "0:ARDECHE2",
+    "stop_name": "ARDECHE",
+    "lat": 49.1014242,
+    "lon": 6.1062822
+  },
+  {
+    "stop_id": "0:RUEMOUL1",
+    "stop_name": "RUE DU MOULIN",
+    "lat": 49.1558205,
+    "lon": 6.1050743
+  },
+  {
+    "stop_id": "0:GANNE1",
+    "stop_name": "GANNE",
+    "lat": 49.1156604,
+    "lon": 6.2039548
+  },
+  {
+    "stop_id": "0:WAVES1",
+    "stop_name": "WAVES ACTISUD",
+    "lat": 49.08102,
+    "lon": 6.1005666
+  },
+  {
+    "stop_id": "0:GANNE2",
+    "stop_name": "GANNE",
+    "lat": 49.1156925,
+    "lon": 6.205451
+  },
+  {
+    "stop_id": "0:GDFLAME1",
+    "stop_name": "GRANDE FLAMEE",
+    "lat": 49.1828475,
+    "lon": 6.0402667
+  },
+  {
+    "stop_id": "0:ABS591",
+    "stop_name": "AUBEPINE",
+    "lat": 49.0717221,
+    "lon": 6.1934052
+  },
+  {
+    "stop_id": "0:FRIANT2",
+    "stop_name": "FRIANT",
+    "lat": 49.1080553,
+    "lon": 6.1877635
+  },
+  {
+    "stop_id": "0:MANGIN2",
+    "stop_name": "MANGIN",
+    "lat": 49.1029453,
+    "lon": 6.1645623
+  },
+  {
+    "stop_id": "0:ECO02",
+    "stop_name": "GRANDES ECOLES",
+    "lat": 49.0933729,
+    "lon": 6.2301052
+  },
+  {
+    "stop_id": "0:ECO01",
+    "stop_name": "GRANDES ECOLES",
+    "lat": 49.0933505,
+    "lon": 6.2302682
+  },
+  {
+    "stop_id": "0:TIGNO395",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1287137,
+    "lon": 6.1605563
+  },
+  {
+    "stop_id": "0:COUPILL1",
+    "stop_name": "COUPILLON",
+    "lat": 49.1413833,
+    "lon": 6.1481909
+  },
+  {
+    "stop_id": "0:EUROPAC1",
+    "stop_name": "EUROPA COURCELLES",
+    "lat": 49.1019006,
+    "lon": 6.1584412
+  },
+  {
+    "stop_id": "0:EUROPAC2",
+    "stop_name": "EUROPA COURCELLES",
+    "lat": 49.1021435,
+    "lon": 6.1587849
+  },
+  {
+    "stop_id": "0:MEURISS2",
+    "stop_name": "MEURISSE",
+    "lat": 49.1022678,
+    "lon": 6.1561065
+  },
+  {
+    "stop_id": "0:MEURISS1",
+    "stop_name": "MEURISSE",
+    "lat": 49.1016799,
+    "lon": 6.1551936
+  },
+  {
+    "stop_id": "0:PLAINE2",
+    "stop_name": "LA PLAINE",
+    "lat": 49.0786403,
+    "lon": 6.1897493
+  },
+  {
+    "stop_id": "0:PLAINE1",
+    "stop_name": "LA PLAINE",
+    "lat": 49.0787197,
+    "lon": 6.1898089
+  },
+  {
+    "stop_id": "0:FONNY1",
+    "stop_name": "FONNY",
+    "lat": 49.1297053,
+    "lon": 6.2349354
+  },
+  {
+    "stop_id": "0:SER02",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1168943,
+    "lon": 6.2405099
+  },
+  {
+    "stop_id": "0:MEYVIGN2",
+    "stop_name": "MEY LES VIGNES",
+    "lat": 49.1342434,
+    "lon": 6.236837
+  },
+  {
+    "stop_id": "0:FONNY2",
+    "stop_name": "FONNY",
+    "lat": 49.1294699,
+    "lon": 6.2349892
+  },
+  {
+    "stop_id": "0:MEYVIGN1",
+    "stop_name": "MEY LES VIGNES",
+    "lat": 49.1339914,
+    "lon": 6.237507
+  },
+  {
+    "stop_id": "0:SER01",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1171526,
+    "lon": 6.2406084
+  },
+  {
+    "stop_id": "0:CORCHAD1",
+    "stop_name": "CORCHADE",
+    "lat": 49.1231339,
+    "lon": 6.2152345
+  },
+  {
+    "stop_id": "0:AUGNYMA2",
+    "stop_name": "AUGNY MAIRIE",
+    "lat": 49.0586735,
+    "lon": 6.1218918
+  },
+  {
+    "stop_id": "0:LONGEVI1",
+    "stop_name": "LONGEVILLE",
+    "lat": 49.1123126,
+    "lon": 6.1343349
+  },
+  {
+    "stop_id": "0:CORCHAD2",
+    "stop_name": "CORCHADE",
+    "lat": 49.1231974,
+    "lon": 6.2155537
+  },
+  {
+    "stop_id": "0:LONGEVI2",
+    "stop_name": "LONGEVILLE",
+    "lat": 49.1127771,
+    "lon": 6.135158
+  },
+  {
+    "stop_id": "0:LARDEME1",
+    "stop_name": "LARDEMELLE",
+    "lat": 49.1237836,
+    "lon": 6.1492051
+  },
+  {
+    "stop_id": "0:CANAL101",
+    "stop_name": "CANAL",
+    "lat": 49.1095752,
+    "lon": 6.1636103
+  },
+  {
+    "stop_id": "0:LARDEME2",
+    "stop_name": "LARDEMELLE",
+    "lat": 49.1241329,
+    "lon": 6.149953
+  },
+  {
+    "stop_id": "0:SYMPHON1",
+    "stop_name": "SYMPHONIE",
+    "lat": 49.1046982,
+    "lon": 6.2141453
+  },
+  {
+    "stop_id": "0:CANAL102",
+    "stop_name": "CANAL",
+    "lat": 49.1096603,
+    "lon": 6.1634511
+  },
+  {
+    "stop_id": "0:SYMPHON2",
+    "stop_name": "SYMPHONIE",
+    "lat": 49.1048971,
+    "lon": 6.215117
+  },
+  {
+    "stop_id": "0:SYMPHON3",
+    "stop_name": "SYMPHONIE",
+    "lat": 49.1038866,
+    "lon": 6.2152188
+  },
+  {
+    "stop_id": "0:OBELLI02",
+    "stop_name": "OBELLIANE",
+    "lat": 49.0762152,
+    "lon": 6.1926273
+  },
+  {
+    "stop_id": "0:OBELLI01",
+    "stop_name": "OBELLIANE",
+    "lat": 49.075901,
+    "lon": 6.1929367
+  },
+  {
+    "stop_id": "0:CROIXDO2",
+    "stop_name": "CROIX D'OREE",
+    "lat": 49.1323089,
+    "lon": 6.1255901
+  },
+  {
+    "stop_id": "0:FOURNIR1",
+    "stop_name": "EN FOURNIRUE",
+    "lat": 49.1180128,
+    "lon": 6.1787253
+  },
+  {
+    "stop_id": "0:ACTISUD1",
+    "stop_name": "ACTISUD DUNIL",
+    "lat": 49.076516,
+    "lon": 6.1028449
+  },
+  {
+    "stop_id": "0:ACTISUD2",
+    "stop_name": "ACTISUD DUNIL",
+    "lat": 49.0764686,
+    "lon": 6.102938
+  },
+  {
+    "stop_id": "0:VAILLAN1",
+    "stop_name": "VAILLANT",
+    "lat": 49.1003566,
+    "lon": 6.1627461
+  },
+  {
+    "stop_id": "0:VAILLAN2",
+    "stop_name": "VAILLANT",
+    "lat": 49.0997019,
+    "lon": 6.1619798
+  },
+  {
+    "stop_id": "0:MAT01",
+    "stop_name": "MATERNITE",
+    "lat": 49.0820902,
+    "lon": 6.2387316
+  },
+  {
+    "stop_id": "0:BARBE1",
+    "stop_name": "BARBE",
+    "lat": 49.1297296,
+    "lon": 6.2300142
+  },
+  {
+    "stop_id": "0:LAFAYET2",
+    "stop_name": "LAFAYETTE",
+    "lat": 49.1080323,
+    "lon": 6.172987
+  },
+  {
+    "stop_id": "0:PRIEURE1",
+    "stop_name": "PRIEURE",
+    "lat": 49.1079406,
+    "lon": 6.0852513
+  },
+  {
+    "stop_id": "0:BARBE2",
+    "stop_name": "BARBE",
+    "lat": 49.1292825,
+    "lon": 6.229575
+  },
+  {
+    "stop_id": "0:LAFAYET1",
+    "stop_name": "LAFAYETTE",
+    "lat": 49.1078634,
+    "lon": 6.1729081
+  },
+  {
+    "stop_id": "0:30JOURS2",
+    "stop_name": "TRENTE JOURS",
+    "lat": 49.0965577,
+    "lon": 6.2458297
+  },
+  {
+    "stop_id": "0:VIGNEUL1",
+    "stop_name": "VIGNEULLES",
+    "lat": 49.1469308,
+    "lon": 6.1210688
+  },
+  {
+    "stop_id": "0:30JOURS1",
+    "stop_name": "TRENTE JOURS",
+    "lat": 49.0961621,
+    "lon": 6.2458186
+  },
+  {
+    "stop_id": "0:AMAZON1",
+    "stop_name": "AMAZON",
+    "lat": 49.0641225,
+    "lon": 6.1293134
+  },
+  {
+    "stop_id": "0:HSCHUMA2",
+    "stop_name": "HOPITAL SCHUMAN",
+    "lat": 49.1237084,
+    "lon": 6.2424307
+  },
+  {
+    "stop_id": "0:PALAISS2",
+    "stop_name": "PALAIS DES SPORTS",
+    "lat": 49.1114234,
+    "lon": 6.1610778
+  },
+  {
+    "stop_id": "0:RSCHUMA1",
+    "stop_name": "SCHUMAN",
+    "lat": 49.1106221,
+    "lon": 6.1121243
+  },
+  {
+    "stop_id": "0:PALAISS1",
+    "stop_name": "PALAIS DES SPORTS",
+    "lat": 49.1110903,
+    "lon": 6.1614275
+  },
+  {
+    "stop_id": "0:RSCHUMA2",
+    "stop_name": "SCHUMAN",
+    "lat": 49.1108542,
+    "lon": 6.1118504
+  },
+  {
+    "stop_id": "0:RAPLEVY1",
+    "stop_name": "RAPHAEL LEVY",
+    "lat": 49.1200379,
+    "lon": 6.1905984
+  },
+  {
+    "stop_id": "0:RAPLEVY2",
+    "stop_name": "RAPHAEL LEVY",
+    "lat": 49.1203131,
+    "lon": 6.1907388
+  },
+  {
+    "stop_id": "0:LACORV01",
+    "stop_name": "LA CORVEE",
+    "lat": 48.9788894,
+    "lon": 6.0874847
+  },
+  {
+    "stop_id": "0:CUVION2",
+    "stop_name": "CUVION",
+    "lat": 49.092358,
+    "lon": 6.2427303
+  },
+  {
+    "stop_id": "0:JFERRAT2",
+    "stop_name": "JEAN FERRAT",
+    "lat": 49.0783813,
+    "lon": 6.0817663
+  },
+  {
+    "stop_id": "0:LACORV02",
+    "stop_name": "LA CORVEE",
+    "lat": 48.9787661,
+    "lon": 6.0873816
+  },
+  {
+    "stop_id": "0:CUVION1",
+    "stop_name": "CUVION",
+    "lat": 49.0924931,
+    "lon": 6.242725
+  },
+  {
+    "stop_id": "0:JFERRAT1",
+    "stop_name": "JEAN FERRAT",
+    "lat": 49.0775178,
+    "lon": 6.0807014
+  },
+  {
+    "stop_id": "0:EXP02",
+    "stop_name": "P+R FOIRE EXPO",
+    "lat": 49.0915702,
+    "lon": 6.2315549
+  },
+  {
+    "stop_id": "0:EXP01",
+    "stop_name": "P+R FOIRE EXPO",
+    "lat": 49.0914046,
+    "lon": 6.2313527
+  },
+  {
+    "stop_id": "0:LOTISSE1",
+    "stop_name": "LOTISSEMENT",
+    "lat": 49.0640488,
+    "lon": 6.1165735
+  },
+  {
+    "stop_id": "0:LOTISSE2",
+    "stop_name": "LOTISSEMENT",
+    "lat": 49.0635046,
+    "lon": 6.1163902
+  },
+  {
+    "stop_id": "0:PTIJURY2",
+    "stop_name": "PETIT JURY",
+    "lat": 49.0669535,
+    "lon": 6.2454146
+  },
+  {
+    "stop_id": "0:PTIJURY1",
+    "stop_name": "PETIT JURY",
+    "lat": 49.0670939,
+    "lon": 6.2455467
+  },
+  {
+    "stop_id": "0:MERMOZ2",
+    "stop_name": "MERMOZ",
+    "lat": 49.0940237,
+    "lon": 6.1520556
+  },
+  {
+    "stop_id": "0:OBERL668",
+    "stop_name": "OBERLING",
+    "lat": 49.103223,
+    "lon": 6.2043507
+  },
+  {
+    "stop_id": "0:PINS01",
+    "stop_name": "PINS",
+    "lat": 49.1319536,
+    "lon": 6.2148496
+  },
+  {
+    "stop_id": "0:ZACAUGN2",
+    "stop_name": "ZAC D'AUGNY",
+    "lat": 49.07527,
+    "lon": 6.1050988
+  },
+  {
+    "stop_id": "0:AZALEES1",
+    "stop_name": "AZALEES",
+    "lat": 49.0673188,
+    "lon": 6.1680306
+  },
+  {
+    "stop_id": "0:ZACAUGN1",
+    "stop_name": "ZAC D'AUGNY",
+    "lat": 49.0750741,
+    "lon": 6.1067581
+  },
+  {
+    "stop_id": "0:MERMOZ1",
+    "stop_name": "MERMOZ",
+    "lat": 49.0936384,
+    "lon": 6.1516485
+  },
+  {
+    "stop_id": "0:MOY01",
+    "stop_name": "MOYEN PONT",
+    "lat": 49.1190001,
+    "lon": 6.1703001
+  },
+  {
+    "stop_id": "0:PATROTT2",
+    "stop_name": "PATROTTE",
+    "lat": 49.1349645,
+    "lon": 6.1610063
+  },
+  {
+    "stop_id": "0:PATROTT1",
+    "stop_name": "PATROTTE",
+    "lat": 49.1345897,
+    "lon": 6.1612303
+  },
+  {
+    "stop_id": "0:PORTMZ2",
+    "stop_name": "PORT DE METZ",
+    "lat": 49.1375767,
+    "lon": 6.1810371
+  },
+  {
+    "stop_id": "0:BORDES1",
+    "stop_name": "LES BORDES",
+    "lat": 49.1141845,
+    "lon": 6.2218072
+  },
+  {
+    "stop_id": "0:BORDES3",
+    "stop_name": "LES BORDES",
+    "lat": 49.1135542,
+    "lon": 6.2224945
+  },
+  {
+    "stop_id": "0:CLEMENC1",
+    "stop_name": "CLEMENCEAU",
+    "lat": 49.0809529,
+    "lon": 6.0846451
+  },
+  {
+    "stop_id": "0:CLEMENC2",
+    "stop_name": "CLEMENCEAU",
+    "lat": 49.0801906,
+    "lon": 6.0838464
+  },
+  {
+    "stop_id": "0:PORTMZ1",
+    "stop_name": "PORT DE METZ",
+    "lat": 49.137313,
+    "lon": 6.1808015
+  },
+  {
+    "stop_id": "0:OBERL653",
+    "stop_name": "OBERLING",
+    "lat": 49.1030797,
+    "lon": 6.2049996
+  },
+  {
+    "stop_id": "0:SORBIER3",
+    "stop_name": "LES SORBIERS",
+    "lat": 49.0677332,
+    "lon": 6.1461024
+  },
+  {
+    "stop_id": "0:SORBIER2",
+    "stop_name": "LES SORBIERS",
+    "lat": 49.0686001,
+    "lon": 6.1466754
+  },
+  {
+    "stop_id": "0:SORBIER1",
+    "stop_name": "LES SORBIERS",
+    "lat": 49.0688613,
+    "lon": 6.1470063
+  },
+  {
+    "stop_id": "0:PRESJAC1",
+    "stop_name": "PRES ST-JACQUES",
+    "lat": 49.1343139,
+    "lon": 6.1308396
+  },
+  {
+    "stop_id": "0:CHATRIA2",
+    "stop_name": "CHATRIAN",
+    "lat": 49.1030671,
+    "lon": 6.148275
+  },
+  {
+    "stop_id": "0:ERMITAG2",
+    "stop_name": "ERMITAGE",
+    "lat": 49.118341,
+    "lon": 6.0964945
+  },
+  {
+    "stop_id": "0:ERMITAG1",
+    "stop_name": "ERMITAGE",
+    "lat": 49.1182863,
+    "lon": 6.096176
+  },
+  {
+    "stop_id": "0:ARA02",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1019757,
+    "lon": 6.2244057
+  },
+  {
+    "stop_id": "0:19NOV02",
+    "stop_name": "19 NOVEMBRE",
+    "lat": 49.0920303,
+    "lon": 6.1614844
+  },
+  {
+    "stop_id": "0:19NOV01",
+    "stop_name": "19 NOVEMBRE",
+    "lat": 49.0917737,
+    "lon": 6.161318
+  },
+  {
+    "stop_id": "0:ARA01",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1018619,
+    "lon": 6.224289
+  },
+  {
+    "stop_id": "0:STJFORT2",
+    "stop_name": "ST-JULIEN FORT",
+    "lat": 49.1413787,
+    "lon": 6.206616
+  },
+  {
+    "stop_id": "0:STJFORT1",
+    "stop_name": "ST-JULIEN FORT",
+    "lat": 49.1408802,
+    "lon": 6.2057348
+  },
+  {
+    "stop_id": "0:VOSGES2",
+    "stop_name": "VOSGES",
+    "lat": 49.0937306,
+    "lon": 6.1326357
+  },
+  {
+    "stop_id": "0:VOSGES1",
+    "stop_name": "VOSGES",
+    "lat": 49.0936678,
+    "lon": 6.1329744
+  },
+  {
+    "stop_id": "0:4VENTS1",
+    "stop_name": "QUATRE VENTS",
+    "lat": 49.0944312,
+    "lon": 6.1762239
+  },
+  {
+    "stop_id": "0:FAVADE01",
+    "stop_name": "FAVADE",
+    "lat": 49.1179036,
+    "lon": 6.1804733
+  },
+  {
+    "stop_id": "0:APREMON2",
+    "stop_name": "APREMONT",
+    "lat": 49.0805814,
+    "lon": 6.1864577
+  },
+  {
+    "stop_id": "0:REP01",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1149954,
+    "lon": 6.173386
+  },
+  {
+    "stop_id": "0:APREMON1",
+    "stop_name": "APREMONT",
+    "lat": 49.0805356,
+    "lon": 6.1868247
+  },
+  {
+    "stop_id": "0:REP02",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1147928,
+    "lon": 6.1732228
+  },
+  {
+    "stop_id": "0:4VENTS2",
+    "stop_name": "QUATRE VENTS",
+    "lat": 49.0943845,
+    "lon": 6.175947
+  },
+  {
+    "stop_id": "0:CHAMPBA1",
+    "stop_name": "CHAMP BANAL",
+    "lat": 49.1726819,
+    "lon": 6.0455563
+  },
+  {
+    "stop_id": "0:SMARTIN2",
+    "stop_name": "ST-MARTIN",
+    "lat": 49.1217073,
+    "lon": 6.1508337
+  },
+  {
+    "stop_id": "0:SMARTIN1",
+    "stop_name": "ST-MARTIN",
+    "lat": 49.1214982,
+    "lon": 6.150917
+  },
+  {
+    "stop_id": "0:CAS01",
+    "stop_name": "RENE CASSIN",
+    "lat": 49.1358159,
+    "lon": 6.1659265
+  },
+  {
+    "stop_id": "0:CAS02",
+    "stop_name": "RENE CASSIN",
+    "lat": 49.1355341,
+    "lon": 6.1663755
+  },
+  {
+    "stop_id": "0:TERRESR1",
+    "stop_name": "TERRES ROUGES",
+    "lat": 49.1297983,
+    "lon": 6.197137
+  },
+  {
+    "stop_id": "0:TERRESR2",
+    "stop_name": "TERRES ROUGES",
+    "lat": 49.1299893,
+    "lon": 6.1977384
+  },
+  {
+    "stop_id": "0:CHATRIA1",
+    "stop_name": "CHATRIAN",
+    "lat": 49.1032867,
+    "lon": 6.1491655
+  },
+  {
+    "stop_id": "0:ROIGE694",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1106795,
+    "lon": 6.1712164
+  },
+  {
+    "stop_id": "0:STGEORG1",
+    "stop_name": "ST-GEORGES",
+    "lat": 49.1227466,
+    "lon": 6.1783578
+  },
+  {
+    "stop_id": "0:STOXEY2",
+    "stop_name": "STOXEY",
+    "lat": 49.1191751,
+    "lon": 6.1963168
+  },
+  {
+    "stop_id": "0:STGEORG2",
+    "stop_name": "ST-GEORGES",
+    "lat": 49.1224566,
+    "lon": 6.1780932
+  },
+  {
+    "stop_id": "0:STOXEY1",
+    "stop_name": "STOXEY",
+    "lat": 49.1200786,
+    "lon": 6.1961806
+  },
+  {
+    "stop_id": "0:SIMMI357",
+    "stop_name": "SIMMINGER",
+    "lat": 49.0903063,
+    "lon": 6.144883
+  },
+  {
+    "stop_id": "0:ROIGE695",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1109462,
+    "lon": 6.1709997
+  },
+  {
+    "stop_id": "0:CHEVHAI2",
+    "stop_name": "CHEVRE HAIE",
+    "lat": 49.0547938,
+    "lon": 6.1873654
+  },
+  {
+    "stop_id": "0:LAVANDI2",
+    "stop_name": "LAVANDIERES",
+    "lat": 49.1483953,
+    "lon": 6.1242706
+  },
+  {
+    "stop_id": "0:LAVANDI1",
+    "stop_name": "LAVANDIERES",
+    "lat": 49.148354,
+    "lon": 6.124131
+  },
+  {
+    "stop_id": "0:CHEVHAI1",
+    "stop_name": "CHEVRE HAIE",
+    "lat": 49.0547963,
+    "lon": 6.187612
+  },
+  {
+    "stop_id": "0:OEILLET1",
+    "stop_name": "OEILLETS",
+    "lat": 49.1251889,
+    "lon": 6.2305537
+  },
+  {
+    "stop_id": "0:VIN01",
+    "stop_name": "ST-VINCENT",
+    "lat": 49.1232723,
+    "lon": 6.1713979
+  },
+  {
+    "stop_id": "0:VIN02",
+    "stop_name": "ST-VINCENT",
+    "lat": 49.1239499,
+    "lon": 6.1723168
+  },
+  {
+    "stop_id": "0:BEL01",
+    "stop_name": "BELLETANCHE",
+    "lat": 49.1106636,
+    "lon": 6.2108008
+  },
+  {
+    "stop_id": "0:SAULNYC1",
+    "stop_name": "SAULNY CENTRE",
+    "lat": 49.158618,
+    "lon": 6.1061475
+  },
+  {
+    "stop_id": "0:BEL02",
+    "stop_name": "BELLETANCHE",
+    "lat": 49.1106544,
+    "lon": 6.2104713
+  },
+  {
+    "stop_id": "0:SAULNYC2",
+    "stop_name": "SAULNY CENTRE",
+    "lat": 49.1588652,
+    "lon": 6.105984
+  },
+  {
+    "stop_id": "0:CASTORS1",
+    "stop_name": "CASTORS",
+    "lat": 49.1284178,
+    "lon": 6.1457575
+  },
+  {
+    "stop_id": "0:CASTORS2",
+    "stop_name": "CASTORS",
+    "lat": 49.1285361,
+    "lon": 6.1457098
+  },
+  {
+    "stop_id": "0:GRAVELO1",
+    "stop_name": "GRAVELOTTE EGLISE",
+    "lat": 49.1091211,
+    "lon": 6.0303488
+  },
+  {
+    "stop_id": "0:MOULMAI1",
+    "stop_name": "MOULINS MAIRIE",
+    "lat": 49.1069925,
+    "lon": 6.1063419
+  },
+  {
+    "stop_id": "0:ENTRV1",
+    "stop_name": "ENTRE DEUX VILLES",
+    "lat": 49.1545754,
+    "lon": 6.245009
+  },
+  {
+    "stop_id": "0:ENTRV2",
+    "stop_name": "ENTRE DEUX VILLES",
+    "lat": 49.1542468,
+    "lon": 6.2451805
+  },
+  {
+    "stop_id": "0:GRAVELO2",
+    "stop_name": "GRAVELOTTE EGLISE",
+    "lat": 49.1091398,
+    "lon": 6.0303224
+  },
+  {
+    "stop_id": "0:STJEAN01",
+    "stop_name": "ST-JEAN",
+    "lat": 49.1080107,
+    "lon": 6.1048954
+  },
+  {
+    "stop_id": "0:STJEAN02",
+    "stop_name": "ST-JEAN",
+    "lat": 49.1078734,
+    "lon": 6.1056821
+  },
+  {
+    "stop_id": "0:08MAI01",
+    "stop_name": "8 MAI 45",
+    "lat": 49.0998088,
+    "lon": 6.1386764
+  },
+  {
+    "stop_id": "0:08MAI02",
+    "stop_name": "8 MAI 45",
+    "lat": 49.0999248,
+    "lon": 6.1383682
+  },
+  {
+    "stop_id": "0:AMPERE2",
+    "stop_name": "AMPERE",
+    "lat": 49.1036302,
+    "lon": 6.2288121
+  },
+  {
+    "stop_id": "0:ORLY2",
+    "stop_name": "ORLY",
+    "lat": 49.0758725,
+    "lon": 6.1169281
+  },
+  {
+    "stop_id": "0:JUSTICE1",
+    "stop_name": "JUSTICE",
+    "lat": 49.1665477,
+    "lon": 6.0383624
+  },
+  {
+    "stop_id": "0:ORLY1",
+    "stop_name": "ORLY",
+    "lat": 49.0756212,
+    "lon": 6.1165569
+  },
+  {
+    "stop_id": "0:AMPERE1",
+    "stop_name": "AMPERE",
+    "lat": 49.1033236,
+    "lon": 6.2288342
+  },
+  {
+    "stop_id": "0:ROI01",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1105221,
+    "lon": 6.1717277
+  },
+  {
+    "stop_id": "0:PRESSOI2",
+    "stop_name": "PRESSOIR",
+    "lat": 49.1351883,
+    "lon": 6.257165
+  },
+  {
+    "stop_id": "0:ROI02",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1107071,
+    "lon": 6.1715334
+  },
+  {
+    "stop_id": "0:MTPRIVA3",
+    "stop_name": "MONTIGNY ST-PRIVAT",
+    "lat": 49.084943,
+    "lon": 6.1548461
+  },
+  {
+    "stop_id": "0:ROI03",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1100148,
+    "lon": 6.1704904
+  },
+  {
+    "stop_id": "0:MTPRIVA2",
+    "stop_name": "MONTIGNY ST-PRIVAT",
+    "lat": 49.0851148,
+    "lon": 6.1548155
+  },
+  {
+    "stop_id": "0:FAUBOUP2",
+    "stop_name": "P+R FAUBOURG",
+    "lat": 49.0851304,
+    "lon": 6.1825451
+  },
+  {
+    "stop_id": "0:FAUBOUP3",
+    "stop_name": "P+R FAUBOURG",
+    "lat": 49.0848034,
+    "lon": 6.182662
+  },
+  {
+    "stop_id": "0:MOMENE1",
+    "stop_name": "MOMENE",
+    "lat": 49.1291881,
+    "lon": 6.1276093
+  },
+  {
+    "stop_id": "0:LYCFOUR2",
+    "stop_name": "LYCEE FOURNIER",
+    "lat": 49.1032744,
+    "lon": 6.1776705
+  },
+  {
+    "stop_id": "0:FAUBOUP1",
+    "stop_name": "P+R FAUBOURG",
+    "lat": 49.0854125,
+    "lon": 6.1827679
+  },
+  {
+    "stop_id": "0:ARTILLE1",
+    "stop_name": "ARTILLEURS",
+    "lat": 49.1202846,
+    "lon": 6.1935063
+  },
+  {
+    "stop_id": "0:NATION2",
+    "stop_name": "NATION",
+    "lat": 49.101386,
+    "lon": 6.1547371
+  },
+  {
+    "stop_id": "0:PEUPLIE2",
+    "stop_name": "PEUPLIERS",
+    "lat": 49.1050899,
+    "lon": 6.2102635
+  },
+  {
+    "stop_id": "0:ROI04",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1099749,
+    "lon": 6.1702961
+  },
+  {
+    "stop_id": "0:ARTILLE2",
+    "stop_name": "ARTILLEURS",
+    "lat": 49.1201863,
+    "lon": 6.1931438
+  },
+  {
+    "stop_id": "0:CHAHURY1",
+    "stop_name": "CHAHURY",
+    "lat": 49.1176864,
+    "lon": 6.0848584
+  },
+  {
+    "stop_id": "0:NATION1",
+    "stop_name": "NATION",
+    "lat": 49.1013295,
+    "lon": 6.1548296
+  },
+  {
+    "stop_id": "0:CHAHURY2",
+    "stop_name": "CHAHURY",
+    "lat": 49.1183566,
+    "lon": 6.0843363
+  },
+  {
+    "stop_id": "0:PEUPLIE1",
+    "stop_name": "PEUPLIERS",
+    "lat": 49.104613,
+    "lon": 6.2085756
+  },
+  {
+    "stop_id": "0:RUEMETZ2",
+    "stop_name": "RUE DE METZ",
+    "lat": 49.1562055,
+    "lon": 6.1117645
+  },
+  {
+    "stop_id": "0:RUEMETZ1",
+    "stop_name": "RUE DE METZ",
+    "lat": 49.1557561,
+    "lon": 6.1131367
+  },
+  {
+    "stop_id": "0:LEG01",
+    "stop_name": "HOPITAL LEGOUEST",
+    "lat": 49.1116983,
+    "lon": 6.1922232
+  },
+  {
+    "stop_id": "0:METZANI1",
+    "stop_name": "METZANINE",
+    "lat": 49.1070484,
+    "lon": 6.2312044
+  },
+  {
+    "stop_id": "0:POM01",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1091248,
+    "lon": 6.1810172
+  },
+  {
+    "stop_id": "0:METZANI2",
+    "stop_name": "METZANINE",
+    "lat": 49.1067277,
+    "lon": 6.2314174
+  },
+  {
+    "stop_id": "0:LYAUT656",
+    "stop_name": "LYAUTEY",
+    "lat": 49.0940099,
+    "lon": 6.1686618
+  },
+  {
+    "stop_id": "0:ROCHAMB2",
+    "stop_name": "P+R ROCHAMBEAU",
+    "lat": 49.1298478,
+    "lon": 6.170114
+  },
+  {
+    "stop_id": "0:SIGISBE1",
+    "stop_name": "ST-SIGISBERT",
+    "lat": 49.1221022,
+    "lon": 6.1491577
+  },
+  {
+    "stop_id": "0:TEMPLE1",
+    "stop_name": "TEMPLE",
+    "lat": 49.0788197,
+    "lon": 6.0699165
+  },
+  {
+    "stop_id": "0:TEMPLE2",
+    "stop_name": "TEMPLE",
+    "lat": 49.0791121,
+    "lon": 6.0697421
+  },
+  {
+    "stop_id": "0:ROCHAMB1",
+    "stop_name": "P+R ROCHAMBEAU",
+    "lat": 49.1294306,
+    "lon": 6.1702393
+  },
+  {
+    "stop_id": "0:SIGISBE2",
+    "stop_name": "ST-SIGISBERT",
+    "lat": 49.1225344,
+    "lon": 6.1488002
+  },
+  {
+    "stop_id": "0:BILLOTT1",
+    "stop_name": "BILLOTTE",
+    "lat": 49.1259772,
+    "lon": 6.1966818
+  },
+  {
+    "stop_id": "0:BILLOTT2",
+    "stop_name": "BILLOTTE",
+    "lat": 49.1254695,
+    "lon": 6.1975005
+  },
+  {
+    "stop_id": "0:DUNANT3",
+    "stop_name": "DUNANT",
+    "lat": 49.1239086,
+    "lon": 6.2030665
+  },
+  {
+    "stop_id": "0:DUNANT2",
+    "stop_name": "DUNANT",
+    "lat": 49.1238309,
+    "lon": 6.2022665
+  },
+  {
+    "stop_id": "0:BOUCHOT2",
+    "stop_name": "BOUCHOTTE",
+    "lat": 49.0925005,
+    "lon": 6.1811753
+  },
+  {
+    "stop_id": "0:VIGNOTT1",
+    "stop_name": "VIGNOTTES",
+    "lat": 49.0419971,
+    "lon": 6.1567245
+  },
+  {
+    "stop_id": "0:VIGNOTT2",
+    "stop_name": "VIGNOTTES",
+    "lat": 49.0419719,
+    "lon": 6.1566545
+  },
+  {
+    "stop_id": "0:DUNANT1",
+    "stop_name": "DUNANT",
+    "lat": 49.1237191,
+    "lon": 6.203425
+  },
+  {
+    "stop_id": "0:HTMAGNY2",
+    "stop_name": "HAUTS-DE-MAGNY",
+    "lat": 49.0740696,
+    "lon": 6.1907419
+  },
+  {
+    "stop_id": "0:POM02",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1091015,
+    "lon": 6.1808787
+  },
+  {
+    "stop_id": "0:ART01",
+    "stop_name": "ARTS ET METIERS",
+    "lat": 49.0964553,
+    "lon": 6.2262411
+  },
+  {
+    "stop_id": "0:ART02",
+    "stop_name": "ARTS ET METIERS",
+    "lat": 49.096569,
+    "lon": 6.2260289
+  },
+  {
+    "stop_id": "0:LEG02",
+    "stop_name": "HOPITAL LEGOUEST",
+    "lat": 49.111899,
+    "lon": 6.1927975
+  },
+  {
+    "stop_id": "0:MARNE2",
+    "stop_name": "MARNE",
+    "lat": 49.1267822,
+    "lon": 6.1542685
+  },
+  {
+    "stop_id": "0:VERDUN2",
+    "stop_name": "VERDUN",
+    "lat": 49.0802282,
+    "lon": 6.0580828
+  },
+  {
+    "stop_id": "0:MARNE1",
+    "stop_name": "MARNE",
+    "lat": 49.1267362,
+    "lon": 6.1539641
+  },
+  {
+    "stop_id": "0:SCHAZEL1",
+    "stop_name": "SCY-CHAZELLES",
+    "lat": 49.1141088,
+    "lon": 6.116816
+  },
+  {
+    "stop_id": "0:HTMAGNY1",
+    "stop_name": "HAUTS-DE-MAGNY",
+    "lat": 49.0742407,
+    "lon": 6.1907387
+  },
+  {
+    "stop_id": "0:BOUCHOT1",
+    "stop_name": "BOUCHOTTE",
+    "lat": 49.0926216,
+    "lon": 6.1813608
+  },
+  {
+    "stop_id": "0:POURNOY2",
+    "stop_name": "POURNOY-LA-CHETIVE",
+    "lat": 49.0207917,
+    "lon": 6.1551611
+  },
+  {
+    "stop_id": "0:MAGNYBO1",
+    "stop_name": "MAGNY-AU-BOIS",
+    "lat": 49.075211,
+    "lon": 6.1951953
+  },
+  {
+    "stop_id": "0:MAGNYBO2",
+    "stop_name": "MAGNY-AU-BOIS",
+    "lat": 49.0754421,
+    "lon": 6.1953055
+  },
+  {
+    "stop_id": "0:POURNOY1",
+    "stop_name": "POURNOY-LA-CHETIVE",
+    "lat": 49.0204262,
+    "lon": 6.1553715
+  },
+  {
+    "stop_id": "0:VERDUN1",
+    "stop_name": "VERDUN",
+    "lat": 49.0801277,
+    "lon": 6.0581453
+  },
+  {
+    "stop_id": "0:D95302",
+    "stop_name": "D953",
+    "lat": 49.1627621,
+    "lon": 6.1602069
+  },
+  {
+    "stop_id": "0:D95301",
+    "stop_name": "D953",
+    "lat": 49.1626996,
+    "lon": 6.1601894
+  },
+  {
+    "stop_id": "0:DEMBOUR1",
+    "stop_name": "DEMBOUR",
+    "lat": 49.1062866,
+    "lon": 6.1794587
+  },
+  {
+    "stop_id": "0:DEMBOUR2",
+    "stop_name": "DEMBOUR",
+    "lat": 49.1065252,
+    "lon": 6.1792815
+  },
+  {
+    "stop_id": "0:CLERY02",
+    "stop_name": "CLERY",
+    "lat": 49.1220543,
+    "lon": 6.0801421
+  },
+  {
+    "stop_id": "0:HOTELVI1",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.060125,
+    "lon": 6.154158
+  },
+  {
+    "stop_id": "0:QUINT01",
+    "stop_name": "CHARLES QUINT",
+    "lat": 49.0907644,
+    "lon": 6.1753689
+  },
+  {
+    "stop_id": "0:HOTELVI2",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.0599885,
+    "lon": 6.1542182
+  },
+  {
+    "stop_id": "0:QUINT02",
+    "stop_name": "CHARLES QUINT",
+    "lat": 49.0907306,
+    "lon": 6.1752846
+  },
+  {
+    "stop_id": "0:RAYMON2",
+    "stop_name": "RAYMOND MONDON",
+    "lat": 49.2008978,
+    "lon": 6.0380327
+  },
+  {
+    "stop_id": "0:HETRES2",
+    "stop_name": "HETRES",
+    "lat": 49.1320124,
+    "lon": 6.2089431
+  },
+  {
+    "stop_id": "0:ZHERGOT2",
+    "stop_name": "ZONE HERGOTT",
+    "lat": 49.1588288,
+    "lon": 6.15854
+  },
+  {
+    "stop_id": "0:HETRES1",
+    "stop_name": "HETRES",
+    "lat": 49.1320694,
+    "lon": 6.209166
+  },
+  {
+    "stop_id": "0:ZHERGOT1",
+    "stop_name": "ZONE HERGOTT",
+    "lat": 49.1597513,
+    "lon": 6.159049
+  },
+  {
+    "stop_id": "0:COLLEJB1",
+    "stop_name": "COLLEGE JEAN BAUCHEZ",
+    "lat": 49.1240673,
+    "lon": 6.1521152
+  },
+  {
+    "stop_id": "0:RAYMON1",
+    "stop_name": "RAYMOND MONDON",
+    "lat": 49.2008678,
+    "lon": 6.0377975
+  },
+  {
+    "stop_id": "0:GENIE1",
+    "stop_name": "GENIE",
+    "lat": 49.1054979,
+    "lon": 6.1636492
+  },
+  {
+    "stop_id": "0:GENIE2",
+    "stop_name": "GENIE",
+    "lat": 49.1052331,
+    "lon": 6.1634549
+  },
+  {
+    "stop_id": "0:CHARIT01",
+    "stop_name": "CHANOINE RITZ",
+    "lat": 48.9897758,
+    "lon": 6.0865319
+  },
+  {
+    "stop_id": "0:PISCINE2",
+    "stop_name": "PISCINE OLYMPIQUE",
+    "lat": 49.1004902,
+    "lon": 6.1856262
+  },
+  {
+    "stop_id": "0:CHARIT02",
+    "stop_name": "CHANOINE RITZ",
+    "lat": 48.989545,
+    "lon": 6.0864088
+  },
+  {
+    "stop_id": "0:PISCINE1",
+    "stop_name": "PISCINE OLYMPIQUE",
+    "lat": 49.1005842,
+    "lon": 6.1864954
+  },
+  {
+    "stop_id": "0:LADAME1",
+    "stop_name": "LA DAME",
+    "lat": 49.0989131,
+    "lon": 6.2432501
+  },
+  {
+    "stop_id": "0:CRIMEE2",
+    "stop_name": "CRIMEE",
+    "lat": 49.1135629,
+    "lon": 6.1135757
+  },
+  {
+    "stop_id": "0:PLGAULL2",
+    "stop_name": "PLACE DE GAULLE",
+    "lat": 49.0601034,
+    "lon": 6.1628519
+  },
+  {
+    "stop_id": "0:CRIMEE1",
+    "stop_name": "CRIMEE",
+    "lat": 49.1143612,
+    "lon": 6.1129794
+  },
+  {
+    "stop_id": "0:LADAME2",
+    "stop_name": "LA DAME",
+    "lat": 49.0986599,
+    "lon": 6.2439606
+  },
+  {
+    "stop_id": "0:PLGAULL1",
+    "stop_name": "PLACE DE GAULLE",
+    "lat": 49.0609404,
+    "lon": 6.1625059
+  },
+  {
+    "stop_id": "0:GRDAMES2",
+    "stop_name": "GRANGE-AUX-DAMES",
+    "lat": 49.1464566,
+    "lon": 6.1909372
+  },
+  {
+    "stop_id": "0:GRDAMES1",
+    "stop_name": "GRANGE-AUX-DAMES",
+    "lat": 49.1461243,
+    "lon": 6.1905738
+  },
+  {
+    "stop_id": "0:LOTINDU2",
+    "stop_name": "LOTISSEMENT IND",
+    "lat": 49.0897013,
+    "lon": 6.1242675
+  },
+  {
+    "stop_id": "0:LOTINDU1",
+    "stop_name": "LOTISSEMENT IND",
+    "lat": 49.089203,
+    "lon": 6.1233607
+  },
+  {
+    "stop_id": "0:CHENEVI2",
+    "stop_name": "CHENEVIERES",
+    "lat": 49.1658455,
+    "lon": 6.1896491
+  },
+  {
+    "stop_id": "0:CHEFER2",
+    "stop_name": "CHEMIN DE FER",
+    "lat": 49.0582742,
+    "lon": 6.1461585
+  },
+  {
+    "stop_id": "0:BUTTE2",
+    "stop_name": "LA BUTTE",
+    "lat": 49.1328483,
+    "lon": 6.1470002
+  },
+  {
+    "stop_id": "0:CHEFER1",
+    "stop_name": "CHEMIN DE FER",
+    "lat": 49.058401,
+    "lon": 6.1461251
+  },
+  {
+    "stop_id": "0:BELLETA2",
+    "stop_name": "BELLETANCHE",
+    "lat": 49.1097861,
+    "lon": 6.2089508
+  },
+  {
+    "stop_id": "0:ARAGO035",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1005102,
+    "lon": 6.2220122
+  },
+  {
+    "stop_id": "0:BELLETA1",
+    "stop_name": "BELLETANCHE",
+    "lat": 49.1101905,
+    "lon": 6.2096475
+  },
+  {
+    "stop_id": "0:SELLIER1",
+    "stop_name": "SELLIERS",
+    "lat": 49.1141899,
+    "lon": 6.2473593
+  },
+  {
+    "stop_id": "0:CHENEVI1",
+    "stop_name": "CHENEVIERES",
+    "lat": 49.1657567,
+    "lon": 6.1896025
+  },
+  {
+    "stop_id": "0:SELLIER2",
+    "stop_name": "SELLIERS",
+    "lat": 49.1140672,
+    "lon": 6.247571
+  },
+  {
+    "stop_id": "0:GDMAISO2",
+    "stop_name": "GRANDMAISON",
+    "lat": 49.0979507,
+    "lon": 6.1935004
+  },
+  {
+    "stop_id": "0:BUTTE1",
+    "stop_name": "LA BUTTE",
+    "lat": 49.1332235,
+    "lon": 6.1474481
+  },
+  {
+    "stop_id": "0:GDMAISO1",
+    "stop_name": "GRANDMAISON",
+    "lat": 49.0981775,
+    "lon": 6.1944462
+  },
+  {
+    "stop_id": "0:SIMMI527",
+    "stop_name": "SIMMINGER",
+    "lat": 49.0901424,
+    "lon": 6.1446127
+  },
+  {
+    "stop_id": "0:JOUSSE1",
+    "stop_name": "JOUSSE",
+    "lat": 49.1230399,
+    "lon": 6.2069613
+  },
+  {
+    "stop_id": "0:JOUSSE2",
+    "stop_name": "JOUSSE",
+    "lat": 49.1228527,
+    "lon": 6.2068949
+  },
+  {
+    "stop_id": "0:PINS02",
+    "stop_name": "PINS",
+    "lat": 49.1323847,
+    "lon": 6.2158911
+  },
+  {
+    "stop_id": "0:CHARRON1",
+    "stop_name": "PLACE DES CHARRONS",
+    "lat": 49.1163147,
+    "lon": 6.1830489
+  },
+  {
+    "stop_id": "0:CARREFO1",
+    "stop_name": "CARREFOUR",
+    "lat": 49.1444639,
+    "lon": 6.1277091
+  },
+  {
+    "stop_id": "0:DALES2",
+    "stop_name": "DALES",
+    "lat": 49.1333265,
+    "lon": 6.1641014
+  },
+  {
+    "stop_id": "0:DALES1",
+    "stop_name": "DALES",
+    "lat": 49.1328614,
+    "lon": 6.1650191
+  },
+  {
+    "stop_id": "0:CARREFO2",
+    "stop_name": "CARREFOUR",
+    "lat": 49.1444179,
+    "lon": 6.1277475
+  },
+  {
+    "stop_id": "0:SAU01",
+    "stop_name": "SAULCY",
+    "lat": 49.120732,
+    "lon": 6.1646756
+  },
+  {
+    "stop_id": "0:SAULNOI1",
+    "stop_name": "SAULNOIS",
+    "lat": 49.1265738,
+    "lon": 6.2218649
+  },
+  {
+    "stop_id": "0:TETEDOR1",
+    "stop_name": "TETE D'OR",
+    "lat": 49.1173181,
+    "lon": 6.1770925
+  },
+  {
+    "stop_id": "0:SAU02",
+    "stop_name": "SAULCY",
+    "lat": 49.1205221,
+    "lon": 6.1644434
+  },
+  {
+    "stop_id": "0:SAULNOI2",
+    "stop_name": "SAULNOIS",
+    "lat": 49.1264328,
+    "lon": 6.2220892
+  },
+  {
+    "stop_id": "0:11AVIAT1",
+    "stop_name": "11Ãšme D'AVIATION",
+    "lat": 49.0858277,
+    "lon": 6.1461594
+  },
+  {
+    "stop_id": "0:LACRETL2",
+    "stop_name": "LACRETELLE",
+    "lat": 49.1134302,
+    "lon": 6.1859559
+  },
+  {
+    "stop_id": "0:11AVIAT2",
+    "stop_name": "11Ãšme D'AVIATION",
+    "lat": 49.0861561,
+    "lon": 6.1453025
+  },
+  {
+    "stop_id": "0:LACRETL1",
+    "stop_name": "LACRETELLE",
+    "lat": 49.112743,
+    "lon": 6.1850637
+  },
+  {
+    "stop_id": "0:STLADRE2",
+    "stop_name": "ST-LADRE",
+    "lat": 49.0970079,
+    "lon": 6.1549228
+  },
+  {
+    "stop_id": "0:STLADRE1",
+    "stop_name": "ST-LADRE",
+    "lat": 49.0970855,
+    "lon": 6.1553935
+  },
+  {
+    "stop_id": "0:FOSSE2",
+    "stop_name": "FOSSE",
+    "lat": 49.1002409,
+    "lon": 6.1452118
+  },
+  {
+    "stop_id": "0:FOSSE1",
+    "stop_name": "FOSSE",
+    "lat": 49.1004533,
+    "lon": 6.145348
+  },
+  {
+    "stop_id": "0:CHIEULL1",
+    "stop_name": "CHIEULLES",
+    "lat": 49.1593908,
+    "lon": 6.2289017
+  },
+  {
+    "stop_id": "0:CHIEULL2",
+    "stop_name": "CHIEULLES",
+    "lat": 49.1594829,
+    "lon": 6.2288251
+  },
+  {
+    "stop_id": "0:PLARMES4",
+    "stop_name": "PLACE D'ARMES",
+    "lat": 49.1193379,
+    "lon": 6.1755713
+  },
+  {
+    "stop_id": "0:PLARMES2",
+    "stop_name": "PLACE D'ARMES",
+    "lat": 49.1194763,
+    "lon": 6.1754427
+  },
+  {
+    "stop_id": "0:COLLIGN1",
+    "stop_name": "COLLIGNON",
+    "lat": 49.1048643,
+    "lon": 6.1872931
+  },
+  {
+    "stop_id": "0:HMERCY1",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.0858304,
+    "lon": 6.2438564
+  },
+  {
+    "stop_id": "0:NOUILLY1",
+    "stop_name": "NOUILLY CENTRE",
+    "lat": 49.1361277,
+    "lon": 6.2583623
+  },
+  {
+    "stop_id": "0:COLLIGN2",
+    "stop_name": "COLLIGNON",
+    "lat": 49.1041747,
+    "lon": 6.1871684
+  },
+  {
+    "stop_id": "0:HMERCY2",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.0858435,
+    "lon": 6.2437065
+  },
+  {
+    "stop_id": "0:VIEAUX2",
+    "stop_name": "VIEILLES EAUX",
+    "lat": 49.1037742,
+    "lon": 6.1083143
+  },
+  {
+    "stop_id": "0:VILLERS2",
+    "stop_name": "VILLERS",
+    "lat": 49.0772137,
+    "lon": 6.3237009
+  },
+  {
+    "stop_id": "0:VILLERS1",
+    "stop_name": "VILLERS",
+    "lat": 49.077255,
+    "lon": 6.3244844
+  },
+  {
+    "stop_id": "0:WCHATEA2",
+    "stop_name": "WOIPPY CHATEAU",
+    "lat": 49.1528687,
+    "lon": 6.1452817
+  },
+  {
+    "stop_id": "0:WCHATEA1",
+    "stop_name": "WOIPPY CHATEAU",
+    "lat": 49.1529477,
+    "lon": 6.1450121
+  },
+  {
+    "stop_id": "0:BRION1",
+    "stop_name": "BRION",
+    "lat": 49.1297212,
+    "lon": 6.1330575
+  },
+  {
+    "stop_id": "0:JUGAN2",
+    "stop_name": "JUGAN",
+    "lat": 49.1222756,
+    "lon": 6.213344
+  },
+  {
+    "stop_id": "0:GRELLOI2",
+    "stop_name": "GRELLOIS",
+    "lat": 49.1183834,
+    "lon": 6.2185725
+  },
+  {
+    "stop_id": "0:JUGAN1",
+    "stop_name": "JUGAN",
+    "lat": 49.1226305,
+    "lon": 6.212187
+  },
+  {
+    "stop_id": "0:GRELLOI1",
+    "stop_name": "GRELLOIS",
+    "lat": 49.1184071,
+    "lon": 6.2186974
+  },
+  {
+    "stop_id": "0:BRION2",
+    "stop_name": "BRION",
+    "lat": 49.1298004,
+    "lon": 6.1341592
+  },
+  {
+    "stop_id": "0:SEULHOT1",
+    "stop_name": "SEULHOTTE",
+    "lat": 49.1013462,
+    "lon": 6.20825
+  },
+  {
+    "stop_id": "0:SEULHOT2",
+    "stop_name": "SEULHOTTE",
+    "lat": 49.1014079,
+    "lon": 6.2086376
+  },
+  {
+    "stop_id": "0:STSIMON1",
+    "stop_name": "ST-SIMON",
+    "lat": 49.1276891,
+    "lon": 6.151938
+  },
+  {
+    "stop_id": "0:STSIMON2",
+    "stop_name": "ST-SIMON",
+    "lat": 49.1274674,
+    "lon": 6.1525004
+  },
+  {
+    "stop_id": "0:HESTAUX1",
+    "stop_name": "HESTAUX",
+    "lat": 49.1009971,
+    "lon": 6.1916188
+  },
+  {
+    "stop_id": "0:BERNARD2",
+    "stop_name": "BERNARD",
+    "lat": 49.11437,
+    "lon": 6.2115103
+  },
+  {
+    "stop_id": "0:CLERCS01",
+    "stop_name": "RUE DES CLERCS",
+    "lat": 49.117638,
+    "lon": 6.1741785
+  },
+  {
+    "stop_id": "0:BERNARD1",
+    "stop_name": "BERNARD",
+    "lat": 49.1156765,
+    "lon": 6.2100971
+  },
+  {
+    "stop_id": "0:HESTAUX2",
+    "stop_name": "HESTAUX",
+    "lat": 49.1008922,
+    "lon": 6.1915027
+  },
+  {
+    "stop_id": "0:MONEU2",
+    "stop_name": "MOULIN NEUF",
+    "lat": 49.1123212,
+    "lon": 6.0951067
+  },
+  {
+    "stop_id": "0:MONEU1",
+    "stop_name": "MOULIN NEUF",
+    "lat": 49.1121397,
+    "lon": 6.0951644
+  },
+  {
+    "stop_id": "0:ARAGO002",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.100741,
+    "lon": 6.2211221
+  },
+  {
+    "stop_id": "0:ARSMOSL2",
+    "stop_name": "ARS SUR MOSELLE",
+    "lat": 49.0759117,
+    "lon": 6.0766613
+  },
+  {
+    "stop_id": "0:ARSMOSL1",
+    "stop_name": "ARS SUR MOSELLE",
+    "lat": 49.0757725,
+    "lon": 6.0764749
+  },
+  {
+    "stop_id": "0:BRIVAGE2",
+    "stop_name": "BEAU RIVAGE",
+    "lat": 49.1160181,
+    "lon": 6.1509263
+  },
+  {
+    "stop_id": "0:ALGER2",
+    "stop_name": "ALGER",
+    "lat": 49.0943301,
+    "lon": 6.1348368
+  },
+  {
+    "stop_id": "0:ALGER1",
+    "stop_name": "ALGER",
+    "lat": 49.0944427,
+    "lon": 6.1353506
+  },
+  {
+    "stop_id": "0:BRIVAGE1",
+    "stop_name": "BEAU RIVAGE",
+    "lat": 49.1160741,
+    "lon": 6.1505048
+  },
+  {
+    "stop_id": "0:LANCEUM3",
+    "stop_name": "LANCEUMONT",
+    "lat": 49.054193,
+    "lon": 6.2745752
+  },
+  {
+    "stop_id": "0:PRILLE1",
+    "stop_name": "EN PRILLE",
+    "lat": 49.1095236,
+    "lon": 6.1260248
+  },
+  {
+    "stop_id": "0:PRILLE2",
+    "stop_name": "EN PRILLE",
+    "lat": 49.1094282,
+    "lon": 6.1251966
+  },
+  {
+    "stop_id": "0:SERRET2",
+    "stop_name": "SERRET",
+    "lat": 49.1099651,
+    "lon": 6.0999413
+  },
+  {
+    "stop_id": "0:SERRET1",
+    "stop_name": "SERRET",
+    "lat": 49.1099225,
+    "lon": 6.0995001
+  },
+  {
+    "stop_id": "0:VANDERN2",
+    "stop_name": "VANDERNOOT",
+    "lat": 49.0955544,
+    "lon": 6.180705
+  },
+  {
+    "stop_id": "0:VANDERN1",
+    "stop_name": "VANDERNOOT",
+    "lat": 49.09611,
+    "lon": 6.1807939
+  },
+  {
+    "stop_id": "0:LANCEUM2",
+    "stop_name": "LANCEUMONT",
+    "lat": 49.0542276,
+    "lon": 6.2752894
+  },
+  {
+    "stop_id": "0:LANCEUM1",
+    "stop_name": "LANCEUMONT",
+    "lat": 49.0539929,
+    "lon": 6.2756442
+  },
+  {
+    "stop_id": "0:AMANVMA1",
+    "stop_name": "AMANVILLERS MAIRIE",
+    "lat": 49.167366,
+    "lon": 6.0440772
+  },
+  {
+    "stop_id": "0:REPBS",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1152491,
+    "lon": 6.173662
+  },
+  {
+    "stop_id": "0:AMANVMA2",
+    "stop_name": "AMANVILLERS MAIRIE",
+    "lat": 49.1673736,
+    "lon": 6.0437758
+  },
+  {
+    "stop_id": "0:VIEAUX1",
+    "stop_name": "VIEILLES EAUX",
+    "lat": 49.1038611,
+    "lon": 6.1080866
+  },
+  {
+    "stop_id": "0:ARIANE1",
+    "stop_name": "ARIANE",
+    "lat": 49.095489,
+    "lon": 6.2387467
+  },
+  {
+    "stop_id": "0:PIERNE02",
+    "stop_name": "PIERNE",
+    "lat": 49.1025729,
+    "lon": 6.1796968
+  },
+  {
+    "stop_id": "0:REPBW",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.115854,
+    "lon": 6.172904
+  },
+  {
+    "stop_id": "0:ARIANE2",
+    "stop_name": "ARIANE",
+    "lat": 49.0948526,
+    "lon": 6.2386521
+  },
+  {
+    "stop_id": "0:MOULIN86",
+    "stop_name": "MOULINS",
+    "lat": 49.1054795,
+    "lon": 6.1105683
+  },
+  {
+    "stop_id": "0:CASINO1",
+    "stop_name": "CASINO",
+    "lat": 49.1165074,
+    "lon": 6.1415112
+  },
+  {
+    "stop_id": "0:CASINO2",
+    "stop_name": "CASINO",
+    "lat": 49.1165926,
+    "lon": 6.1413519
+  },
+  {
+    "stop_id": "0:BURGER02",
+    "stop_name": "JEAN BURGER",
+    "lat": 49.1279308,
+    "lon": 6.1949513
+  },
+  {
+    "stop_id": "0:BURGER01",
+    "stop_name": "JEAN BURGER",
+    "lat": 49.1280811,
+    "lon": 6.1947138
+  },
+  {
+    "stop_id": "0:BLIDA1",
+    "stop_name": "BLIDA",
+    "lat": 49.1258875,
+    "lon": 6.1814023
+  },
+  {
+    "stop_id": "0:BLIDA2",
+    "stop_name": "BLIDA",
+    "lat": 49.1257452,
+    "lon": 6.1813388
+  },
+  {
+    "stop_id": "0:BREUIL1",
+    "stop_name": "BREUIL",
+    "lat": 49.1604541,
+    "lon": 6.2258261
+  },
+  {
+    "stop_id": "0:BREUIL2",
+    "stop_name": "BREUIL",
+    "lat": 49.1603751,
+    "lon": 6.2257526
+  },
+  {
+    "stop_id": "0:MELEZES2",
+    "stop_name": "MELEZES",
+    "lat": 49.1278526,
+    "lon": 6.2036395
+  },
+  {
+    "stop_id": "0:MELEZES1",
+    "stop_name": "MELEZES",
+    "lat": 49.1281675,
+    "lon": 6.2033025
+  },
+  {
+    "stop_id": "0:POUILLY1",
+    "stop_name": "POUILLY",
+    "lat": 49.0498169,
+    "lon": 6.1884013
+  },
+  {
+    "stop_id": "0:PONSARD1",
+    "stop_name": "PONSARD",
+    "lat": 49.0895871,
+    "lon": 6.1472644
+  },
+  {
+    "stop_id": "0:PONSARD2",
+    "stop_name": "PONSARD",
+    "lat": 49.0896342,
+    "lon": 6.1471851
+  },
+  {
+    "stop_id": "0:RBOULAY1",
+    "stop_name": "ROUTE DE BOULAY",
+    "lat": 49.1265703,
+    "lon": 6.2683464
+  },
+  {
+    "stop_id": "0:RD661",
+    "stop_name": "RD66",
+    "lat": 49.0313316,
+    "lon": 6.0977346
+  },
+  {
+    "stop_id": "0:SCHAFF01",
+    "stop_name": "SCHAFF",
+    "lat": 49.0999704,
+    "lon": 6.1548428
+  },
+  {
+    "stop_id": "0:RBOULAY2",
+    "stop_name": "ROUTE DE BOULAY",
+    "lat": 49.1264961,
+    "lon": 6.2677658
+  },
+  {
+    "stop_id": "0:SCHAFF02",
+    "stop_name": "SCHAFF",
+    "lat": 49.1000959,
+    "lon": 6.1545216
+  },
+  {
+    "stop_id": "0:MER02",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.0846432,
+    "lon": 6.2421654
+  },
+  {
+    "stop_id": "0:3EVECHES",
+    "stop_name": "TROIS EVECHES",
+    "lat": 49.106299,
+    "lon": 6.1918905
+  },
+  {
+    "stop_id": "0:ALSACE2",
+    "stop_name": "ALSACE",
+    "lat": 49.0978414,
+    "lon": 6.1295817
+  },
+  {
+    "stop_id": "0:VECRIN1",
+    "stop_name": "VECRIN",
+    "lat": 49.0915187,
+    "lon": 6.2667389
+  },
+  {
+    "stop_id": "0:ALSACE1",
+    "stop_name": "ALSACE",
+    "lat": 49.0976376,
+    "lon": 6.1291172
+  },
+  {
+    "stop_id": "0:VECRIN2",
+    "stop_name": "VECRIN",
+    "lat": 49.0915584,
+    "lon": 6.2669332
+  },
+  {
+    "stop_id": "0:MER01",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.0844541,
+    "lon": 6.2428386
+  },
+  {
+    "stop_id": "0:ROSEAUX1",
+    "stop_name": "ROSEAUX",
+    "lat": 49.0712786,
+    "lon": 6.1857079
+  },
+  {
+    "stop_id": "0:ROSEAUX2",
+    "stop_name": "ROSEAUX",
+    "lat": 49.0711957,
+    "lon": 6.1867985
+  },
+  {
+    "stop_id": "0:TELEGRA2",
+    "stop_name": "TELEGRAPHE",
+    "lat": 49.1468287,
+    "lon": 6.0031229
+  },
+  {
+    "stop_id": "0:TELEGRA1",
+    "stop_name": "TELEGRAPHE",
+    "lat": 49.1468287,
+    "lon": 6.0031229
+  },
+  {
+    "stop_id": "0:BER01",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1332686,
+    "lon": 6.1690344
+  },
+  {
+    "stop_id": "0:LEMOYNE2",
+    "stop_name": "LE MOYNE",
+    "lat": 49.1313521,
+    "lon": 6.1567134
+  },
+  {
+    "stop_id": "0:BER02",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1334005,
+    "lon": 6.1688094
+  },
+  {
+    "stop_id": "0:LEMOYNE1",
+    "stop_name": "LE MOYNE",
+    "lat": 49.1314164,
+    "lon": 6.1563196
+  },
+  {
+    "stop_id": "0:SUGNON2",
+    "stop_name": "SUGNON",
+    "lat": 49.09413,
+    "lon": 6.1634212
+  },
+  {
+    "stop_id": "0:SUGNON1",
+    "stop_name": "SUGNON",
+    "lat": 49.0941458,
+    "lon": 6.1631618
+  },
+  {
+    "stop_id": "0:WOIPHOT2",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.1513749,
+    "lon": 6.1501017
+  },
+  {
+    "stop_id": "0:LOGES2",
+    "stop_name": "LOGES",
+    "lat": 49.0991263,
+    "lon": 6.1582036
+  },
+  {
+    "stop_id": "0:NJUNG1",
+    "stop_name": "NICOLAS JUNG",
+    "lat": 49.1336845,
+    "lon": 6.1525223
+  },
+  {
+    "stop_id": "0:JOSEPH1",
+    "stop_name": "CROIX ST JOSEPH",
+    "lat": 49.0589779,
+    "lon": 6.1587713
+  },
+  {
+    "stop_id": "0:WOIPHOT1",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.1512771,
+    "lon": 6.1500546
+  },
+  {
+    "stop_id": "0:LUXMB",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1213263,
+    "lon": 6.1687562
+  },
+  {
+    "stop_id": "0:GARENNE2",
+    "stop_name": "GARENNES",
+    "lat": 49.0764691,
+    "lon": 6.1465092
+  },
+  {
+    "stop_id": "0:GARENNE1",
+    "stop_name": "GARENNES",
+    "lat": 49.0767397,
+    "lon": 6.1464845
+  },
+  {
+    "stop_id": "0:MECLEUV1",
+    "stop_name": "MECLEUVES",
+    "lat": 49.0423998,
+    "lon": 6.2681223
+  },
+  {
+    "stop_id": "0:MECLEUV2",
+    "stop_name": "MECLEUVES",
+    "lat": 49.0422467,
+    "lon": 6.2684549
+  },
+  {
+    "stop_id": "0:ROUSSEL1",
+    "stop_name": "ROUSSEL",
+    "lat": 49.1354895,
+    "lon": 6.1399339
+  },
+  {
+    "stop_id": "0:ROUSSEL2",
+    "stop_name": "ROUSSEL",
+    "lat": 49.1354477,
+    "lon": 6.1394651
+  },
+  {
+    "stop_id": "0:MANGENO1",
+    "stop_name": "MY MANGENOT",
+    "lat": 49.1279101,
+    "lon": 6.2253896
+  },
+  {
+    "stop_id": "0:MANGENO2",
+    "stop_name": "MY MANGENOT",
+    "lat": 49.1278175,
+    "lon": 6.2258226
+  },
+  {
+    "stop_id": "0:LORRYGR1",
+    "stop_name": "LORRY GRAND RUE",
+    "lat": 49.1417799,
+    "lon": 6.1184542
+  },
+  {
+    "stop_id": "0:LUETTE2",
+    "stop_name": "LUETTE",
+    "lat": 49.0854272,
+    "lon": 6.1483956
+  },
+  {
+    "stop_id": "0:LORRYGR2",
+    "stop_name": "LORRY GRAND RUE",
+    "lat": 49.1417835,
+    "lon": 6.1183173
+  },
+  {
+    "stop_id": "0:LUETTE1",
+    "stop_name": "LUETTE",
+    "lat": 49.0852507,
+    "lon": 6.148604
+  },
+  {
+    "stop_id": "0:BOILEAU1",
+    "stop_name": "BOILEAU",
+    "lat": 49.1428268,
+    "lon": 6.1686045
+  },
+  {
+    "stop_id": "0:BOILEAU2",
+    "stop_name": "BOILEAU",
+    "lat": 49.142959,
+    "lon": 6.1693944
+  },
+  {
+    "stop_id": "0:NJUNG2",
+    "stop_name": "NICOLAS JUNG",
+    "lat": 49.1333529,
+    "lon": 6.1531603
+  },
+  {
+    "stop_id": "0:PONTROU1",
+    "stop_name": "PONT ROUGE",
+    "lat": 49.1148252,
+    "lon": 6.1890026
+  },
+  {
+    "stop_id": "0:LOGES1",
+    "stop_name": "LOGES",
+    "lat": 49.0987842,
+    "lon": 6.1592379
+  },
+  {
+    "stop_id": "0:PONTROU2",
+    "stop_name": "PONT ROUGE",
+    "lat": 49.1147117,
+    "lon": 6.1888722
+  },
+  {
+    "stop_id": "0:POULMAI2",
+    "stop_name": "POULMAIRE",
+    "lat": 49.1511576,
+    "lon": 6.1669471
+  },
+  {
+    "stop_id": "0:POULMAI1",
+    "stop_name": "POULMAIRE",
+    "lat": 49.1511135,
+    "lon": 6.1658881
+  },
+  {
+    "stop_id": "0:CHESNYM3",
+    "stop_name": "CHESNY MAIRIE",
+    "lat": 49.0542499,
+    "lon": 6.2416348
+  },
+  {
+    "stop_id": "0:CHESNYM1",
+    "stop_name": "CHESNY MAIRIE",
+    "lat": 49.0545646,
+    "lon": 6.2423117
+  },
+  {
+    "stop_id": "0:PREFECT1",
+    "stop_name": "PREFECTURE",
+    "lat": 49.1217091,
+    "lon": 6.1743731
+  },
+  {
+    "stop_id": "0:STJEGLI1",
+    "stop_name": "ST-JULIEN EGLISE",
+    "lat": 49.1342893,
+    "lon": 6.2025156
+  },
+  {
+    "stop_id": "0:PREFECT2",
+    "stop_name": "PREFECTURE",
+    "lat": 49.1213191,
+    "lon": 6.1748291
+  },
+  {
+    "stop_id": "0:SALETTE1",
+    "stop_name": "SALETTE",
+    "lat": 49.1528906,
+    "lon": 6.2467554
+  },
+  {
+    "stop_id": "0:STJEGLI2",
+    "stop_name": "ST-JULIEN EGLISE",
+    "lat": 49.1344793,
+    "lon": 6.2028153
+  },
+  {
+    "stop_id": "0:GRIGY1",
+    "stop_name": "GRIGY",
+    "lat": 49.0951352,
+    "lon": 6.2207737
+  },
+  {
+    "stop_id": "0:GRIGY2",
+    "stop_name": "GRIGY",
+    "lat": 49.0950389,
+    "lon": 6.2206718
+  },
+  {
+    "stop_id": "0:SAVOIE2",
+    "stop_name": "SAVOIE",
+    "lat": 49.0960577,
+    "lon": 6.1272405
+  },
+  {
+    "stop_id": "0:SAVOIE1",
+    "stop_name": "SAVOIE",
+    "lat": 49.0961433,
+    "lon": 6.1274101
+  },
+  {
+    "stop_id": "0:MAGCES1",
+    "stop_name": "MAGNY CES",
+    "lat": 49.0738523,
+    "lon": 6.1863865
+  },
+  {
+    "stop_id": "0:VANY1",
+    "stop_name": "VANY",
+    "lat": 49.1565082,
+    "lon": 6.2390662
+  },
+  {
+    "stop_id": "0:GRDRUE1",
+    "stop_name": "GRAND RUE",
+    "lat": 49.168606,
+    "lon": 6.0491172
+  },
+  {
+    "stop_id": "0:GRDRUE2",
+    "stop_name": "GRAND RUE",
+    "lat": 49.1687115,
+    "lon": 6.0485059
+  },
+  {
+    "stop_id": "0:POSTEDF1",
+    "stop_name": "POSTE EDF",
+    "lat": 49.1519398,
+    "lon": 6.2137999
+  },
+  {
+    "stop_id": "0:VANY2",
+    "stop_name": "VANY",
+    "lat": 49.1561891,
+    "lon": 6.2395539
+  },
+  {
+    "stop_id": "0:POSTEDF2",
+    "stop_name": "POSTE EDF",
+    "lat": 49.1519398,
+    "lon": 6.2137999
+  },
+  {
+    "stop_id": "0:FELIX420",
+    "stop_name": "FELIX MARECHAL",
+    "lat": 49.1297415,
+    "lon": 6.1381457
+  },
+  {
+    "stop_id": "0:STROCH1",
+    "stop_name": "ST-ROCH",
+    "lat": 49.0791057,
+    "lon": 6.1840793
+  },
+  {
+    "stop_id": "0:STROCH2",
+    "stop_name": "ST-ROCH",
+    "lat": 49.078387,
+    "lon": 6.1836927
+  },
+  {
+    "stop_id": "0:BRG01",
+    "stop_name": "HENRI BERGSON",
+    "lat": 49.108448,
+    "lon": 6.2206281
+  },
+  {
+    "stop_id": "0:BRG02",
+    "stop_name": "HENRI BERGSON",
+    "lat": 49.1085547,
+    "lon": 6.2206758
+  },
+  {
+    "stop_id": "0:LYAUTE99",
+    "stop_name": "LYAUTEY",
+    "lat": 49.0939141,
+    "lon": 6.1675187
+  },
+  {
+    "stop_id": "0:ROOSEVE2",
+    "stop_name": "ROOSEVELT",
+    "lat": 49.0770072,
+    "lon": 6.1939773
+  },
+  {
+    "stop_id": "0:ROOSEVE1",
+    "stop_name": "ROOSEVELT",
+    "lat": 49.0772372,
+    "lon": 6.193786
+  },
+  {
+    "stop_id": "0:SEMINAI1",
+    "stop_name": "SEMINAIRE",
+    "lat": 49.0978919,
+    "lon": 6.1606635
+  },
+  {
+    "stop_id": "0:PLACEPU2",
+    "stop_name": "PLACE PUBLIQUE",
+    "lat": 49.1546212,
+    "lon": 6.1180481
+  },
+  {
+    "stop_id": "0:LARGANT2",
+    "stop_name": "LARGANTIER",
+    "lat": 49.0621903,
+    "lon": 6.1464371
+  },
+  {
+    "stop_id": "0:PLACEPU1",
+    "stop_name": "PLACE PUBLIQUE",
+    "lat": 49.1545735,
+    "lon": 6.1181549
+  },
+  {
+    "stop_id": "0:PREFECT3",
+    "stop_name": "PREFECTURE",
+    "lat": 49.121525,
+    "lon": 6.1748691
+  },
+  {
+    "stop_id": "0:LARGANT1",
+    "stop_name": "LARGANTIER",
+    "lat": 49.0628501,
+    "lon": 6.1463265
+  },
+  {
+    "stop_id": "0:SEMINAI2",
+    "stop_name": "SEMINAIRE",
+    "lat": 49.0972803,
+    "lon": 6.1599684
+  },
+  {
+    "stop_id": "0:GOUSSEL1",
+    "stop_name": "GOUSSEL",
+    "lat": 49.1015623,
+    "lon": 6.1943945
+  },
+  {
+    "stop_id": "0:GOUSSEL2",
+    "stop_name": "GOUSSEL",
+    "lat": 49.1014782,
+    "lon": 6.1955267
+  },
+  {
+    "stop_id": "0:ROIGEO89",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.111092,
+    "lon": 6.1719544
+  },
+  {
+    "stop_id": "0:CHAVEAU1",
+    "stop_name": "LE CHAVEAU",
+    "lat": 49.0320453,
+    "lon": 6.1508637
+  },
+  {
+    "stop_id": "0:NOUILLO2",
+    "stop_name": "NOUILLONS",
+    "lat": 49.1120571,
+    "lon": 6.0973251
+  },
+  {
+    "stop_id": "0:CHAVEAU2",
+    "stop_name": "LE CHAVEAU",
+    "lat": 49.0320964,
+    "lon": 6.1509763
+  },
+  {
+    "stop_id": "0:RTBORNY1",
+    "stop_name": "ROUTE DE BORNY",
+    "lat": 49.1150151,
+    "lon": 6.1920163
+  },
+  {
+    "stop_id": "0:ARMOISI1",
+    "stop_name": "ARMOISIERES",
+    "lat": 49.0755009,
+    "lon": 6.1897068
+  },
+  {
+    "stop_id": "0:ARMOISI2",
+    "stop_name": "ARMOISIERES",
+    "lat": 49.0773542,
+    "lon": 6.1893825
+  },
+  {
+    "stop_id": "0:NOUILLO1",
+    "stop_name": "NOUILLONS",
+    "lat": 49.1118487,
+    "lon": 6.0973812
+  },
+  {
+    "stop_id": "0:RTBORNY2",
+    "stop_name": "ROUTE DE BORNY",
+    "lat": 49.1150304,
+    "lon": 6.1927986
+  },
+  {
+    "stop_id": "0:LITALDU1",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.0999743,
+    "lon": 6.1526368
+  },
+  {
+    "stop_id": "0:LITALDU2",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.0998363,
+    "lon": 6.1520665
+  },
+  {
+    "stop_id": "0:CHAMBIE1",
+    "stop_name": "CHAMBIERE",
+    "lat": 49.1280081,
+    "lon": 6.1855912
+  },
+  {
+    "stop_id": "0:CHAMBIE2",
+    "stop_name": "CHAMBIERE",
+    "lat": 49.1274442,
+    "lon": 6.1844596
+  },
+  {
+    "stop_id": "0:PAQUET2",
+    "stop_name": "PAQUET",
+    "lat": 49.135085,
+    "lon": 6.1567626
+  },
+  {
+    "stop_id": "0:LUXE",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1213081,
+    "lon": 6.1680833
+  },
+  {
+    "stop_id": "0:PAQUET1",
+    "stop_name": "PAQUET",
+    "lat": 49.1348841,
+    "lon": 6.1568738
+  },
+  {
+    "stop_id": "0:BERNE1",
+    "stop_name": "BERNE",
+    "lat": 49.1228575,
+    "lon": 6.1938706
+  },
+  {
+    "stop_id": "0:MINE01",
+    "stop_name": "MINE",
+    "lat": 49.1980998,
+    "lon": 6.0348205
+  },
+  {
+    "stop_id": "0:MINE02",
+    "stop_name": "MINE",
+    "lat": 49.1980069,
+    "lon": 6.0349386
+  },
+  {
+    "stop_id": "0:COETLO02",
+    "stop_name": "COETLOSQUET",
+    "lat": 49.1144088,
+    "lon": 6.1768593
+  },
+  {
+    "stop_id": "0:NOTRDA02",
+    "stop_name": "NOTRE DAME",
+    "lat": 48.9862862,
+    "lon": 6.0850529
+  },
+  {
+    "stop_id": "0:BERNE2",
+    "stop_name": "BERNE",
+    "lat": 49.1229576,
+    "lon": 6.1941647
+  },
+  {
+    "stop_id": "0:NOTRDA01",
+    "stop_name": "NOTRE DAME",
+    "lat": 48.9862108,
+    "lon": 6.0851852
+  },
+  {
+    "stop_id": "0:GARGAN01",
+    "stop_name": "GARGAN",
+    "lat": 49.0757747,
+    "lon": 6.2272965
+  },
+  {
+    "stop_id": "0:COETLO01",
+    "stop_name": "COETLOSQUET",
+    "lat": 49.1145087,
+    "lon": 6.1768243
+  },
+  {
+    "stop_id": "0:GARGAN02",
+    "stop_name": "GARGAN",
+    "lat": 49.0757176,
+    "lon": 6.2267451
+  },
+  {
+    "stop_id": "0:GAREWOI2",
+    "stop_name": "GARE DE WOIPPY",
+    "lat": 49.1486804,
+    "lon": 6.1554107
+  },
+  {
+    "stop_id": "0:FOUGERE2",
+    "stop_name": "FOUGERES",
+    "lat": 49.1217988,
+    "lon": 6.2190589
+  },
+  {
+    "stop_id": "0:FOUGERE1",
+    "stop_name": "FOUGERES",
+    "lat": 49.1225481,
+    "lon": 6.2189684
+  },
+  {
+    "stop_id": "0:GAREWOI1",
+    "stop_name": "GARE DE WOIPPY",
+    "lat": 49.1486265,
+    "lon": 6.1554074
+  },
+  {
+    "stop_id": "0:4BORNES2",
+    "stop_name": "QUATRE BORNES",
+    "lat": 49.1394682,
+    "lon": 6.1536287
+  },
+  {
+    "stop_id": "0:4BORNES1",
+    "stop_name": "QUATRE BORNES",
+    "lat": 49.1392124,
+    "lon": 6.1534349
+  },
+  {
+    "stop_id": "0:CUGNOT1",
+    "stop_name": "CUGNOT",
+    "lat": 49.0854992,
+    "lon": 6.1634699
+  },
+  {
+    "stop_id": "0:PTSOEUR1",
+    "stop_name": "PETITES SOEURS",
+    "lat": 49.119143,
+    "lon": 6.2046226
+  },
+  {
+    "stop_id": "0:PEPINIE1",
+    "stop_name": "PEPINIERES",
+    "lat": 49.1140773,
+    "lon": 6.1549343
+  },
+  {
+    "stop_id": "0:PEPINIE2",
+    "stop_name": "PEPINIERES",
+    "lat": 49.1143562,
+    "lon": 6.1545948
+  },
+  {
+    "stop_id": "0:SABLIER2",
+    "stop_name": "SABLIERES",
+    "lat": 49.0862729,
+    "lon": 6.1631335
+  },
+  {
+    "stop_id": "0:PTSOEUR3",
+    "stop_name": "PETITES SOEURS",
+    "lat": 49.1183632,
+    "lon": 6.2038341
+  },
+  {
+    "stop_id": "0:SABLIER1",
+    "stop_name": "SABLIERES",
+    "lat": 49.0864461,
+    "lon": 6.1637331
+  },
+  {
+    "stop_id": "0:PTSOEUR2",
+    "stop_name": "PETITES SOEURS",
+    "lat": 49.1191453,
+    "lon": 6.2052122
+  },
+  {
+    "stop_id": "0:PTSOEUR4",
+    "stop_name": "PETITES SOEURS",
+    "lat": 49.1184512,
+    "lon": 6.203908
+  },
+  {
+    "stop_id": "0:JPJEAN1",
+    "stop_name": "JP JEAN",
+    "lat": 49.1259002,
+    "lon": 6.2174491
+  },
+  {
+    "stop_id": "0:MNVE1",
+    "stop_name": "MAISON NEUVE",
+    "lat": 49.1102801,
+    "lon": 6.0912019
+  },
+  {
+    "stop_id": "0:ROIGEO68",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1100148,
+    "lon": 6.1704904
+  },
+  {
+    "stop_id": "0:VALLADI1",
+    "stop_name": "PLACE VALLADIER",
+    "lat": 49.123932,
+    "lon": 6.1767441
+  },
+  {
+    "stop_id": "0:JLAURAI1",
+    "stop_name": "JEAN LAURAIN",
+    "lat": 49.1531519,
+    "lon": 6.1399489
+  },
+  {
+    "stop_id": "0:MNVE2",
+    "stop_name": "MAISON NEUVE",
+    "lat": 49.1103458,
+    "lon": 6.0910962
+  },
+  {
+    "stop_id": "0:CHOCOL01",
+    "stop_name": "CHOCOLATERIE",
+    "lat": 49.0885339,
+    "lon": 6.1719167
+  },
+  {
+    "stop_id": "0:SEILLE1",
+    "stop_name": "SEILLE",
+    "lat": 49.1115619,
+    "lon": 6.1861699
+  },
+  {
+    "stop_id": "0:CHOCOL02",
+    "stop_name": "CHOCOLATERIE",
+    "lat": 49.088742,
+    "lon": 6.1718746
+  },
+  {
+    "stop_id": "0:GRORMES1",
+    "stop_name": "GRANGE AUX ORMES",
+    "lat": 49.0808527,
+    "lon": 6.1464602
+  },
+  {
+    "stop_id": "0:GRORMES2",
+    "stop_name": "GRANGE AUX ORMES",
+    "lat": 49.0806694,
+    "lon": 6.1462436
+  },
+  {
+    "stop_id": "0:FAURNEL2",
+    "stop_name": "FAURNEL",
+    "lat": 49.0998797,
+    "lon": 6.2427761
+  },
+  {
+    "stop_id": "0:FAURNEL1",
+    "stop_name": "FAURNEL",
+    "lat": 49.1004915,
+    "lon": 6.2431159
+  },
+  {
+    "stop_id": "0:SEILLE2",
+    "stop_name": "SEILLE",
+    "lat": 49.1114293,
+    "lon": 6.1860795
+  },
+  {
+    "stop_id": "0:LESCLOS2",
+    "stop_name": "LES CLOS",
+    "lat": 49.0729194,
+    "lon": 6.148047
+  },
+  {
+    "stop_id": "0:LESCLOS1",
+    "stop_name": "LES CLOS",
+    "lat": 49.0738433,
+    "lon": 6.1478154
+  },
+  {
+    "stop_id": "0:VERLIN2",
+    "stop_name": "VERLIN",
+    "lat": 49.1133309,
+    "lon": 6.0278948
+  },
+  {
+    "stop_id": "0:VERLIN1",
+    "stop_name": "VERLIN",
+    "lat": 49.1133309,
+    "lon": 6.0278948
+  },
+  {
+    "stop_id": "0:MASARI2",
+    "stop_name": "MASARIEULLES",
+    "lat": 49.203419,
+    "lon": 6.0465014
+  },
+  {
+    "stop_id": "0:MASARI1",
+    "stop_name": "MASARIEULLES",
+    "lat": 49.2035409,
+    "lon": 6.0466596
+  },
+  {
+    "stop_id": "0:LUXS",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1215442,
+    "lon": 6.1680018
+  },
+  {
+    "stop_id": "0:JOB02",
+    "stop_name": "INTENDANTS JOBA",
+    "lat": 49.1411892,
+    "lon": 6.1655282
+  },
+  {
+    "stop_id": "0:JOB01",
+    "stop_name": "INTENDANTS JOBA",
+    "lat": 49.1414835,
+    "lon": 6.1652856
+  },
+  {
+    "stop_id": "0:BELLEVU2",
+    "stop_name": "BELLEVUE",
+    "lat": 49.172237,
+    "lon": 6.152991
+  },
+  {
+    "stop_id": "0:BELLEVU1",
+    "stop_name": "BELLEVUE",
+    "lat": 49.1722395,
+    "lon": 6.1528951
+  },
+  {
+    "stop_id": "0:GRIMONT1",
+    "stop_name": "GRIMONT",
+    "lat": 49.1404839,
+    "lon": 6.2175462
+  },
+  {
+    "stop_id": "0:VALERY1",
+    "stop_name": "VALERY",
+    "lat": 49.1105755,
+    "lon": 6.2184712
+  },
+  {
+    "stop_id": "0:VALERY2",
+    "stop_name": "VALERY",
+    "lat": 49.1106385,
+    "lon": 6.2181325
+  },
+  {
+    "stop_id": "0:CONSERV1",
+    "stop_name": "CONSERVATOIRE",
+    "lat": 49.1206834,
+    "lon": 6.1811787
+  },
+  {
+    "stop_id": "0:ROC02",
+    "stop_name": "P+R ROCHAMBEAU",
+    "lat": 49.129653,
+    "lon": 6.1703352
+  },
+  {
+    "stop_id": "0:STLOUI07",
+    "stop_name": "ST-LOUIS",
+    "lat": 49.1166866,
+    "lon": 6.179535
+  },
+  {
+    "stop_id": "0:CHPETRE1",
+    "stop_name": "CHARLES PETRE",
+    "lat": 49.1050773,
+    "lon": 6.1666387
+  },
+  {
+    "stop_id": "0:JURA2",
+    "stop_name": "JURA",
+    "lat": 49.1184787,
+    "lon": 6.2005099
+  },
+  {
+    "stop_id": "0:CHPETRE2",
+    "stop_name": "CHARLES PETRE",
+    "lat": 49.1053917,
+    "lon": 6.1666579
+  },
+  {
+    "stop_id": "0:JMICHEL1",
+    "stop_name": "JULES MICHELET",
+    "lat": 49.1076242,
+    "lon": 6.2285265
+  },
+  {
+    "stop_id": "0:JACINTH1",
+    "stop_name": "JACINTHES",
+    "lat": 49.1239548,
+    "lon": 6.2259111
+  },
+  {
+    "stop_id": "0:POTIERS2",
+    "stop_name": "POTIERS D'ETAIN",
+    "lat": 49.1163217,
+    "lon": 6.2437231
+  },
+  {
+    "stop_id": "0:JACINTH2",
+    "stop_name": "JACINTHES",
+    "lat": 49.1239157,
+    "lon": 6.2263611
+  },
+  {
+    "stop_id": "0:JURA1",
+    "stop_name": "JURA",
+    "lat": 49.1184844,
+    "lon": 6.2006337
+  },
+  {
+    "stop_id": "0:ROC01",
+    "stop_name": "P+R ROCHAMBEAU",
+    "lat": 49.1296124,
+    "lon": 6.1701681
+  },
+  {
+    "stop_id": "0:CEDRBL01",
+    "stop_name": "CEDRE BLEU",
+    "lat": 49.0338506,
+    "lon": 6.158186
+  },
+  {
+    "stop_id": "0:CEDRBL02",
+    "stop_name": "CEDRE BLEU",
+    "lat": 49.033778,
+    "lon": 6.158209
+  },
+  {
+    "stop_id": "0:PIVOINE1",
+    "stop_name": "PIVOINES",
+    "lat": 49.1258585,
+    "lon": 6.2274008
+  },
+  {
+    "stop_id": "0:RD662",
+    "stop_name": "RD66",
+    "lat": 49.0312881,
+    "lon": 6.0969793
+  },
+  {
+    "stop_id": "0:CORBON2",
+    "stop_name": "CORBON",
+    "lat": 49.0677344,
+    "lon": 6.2564613
+  },
+  {
+    "stop_id": "0:MORLOT2",
+    "stop_name": "MORLOT",
+    "lat": 49.141107,
+    "lon": 6.150149
+  },
+  {
+    "stop_id": "0:CORBON1",
+    "stop_name": "CORBON",
+    "lat": 49.0675331,
+    "lon": 6.2565856
+  },
+  {
+    "stop_id": "0:MORLOT1",
+    "stop_name": "MORLOT",
+    "lat": 49.1410956,
+    "lon": 6.1509301
+  },
+  {
+    "stop_id": "0:CARRIER4",
+    "stop_name": "CARRIERES",
+    "lat": 49.1298518,
+    "lon": 6.2086447
+  },
+  {
+    "stop_id": "0:CARRIER2",
+    "stop_name": "CARRIERES",
+    "lat": 49.1299188,
+    "lon": 6.2098418
+  },
+  {
+    "stop_id": "0:LOTHAIR2",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.0995628,
+    "lon": 6.180211
+  },
+  {
+    "stop_id": "0:CARRIER1",
+    "stop_name": "CARRIERES",
+    "lat": 49.1301107,
+    "lon": 6.2090584
+  },
+  {
+    "stop_id": "0:LOTHAIR1",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.0992764,
+    "lon": 6.1804949
+  },
+  {
+    "stop_id": "0:CHAMPAG1",
+    "stop_name": "CHAMPAGNE",
+    "lat": 49.0414892,
+    "lon": 6.1606358
+  },
+  {
+    "stop_id": "0:COUVENT1",
+    "stop_name": "COUVENTS",
+    "lat": 49.1033006,
+    "lon": 6.1534421
+  },
+  {
+    "stop_id": "0:CHAMPAG2",
+    "stop_name": "CHAMPAGNE",
+    "lat": 49.0412948,
+    "lon": 6.160843
+  },
+  {
+    "stop_id": "0:3HAIES1",
+    "stop_name": "TROIS HAIES",
+    "lat": 49.090658,
+    "lon": 6.1231195
+  },
+  {
+    "stop_id": "0:AVMAGNY1",
+    "stop_name": "AVENUE DE MAGNY",
+    "lat": 49.0641636,
+    "lon": 6.1672216
+  },
+  {
+    "stop_id": "0:3HAIES2",
+    "stop_name": "TROIS HAIES",
+    "lat": 49.0907139,
+    "lon": 6.1226981
+  },
+  {
+    "stop_id": "0:COUVENT2",
+    "stop_name": "COUVENTS",
+    "lat": 49.1036003,
+    "lon": 6.1523092
+  },
+  {
+    "stop_id": "0:JUIN2",
+    "stop_name": "JUIN",
+    "lat": 49.1184084,
+    "lon": 6.1899497
+  },
+  {
+    "stop_id": "0:POTIERS1",
+    "stop_name": "POTIERS D'ETAIN",
+    "lat": 49.1157206,
+    "lon": 6.243658
+  },
+  {
+    "stop_id": "0:JUIN1",
+    "stop_name": "JUIN",
+    "lat": 49.1181324,
+    "lon": 6.1898368
+  },
+  {
+    "stop_id": "0:GAR02",
+    "stop_name": "GARE",
+    "lat": 49.1104066,
+    "lon": 6.1774637
+  },
+  {
+    "stop_id": "0:GAR01",
+    "stop_name": "GARE",
+    "lat": 49.1103667,
+    "lon": 6.177612
+  },
+  {
+    "stop_id": "0:TIVO1",
+    "stop_name": "TIVOLI",
+    "lat": 49.0993104,
+    "lon": 6.1887193
+  },
+  {
+    "stop_id": "0:TIVO2",
+    "stop_name": "TIVOLI",
+    "lat": 49.0994021,
+    "lon": 6.1886564
+  },
+  {
+    "stop_id": "0:ZACPEL02",
+    "stop_name": "ZAC PELTRE",
+    "lat": 49.0709103,
+    "lon": 6.2284867
+  },
+  {
+    "stop_id": "0:ZACPEL01",
+    "stop_name": "ZAC PELTRE",
+    "lat": 49.0711267,
+    "lon": 6.2284728
+  },
+  {
+    "stop_id": "0:ALC02",
+    "stop_name": "FELIX ALCAN",
+    "lat": 49.1127782,
+    "lon": 6.1976356
+  },
+  {
+    "stop_id": "0:ALC01",
+    "stop_name": "FELIX ALCAN",
+    "lat": 49.1125229,
+    "lon": 6.1991139
+  },
+  {
+    "stop_id": "0:DUPLOYE1",
+    "stop_name": "DUPLOYE",
+    "lat": 49.1094334,
+    "lon": 6.1890682
+  },
+  {
+    "stop_id": "0:ROIGEO34",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1103664,
+    "lon": 6.1691002
+  },
+  {
+    "stop_id": "0:CRRD601",
+    "stop_name": "CROISEMENT RD6",
+    "lat": 49.0930361,
+    "lon": 6.0948457
+  },
+  {
+    "stop_id": "0:GENERAL2",
+    "stop_name": "GENERAL FRERE",
+    "lat": 49.1002058,
+    "lon": 6.2061375
+  },
+  {
+    "stop_id": "0:CRRD602",
+    "stop_name": "CROISEMENT RD6",
+    "lat": 49.0938392,
+    "lon": 6.0954554
+  },
+  {
+    "stop_id": "0:GENERAL1",
+    "stop_name": "GENERAL FRERE",
+    "lat": 49.1000537,
+    "lon": 6.2054292
+  },
+  {
+    "stop_id": "0:CLERY1",
+    "stop_name": "CLERY",
+    "lat": 49.1211785,
+    "lon": 6.080611
+  },
+  {
+    "stop_id": "0:MAHIRE1",
+    "stop_name": "MAHIRE",
+    "lat": 49.0501,
+    "lon": 6.1845168
+  },
+  {
+    "stop_id": "0:MICHANG1",
+    "stop_name": "MICHEL ANGE",
+    "lat": 49.0593629,
+    "lon": 6.1690919
+  },
+  {
+    "stop_id": "0:JMICHEL2",
+    "stop_name": "JULES MICHELET",
+    "lat": 49.1074308,
+    "lon": 6.2286926
+  },
+  {
+    "stop_id": "0:TIGNO266",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1258828,
+    "lon": 6.1593963
+  },
+  {
+    "stop_id": "0:PELTRE2",
+    "stop_name": "PELTRE GARE",
+    "lat": 49.0743791,
+    "lon": 6.2226347
+  },
+  {
+    "stop_id": "0:PELTRE1",
+    "stop_name": "PELTRE GARE",
+    "lat": 49.0743323,
+    "lon": 6.2227003
+  },
+  {
+    "stop_id": "0:CHASG01",
+    "stop_name": "CHATEL ST GERMAIN",
+    "lat": 49.1248696,
+    "lon": 6.0787741
+  },
+  {
+    "stop_id": "0:VAUXMAI1",
+    "stop_name": "VAUX",
+    "lat": 49.0930772,
+    "lon": 6.0806397
+  },
+  {
+    "stop_id": "0:CHASG02",
+    "stop_name": "CHATEL ST GERMAIN",
+    "lat": 49.125206,
+    "lon": 6.0793424
+  },
+  {
+    "stop_id": "0:COLIBRI2",
+    "stop_name": "COLIBRI",
+    "lat": 49.1301547,
+    "lon": 6.1587931
+  },
+  {
+    "stop_id": "0:COLIBRI1",
+    "stop_name": "COLIBRI",
+    "lat": 49.1302812,
+    "lon": 6.1584306
+  },
+  {
+    "stop_id": "0:OFFICET1",
+    "stop_name": "OFFICE DE TOURISME",
+    "lat": 49.1200698,
+    "lon": 6.1764799
+  },
+  {
+    "stop_id": "0:COINSEI1",
+    "stop_name": "COIN-SUR-SEILLE",
+    "lat": 49.0090605,
+    "lon": 6.1598107
+  },
+  {
+    "stop_id": "0:AULNES1",
+    "stop_name": "AULNES",
+    "lat": 49.1272568,
+    "lon": 6.2081
+  },
+  {
+    "stop_id": "0:AULNES2",
+    "stop_name": "AULNES",
+    "lat": 49.1273403,
+    "lon": 6.2076664
+  },
+  {
+    "stop_id": "0:ROGET2",
+    "stop_name": "ROGET",
+    "lat": 49.1492877,
+    "lon": 6.1696172
+  },
+  {
+    "stop_id": "0:ROGET1",
+    "stop_name": "ROGET",
+    "lat": 49.1491674,
+    "lon": 6.1690612
+  },
+  {
+    "stop_id": "0:RIMPORT1",
+    "stop_name": "RIMPORT",
+    "lat": 49.1241429,
+    "lon": 6.181021
+  },
+  {
+    "stop_id": "0:SEGOLEN1",
+    "stop_name": "STE-SEGOLENE",
+    "lat": 49.1212443,
+    "lon": 6.1797051
+  },
+  {
+    "stop_id": "0:RIMPORT2",
+    "stop_name": "RIMPORT",
+    "lat": 49.1241964,
+    "lon": 6.1813807
+  },
+  {
+    "stop_id": "0:CHILOU02",
+    "stop_name": "LES CHILOUX",
+    "lat": 49.148823,
+    "lon": 6.1430881
+  },
+  {
+    "stop_id": "0:DAGA1",
+    "stop_name": "DAGA",
+    "lat": 49.1366276,
+    "lon": 6.1559242
+  },
+  {
+    "stop_id": "0:DAGA2",
+    "stop_name": "DAGA",
+    "lat": 49.1365166,
+    "lon": 6.1560408
+  },
+  {
+    "stop_id": "0:SIMMI689",
+    "stop_name": "SIMMINGER",
+    "lat": 49.0899196,
+    "lon": 6.1445307
+  },
+  {
+    "stop_id": "0:PLCHAM02",
+    "stop_name": "PLACE DE CHAMBRE",
+    "lat": 49.1203156,
+    "lon": 6.1739861
+  },
+  {
+    "stop_id": "0:PLCHAM01",
+    "stop_name": "PLACE DE CHAMBRE",
+    "lat": 49.1203192,
+    "lon": 6.1738493
+  },
+  {
+    "stop_id": "0:CEDRES2",
+    "stop_name": "CEDRES",
+    "lat": 49.1274317,
+    "lon": 6.2116621
+  },
+  {
+    "stop_id": "0:SIMMI690",
+    "stop_name": "SIMMINGER",
+    "lat": 49.0898409,
+    "lon": 6.1447863
+  },
+  {
+    "stop_id": "0:CEDRES1",
+    "stop_name": "CEDRES",
+    "lat": 49.1273981,
+    "lon": 6.2119068
+  },
+  {
+    "stop_id": "0:LORIENT1",
+    "stop_name": "LORIENT",
+    "lat": 49.1224641,
+    "lon": 6.22479
+  },
+  {
+    "stop_id": "0:LORIENT2",
+    "stop_name": "LORIENT",
+    "lat": 49.1226269,
+    "lon": 6.2254308
+  },
+  {
+    "stop_id": "0:CHILOU01",
+    "stop_name": "LES CHILOUX",
+    "lat": 49.1486742,
+    "lon": 6.1429282
+  },
+  {
+    "stop_id": "0:CIM01",
+    "stop_name": "CIMETIERE DE L'EST",
+    "lat": 49.1097481,
+    "lon": 6.2036303
+  },
+  {
+    "stop_id": "0:LORRAIN2",
+    "stop_name": "LORRAINE",
+    "lat": 49.1011986,
+    "lon": 6.1080502
+  },
+  {
+    "stop_id": "0:ROTONDE2",
+    "stop_name": "ROTONDE",
+    "lat": 49.0871893,
+    "lon": 6.1170469
+  },
+  {
+    "stop_id": "0:CIM02",
+    "stop_name": "CIMETIERE DE L'EST",
+    "lat": 49.1093835,
+    "lon": 6.2041423
+  },
+  {
+    "stop_id": "0:LORRAIN1",
+    "stop_name": "LORRAINE",
+    "lat": 49.1027083,
+    "lon": 6.1091686
+  },
+  {
+    "stop_id": "0:ROTONDE1",
+    "stop_name": "ROTONDE",
+    "lat": 49.0880754,
+    "lon": 6.1189634
+  },
+  {
+    "stop_id": "0:HERMITE1",
+    "stop_name": "HERMITE",
+    "lat": 49.1059301,
+    "lon": 6.187482
+  },
+  {
+    "stop_id": "0:PONTIFF2",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1274324,
+    "lon": 6.1750393
+  },
+  {
+    "stop_id": "0:PONTIFF1",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1273328,
+    "lon": 6.1754034
+  },
+  {
+    "stop_id": "0:CONSTAN1",
+    "stop_name": "CONSTANTINE",
+    "lat": 49.0920076,
+    "lon": 6.1255438
+  },
+  {
+    "stop_id": "0:FRIERES1",
+    "stop_name": "FRIERES",
+    "lat": 49.1402275,
+    "lon": 6.1355995
+  },
+  {
+    "stop_id": "0:VACONS1",
+    "stop_name": "VACONS",
+    "lat": 49.0874206,
+    "lon": 6.1643132
+  },
+  {
+    "stop_id": "0:VACONS2",
+    "stop_name": "VACONS",
+    "lat": 49.0874867,
+    "lon": 6.1645365
+  },
+  {
+    "stop_id": "0:CONSTAN2",
+    "stop_name": "CONSTANTINE",
+    "lat": 49.0918754,
+    "lon": 6.1254399
+  },
+  {
+    "stop_id": "0:FRIERES2",
+    "stop_name": "FRIERES",
+    "lat": 49.1403906,
+    "lon": 6.1352116
+  },
+  {
+    "stop_id": "0:PLATA2",
+    "stop_name": "PLATANES",
+    "lat": 49.1267461,
+    "lon": 6.2019394
+  },
+  {
+    "stop_id": "0:GLISSU1",
+    "stop_name": "GLISSU",
+    "lat": 49.0558389,
+    "lon": 6.1198181
+  },
+  {
+    "stop_id": "0:GLISSU2",
+    "stop_name": "GLISSU",
+    "lat": 49.0558651,
+    "lon": 6.119847
+  },
+  {
+    "stop_id": "0:ZACGRAV1",
+    "stop_name": "ZAC LES GRAVIERES",
+    "lat": 49.0774664,
+    "lon": 6.1130653
+  },
+  {
+    "stop_id": "0:PREVOTE1",
+    "stop_name": "PREVOTE",
+    "lat": 49.0928749,
+    "lon": 6.1563977
+  },
+  {
+    "stop_id": "0:PREVOTE2",
+    "stop_name": "PREVOTE",
+    "lat": 49.0916157,
+    "lon": 6.1553482
+  },
+  {
+    "stop_id": "0:TIVOLI2",
+    "stop_name": "TIVOLI",
+    "lat": 49.0996684,
+    "lon": 6.1898102
+  },
+  {
+    "stop_id": "0:PIERRET2",
+    "stop_name": "PIERRET",
+    "lat": 49.1635902,
+    "lon": 6.1885085
+  },
+  {
+    "stop_id": "0:PIERRET1",
+    "stop_name": "PIERRET",
+    "lat": 49.1640889,
+    "lon": 6.1887039
+  },
+  {
+    "stop_id": "0:STAGATH2",
+    "stop_name": "STE-AGATHE",
+    "lat": 49.1641427,
+    "lon": 6.1538837
+  },
+  {
+    "stop_id": "0:STAGATH1",
+    "stop_name": "STE-AGATHE",
+    "lat": 49.1642692,
+    "lon": 6.1538639
+  },
+  {
+    "stop_id": "0:ARAGO577",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1013771,
+    "lon": 6.2242452
+  },
+  {
+    "stop_id": "0:ARAGO576",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1020845,
+    "lon": 6.2240425
+  },
+  {
+    "stop_id": "0:HERMITE2",
+    "stop_name": "HERMITE",
+    "lat": 49.1056477,
+    "lon": 6.1872728
+  },
+  {
+    "stop_id": "0:COTSE1",
+    "stop_name": "COTEAUX DE LA SEILLE",
+    "lat": 49.097984,
+    "lon": 6.1888569
+  },
+  {
+    "stop_id": "0:ROIGE142",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1111311,
+    "lon": 6.1721761
+  },
+  {
+    "stop_id": "0:HBOUTAN1",
+    "stop_name": "HAUTS DE BOUTAN",
+    "lat": 49.0672155,
+    "lon": 6.1699005
+  },
+  {
+    "stop_id": "0:JOSEPH02",
+    "stop_name": "CROIX ST JOSEPH",
+    "lat": 49.0590228,
+    "lon": 6.1594586
+  },
+  {
+    "stop_id": "0:COINCUV2",
+    "stop_name": "COIN-LES-CUVRY",
+    "lat": 49.0335355,
+    "lon": 6.1551148
+  },
+  {
+    "stop_id": "0:COINCUV1",
+    "stop_name": "COIN-LES-CUVRY",
+    "lat": 49.0336019,
+    "lon": 6.1553241
+  },
+  {
+    "stop_id": "0:COTSE2",
+    "stop_name": "COTEAUX DE LA SEILLE",
+    "lat": 49.0978553,
+    "lon": 6.1889586
+  },
+  {
+    "stop_id": "0:LAQUENY2",
+    "stop_name": "LAQUENEXY",
+    "lat": 49.0784417,
+    "lon": 6.3154094
+  },
+  {
+    "stop_id": "0:LAQUENY1",
+    "stop_name": "LAQUENEXY",
+    "lat": 49.0782829,
+    "lon": 6.3159472
+  },
+  {
+    "stop_id": "0:SCHWALB1",
+    "stop_name": "SCHWALBACH",
+    "lat": 49.0792766,
+    "lon": 6.0657658
+  },
+  {
+    "stop_id": "0:JEANNED2",
+    "stop_name": "JEANNE D'ARC",
+    "lat": 49.0896435,
+    "lon": 6.1536936
+  },
+  {
+    "stop_id": "0:SCHWALB2",
+    "stop_name": "SCHWALBACH",
+    "lat": 49.0793282,
+    "lon": 6.0655086
+  },
+  {
+    "stop_id": "0:JEANNED1",
+    "stop_name": "JEANNE D'ARC",
+    "lat": 49.0892827,
+    "lon": 6.153384
+  },
+  {
+    "stop_id": "0:ALSLORR1",
+    "stop_name": "ALSACE-LORRAINE",
+    "lat": 49.1215118,
+    "lon": 6.1947336
+  },
+  {
+    "stop_id": "0:ALSLORR2",
+    "stop_name": "ALSACE-LORRAINE",
+    "lat": 49.1213053,
+    "lon": 6.1953926
+  },
+  {
+    "stop_id": "0:RUEDARS1",
+    "stop_name": "RUE D'ARS",
+    "lat": 49.1120203,
+    "lon": 6.0288462
+  },
+  {
+    "stop_id": "0:RUEDARS2",
+    "stop_name": "RUE D'ARS",
+    "lat": 49.1119746,
+    "lon": 6.0288709
+  },
+  {
+    "stop_id": "0:TORTUE2",
+    "stop_name": "TORTUE",
+    "lat": 49.1284558,
+    "lon": 6.1484335
+  },
+  {
+    "stop_id": "0:TORTUE1",
+    "stop_name": "TORTUE",
+    "lat": 49.1283458,
+    "lon": 6.1481663
+  },
+  {
+    "stop_id": "0:ARBALET2",
+    "stop_name": "ARBALETRIERS",
+    "lat": 49.0507714,
+    "lon": 6.1870224
+  },
+  {
+    "stop_id": "0:MAUJEAN1",
+    "stop_name": "MAUJEAN",
+    "lat": 49.1203642,
+    "lon": 6.2141577
+  },
+  {
+    "stop_id": "0:MAUJEAN2",
+    "stop_name": "MAUJEAN",
+    "lat": 49.1201128,
+    "lon": 6.2154856
+  },
+  {
+    "stop_id": "0:ROSERAI1",
+    "stop_name": "LA ROSERAIE",
+    "lat": 49.0976102,
+    "lon": 6.0757981
+  },
+  {
+    "stop_id": "0:CAILLOU1",
+    "stop_name": "CAILLOUX",
+    "lat": 49.1348042,
+    "lon": 6.1375749
+  },
+  {
+    "stop_id": "0:CAILLOU2",
+    "stop_name": "CAILLOUX",
+    "lat": 49.1344457,
+    "lon": 6.1361407
+  },
+  {
+    "stop_id": "0:SILOS2",
+    "stop_name": "LES SILOS",
+    "lat": 49.1407441,
+    "lon": 6.1871565
+  },
+  {
+    "stop_id": "0:BLORY2",
+    "stop_name": "BLORY",
+    "lat": 49.0874063,
+    "lon": 6.1682718
+  },
+  {
+    "stop_id": "0:BLORY1",
+    "stop_name": "BLORY",
+    "lat": 49.0872465,
+    "lon": 6.1668235
+  },
+  {
+    "stop_id": "0:MARDIG01",
+    "stop_name": "MARDIGNY",
+    "lat": 48.9757411,
+    "lon": 6.0856844
+  },
+  {
+    "stop_id": "0:VERLAIN1",
+    "stop_name": "VERLAINE",
+    "lat": 49.108113,
+    "lon": 6.1682222
+  },
+  {
+    "stop_id": "0:VERLAIN2",
+    "stop_name": "VERLAINE",
+    "lat": 49.109507,
+    "lon": 6.166882
+  },
+  {
+    "stop_id": "0:SILOS1",
+    "stop_name": "LES SILOS",
+    "lat": 49.1403587,
+    "lon": 6.1864196
+  },
+  {
+    "stop_id": "0:MARCONI1",
+    "stop_name": "MARCONI",
+    "lat": 49.1006924,
+    "lon": 6.2178985
+  },
+  {
+    "stop_id": "0:MARCONI2",
+    "stop_name": "MARCONI",
+    "lat": 49.1004615,
+    "lon": 6.2181172
+  },
+  {
+    "stop_id": "0:CIMETIE2",
+    "stop_name": "CIMETIERE",
+    "lat": 49.1372158,
+    "lon": 6.2061525
+  },
+  {
+    "stop_id": "0:PLATA1",
+    "stop_name": "PLATANES",
+    "lat": 49.1268597,
+    "lon": 6.2017271
+  },
+  {
+    "stop_id": "0:STADE2",
+    "stop_name": "STADE",
+    "lat": 49.1316518,
+    "lon": 6.1307884
+  },
+  {
+    "stop_id": "0:BLE02",
+    "stop_name": "HAUTS DE BLEMONT",
+    "lat": 49.1156463,
+    "lon": 6.2256816
+  },
+  {
+    "stop_id": "0:SCYBAS2",
+    "stop_name": "SCY BAS",
+    "lat": 49.1083912,
+    "lon": 6.120433
+  },
+  {
+    "stop_id": "0:VICTOIR1",
+    "stop_name": "VICTOIRE",
+    "lat": 49.1252528,
+    "lon": 6.1532294
+  },
+  {
+    "stop_id": "0:BLE01",
+    "stop_name": "HAUTS DE BLEMONT",
+    "lat": 49.1156372,
+    "lon": 6.2260237
+  },
+  {
+    "stop_id": "0:SCYBAS1",
+    "stop_name": "SCY BAS",
+    "lat": 49.1085682,
+    "lon": 6.1222803
+  },
+  {
+    "stop_id": "0:VICTOIR2",
+    "stop_name": "VICTOIRE",
+    "lat": 49.1251511,
+    "lon": 6.1533328
+  },
+  {
+    "stop_id": "0:POMS",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.108288,
+    "lon": 6.1803354
+  },
+  {
+    "stop_id": "0:POMR",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1076398,
+    "lon": 6.1817073
+  },
+  {
+    "stop_id": "0:JUSSYSR1",
+    "stop_name": "JUSSY - STE-RUFFINE",
+    "lat": 49.1050828,
+    "lon": 6.0893158
+  },
+  {
+    "stop_id": "0:TILLEUL2",
+    "stop_name": "TILLEULS",
+    "lat": 49.1338501,
+    "lon": 6.2071783
+  },
+  {
+    "stop_id": "0:MOULI275",
+    "stop_name": "MOULINS",
+    "lat": 49.1065709,
+    "lon": 6.1115109
+  },
+  {
+    "stop_id": "0:TILLEUL1",
+    "stop_name": "TILLEULS",
+    "lat": 49.1340627,
+    "lon": 6.207644
+  },
+  {
+    "stop_id": "0:STBRICE1",
+    "stop_name": "ST-BRICE",
+    "lat": 49.0603322,
+    "lon": 6.1500353
+  },
+  {
+    "stop_id": "0:BRAZZA1",
+    "stop_name": "BRAZZA",
+    "lat": 49.0572162,
+    "lon": 6.1675778
+  },
+  {
+    "stop_id": "0:GENIVAU1",
+    "stop_name": "GENIVAUX",
+    "lat": 49.1220894,
+    "lon": 6.2166092
+  },
+  {
+    "stop_id": "0:GENIVAU2",
+    "stop_name": "GENIVAUX",
+    "lat": 49.1220987,
+    "lon": 6.216596
+  },
+  {
+    "stop_id": "0:PLFRANC1",
+    "stop_name": "PLACE DE FRANCE",
+    "lat": 49.1562646,
+    "lon": 6.153047
+  },
+  {
+    "stop_id": "0:POLY02",
+    "stop_name": "POLYGONE",
+    "lat": 49.0974098,
+    "lon": 6.1806407
+  },
+  {
+    "stop_id": "0:POMOREA",
+    "stop_name": "PONT MOREAU",
+    "lat": 49.1237252,
+    "lon": 6.1753741
+  },
+  {
+    "stop_id": "0:VILLAS1",
+    "stop_name": "VILLAS",
+    "lat": 49.1127007,
+    "lon": 6.1576741
+  },
+  {
+    "stop_id": "0:CIMETIE1",
+    "stop_name": "CIMETIERE",
+    "lat": 49.1371452,
+    "lon": 6.2057641
+  },
+  {
+    "stop_id": "0:VILLAS2",
+    "stop_name": "VILLAS",
+    "lat": 49.1127298,
+    "lon": 6.1579363
+  },
+  {
+    "stop_id": "0:MARGUER2",
+    "stop_name": "MARGUERITE",
+    "lat": 49.0885226,
+    "lon": 6.159366
+  },
+  {
+    "stop_id": "0:LECLERC2",
+    "stop_name": "LECLERC",
+    "lat": 49.1107956,
+    "lon": 6.1297063
+  },
+  {
+    "stop_id": "0:MARGUER1",
+    "stop_name": "MARGUERITE",
+    "lat": 49.0884526,
+    "lon": 6.1592933
+  },
+  {
+    "stop_id": "0:LECLERC1",
+    "stop_name": "LECLERC",
+    "lat": 49.1110067,
+    "lon": 6.1305826
+  },
+  {
+    "stop_id": "0:FEY1",
+    "stop_name": "FEY",
+    "lat": 49.0291097,
+    "lon": 6.0966578
+  },
+  {
+    "stop_id": "0:FEY2",
+    "stop_name": "FEY",
+    "lat": 49.0290655,
+    "lon": 6.0966277
+  },
+  {
+    "stop_id": "0:MOULI281",
+    "stop_name": "MOULINS",
+    "lat": 49.1063972,
+    "lon": 6.1112675
+  },
+  {
+    "stop_id": "0:LAMAXE1",
+    "stop_name": "LA MAXE",
+    "lat": 49.1686041,
+    "lon": 6.1894486
+  },
+  {
+    "stop_id": "0:LAMAXE2",
+    "stop_name": "LA MAXE",
+    "lat": 49.168731,
+    "lon": 6.1894153
+  },
+  {
+    "stop_id": "0:CHAPPE3",
+    "stop_name": "CHAPPE",
+    "lat": 49.1063048,
+    "lon": 6.2220299
+  },
+  {
+    "stop_id": "0:CHAPPE2",
+    "stop_name": "CHAPPE",
+    "lat": 49.1070435,
+    "lon": 6.2223363
+  },
+  {
+    "stop_id": "0:SAULES2",
+    "stop_name": "SAULES",
+    "lat": 49.1476422,
+    "lon": 6.1524532
+  },
+  {
+    "stop_id": "0:CHAPPE1",
+    "stop_name": "CHAPPE",
+    "lat": 49.1072736,
+    "lon": 6.2208018
+  },
+  {
+    "stop_id": "0:SAULES1",
+    "stop_name": "SAULES",
+    "lat": 49.1476332,
+    "lon": 6.1524527
+  },
+  {
+    "stop_id": "0:REPPW",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1155564,
+    "lon": 6.1732696
+  },
+  {
+    "stop_id": "0:18AOUT1",
+    "stop_name": "18 AOUT",
+    "lat": 49.1915372,
+    "lon": 6.0349708
+  },
+  {
+    "stop_id": "0:FMOSELL1",
+    "stop_name": "FORT MOSELLE",
+    "lat": 49.1239815,
+    "lon": 6.1649701
+  },
+  {
+    "stop_id": "0:REPPS",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1144533,
+    "lon": 6.1727908
+  },
+  {
+    "stop_id": "0:TIGNO414",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1289178,
+    "lon": 6.1603219
+  },
+  {
+    "stop_id": "0:18AOUT2",
+    "stop_name": "18 AOUT",
+    "lat": 49.1913925,
+    "lon": 6.0350035
+  },
+  {
+    "stop_id": "0:SCHWEIT1",
+    "stop_name": "DOCTEUR SCHWEITZER",
+    "lat": 49.11639,
+    "lon": 6.2174068
+  },
+  {
+    "stop_id": "0:FMOSELL2",
+    "stop_name": "FORT MOSELLE",
+    "lat": 49.1246614,
+    "lon": 6.1647786
+  },
+  {
+    "stop_id": "0:SCHWEIT2",
+    "stop_name": "DOCTEUR SCHWEITZER",
+    "lat": 49.1166824,
+    "lon": 6.216904
+  },
+  {
+    "stop_id": "0:CLETTE2",
+    "stop_name": "CLETTE",
+    "lat": 49.1331753,
+    "lon": 6.1334447
+  },
+  {
+    "stop_id": "0:TARREAU1",
+    "stop_name": "LES TARREAUX",
+    "lat": 49.0438978,
+    "lon": 6.2706124
+  },
+  {
+    "stop_id": "0:CLETTE1",
+    "stop_name": "CLETTE",
+    "lat": 49.1333094,
+    "lon": 6.1338231
+  },
+  {
+    "stop_id": "0:PASSOTE1",
+    "stop_name": "PASSOTTE",
+    "lat": 49.0930037,
+    "lon": 6.2398109
+  },
+  {
+    "stop_id": "0:PASSOTE2",
+    "stop_name": "PASSOTTE",
+    "lat": 49.0927207,
+    "lon": 6.2399577
+  },
+  {
+    "stop_id": "0:TARREAU2",
+    "stop_name": "LES TARREAUX",
+    "lat": 49.0440749,
+    "lon": 6.2707194
+  },
+  {
+    "stop_id": "0:LESSY2",
+    "stop_name": "LESSY",
+    "lat": 49.1209163,
+    "lon": 6.0946744
+  },
+  {
+    "stop_id": "0:LESSY1",
+    "stop_name": "LESSY",
+    "lat": 49.1209117,
+    "lon": 6.0948523
+  },
+  {
+    "stop_id": "0:POME",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1084917,
+    "lon": 6.1804575
+  },
+  {
+    "stop_id": "0:CARCAN2",
+    "stop_name": "CARCAN",
+    "lat": 49.0937879,
+    "lon": 6.0869573
+  },
+  {
+    "stop_id": "0:CARCAN1",
+    "stop_name": "CARCAN",
+    "lat": 49.0937019,
+    "lon": 6.0868015
+  },
+  {
+    "stop_id": "0:DRAPIER2",
+    "stop_name": "DRAPIERS",
+    "lat": 49.109491,
+    "lon": 6.2477502
+  },
+  {
+    "stop_id": "0:DRAPIER1",
+    "stop_name": "DRAPIERS",
+    "lat": 49.1095767,
+    "lon": 6.2475774
+  },
+  {
+    "stop_id": "0:DOUANIE1",
+    "stop_name": "DOUANIERS",
+    "lat": 49.1700498,
+    "lon": 6.047885
+  },
+  {
+    "stop_id": "0:PEMB",
+    "stop_name": "POLE MULTIMODAL",
+    "lat": 49.1069851,
+    "lon": 6.1773827
+  },
+  {
+    "stop_id": "0:PEMG1",
+    "stop_name": "POLE MULTIMODAL",
+    "lat": 49.1069786,
+    "lon": 6.176949
+  },
+  {
+    "stop_id": "0:TANNERI2",
+    "stop_name": "TANNERIE",
+    "lat": 49.1268055,
+    "lon": 6.1928453
+  },
+  {
+    "stop_id": "0:TANNERI1",
+    "stop_name": "TANNERIE",
+    "lat": 49.1269182,
+    "lon": 6.1924208
+  },
+  {
+    "stop_id": "1:COL",
+    "stop_name": "COLOMBEY",
+    "lat": 49.1108991,
+    "lon": 6.2305605
+  },
+  {
+    "stop_id": "1:CHMAI",
+    "stop_name": "CHATEL MAIRIE",
+    "lat": 49.1222075,
+    "lon": 6.0815359
+  },
+  {
+    "stop_id": "1:RLT",
+    "stop_name": "ROOSEVELT",
+    "lat": 49.0771222,
+    "lon": 6.1938817
+  },
+  {
+    "stop_id": "1:2FONT",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.1485074,
+    "lon": 6.1715721
+  },
+  {
+    "stop_id": "1:GLISS",
+    "stop_name": "GLISSU",
+    "lat": 49.055852,
+    "lon": 6.1198325
+  },
+  {
+    "stop_id": "1:FRANC",
+    "stop_name": "FRANCLONCHAMPS",
+    "lat": 49.1711495,
+    "lon": 6.1898251
+  },
+  {
+    "stop_id": "1:PALAI",
+    "stop_name": "PALAIS DES SPORTS",
+    "lat": 49.1112569,
+    "lon": 6.1612527
+  },
+  {
+    "stop_id": "1:GAREN",
+    "stop_name": "GARENNES",
+    "lat": 49.0766044,
+    "lon": 6.1464969
+  },
+  {
+    "stop_id": "1:CPOMP",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1083899,
+    "lon": 6.1803965
+  },
+  {
+    "stop_id": "1:PROVE",
+    "stop_name": "PROVENCE",
+    "lat": 49.1130065,
+    "lon": 6.216316
+  },
+  {
+    "stop_id": "1:LAC",
+    "stop_name": "LE LAC",
+    "lat": 49.0964078,
+    "lon": 6.2383793
+  },
+  {
+    "stop_id": "1:SOEUR",
+    "stop_name": "PETITES SOEURS",
+    "lat": 49.1187756,
+    "lon": 6.2043942
+  },
+  {
+    "stop_id": "1:ALC",
+    "stop_name": "FELIX ALCAN",
+    "lat": 49.1126505,
+    "lon": 6.1983748
+  },
+  {
+    "stop_id": "1:EGLIS",
+    "stop_name": "EGLISE",
+    "lat": 49.0988262,
+    "lon": 6.1735264
+  },
+  {
+    "stop_id": "1:PLALB",
+    "stop_name": "PLACE ALBERT-LAS",
+    "lat": 49.1024814,
+    "lon": 6.1819662
+  },
+  {
+    "stop_id": "1:FOUGE",
+    "stop_name": "FOUGERES",
+    "lat": 49.1221735,
+    "lon": 6.2190137
+  },
+  {
+    "stop_id": "1:MAT",
+    "stop_name": "MATERNITE",
+    "lat": 49.0821269,
+    "lon": 6.2388709
+  },
+  {
+    "stop_id": "1:DEGAU",
+    "stop_name": "PLACE DE GAULLE",
+    "lat": 49.0603819,
+    "lon": 6.1626407
+  },
+  {
+    "stop_id": "1:CUGNO",
+    "stop_name": "CUGNOT",
+    "lat": 49.0854992,
+    "lon": 6.1634699
+  },
+  {
+    "stop_id": "1:LAQUE",
+    "stop_name": "LAQUENEXY",
+    "lat": 49.0783623,
+    "lon": 6.3156783
+  },
+  {
+    "stop_id": "1:FAURN",
+    "stop_name": "FAURNEL",
+    "lat": 49.1001856,
+    "lon": 6.242946
+  },
+  {
+    "stop_id": "1:DRAPI",
+    "stop_name": "DRAPIERS",
+    "lat": 49.1095339,
+    "lon": 6.2476638
+  },
+  {
+    "stop_id": "1:COLJB",
+    "stop_name": "COLLEGE JEAN BAUCHEZ",
+    "lat": 49.1240673,
+    "lon": 6.1521152
+  },
+  {
+    "stop_id": "1:POUIL",
+    "stop_name": "POUILLY",
+    "lat": 49.0498169,
+    "lon": 6.1884013
+  },
+  {
+    "stop_id": "1:TIGN3",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1262134,
+    "lon": 6.1594851
+  },
+  {
+    "stop_id": "1:ARENE",
+    "stop_name": "ARENES",
+    "lat": 49.1059343,
+    "lon": 6.1735506
+  },
+  {
+    "stop_id": "1:TIGN1",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1289178,
+    "lon": 6.1603219
+  },
+  {
+    "stop_id": "1:TIGN4",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1258828,
+    "lon": 6.1593963
+  },
+  {
+    "stop_id": "1:PINS",
+    "stop_name": "PINS",
+    "lat": 49.1321692,
+    "lon": 6.2153703
+  },
+  {
+    "stop_id": "1:TIGN2",
+    "stop_name": "TIGNOMONT",
+    "lat": 49.1287137,
+    "lon": 6.1605563
+  },
+  {
+    "stop_id": "1:CHAHU",
+    "stop_name": "CHAHURY",
+    "lat": 49.1180215,
+    "lon": 6.0845974
+  },
+  {
+    "stop_id": "1:PUBLI",
+    "stop_name": "PLACE PUBLIQUE",
+    "lat": 49.1545973,
+    "lon": 6.1181015
+  },
+  {
+    "stop_id": "1:GARGA",
+    "stop_name": "GARGAN",
+    "lat": 49.0757461,
+    "lon": 6.2270208
+  },
+  {
+    "stop_id": "1:SQ1",
+    "stop_name": "ST-QUENTIN",
+    "lat": 49.097209,
+    "lon": 6.1438151
+  },
+  {
+    "stop_id": "1:CUVIO",
+    "stop_name": "CUVION",
+    "lat": 49.0924256,
+    "lon": 6.2427276
+  },
+  {
+    "stop_id": "1:VANY",
+    "stop_name": "VANY",
+    "lat": 49.1563486,
+    "lon": 6.23931
+  },
+  {
+    "stop_id": "1:EGLI1",
+    "stop_name": "ST-JULIEN EGLISE",
+    "lat": 49.1343843,
+    "lon": 6.2026654
+  },
+  {
+    "stop_id": "1:LADAM",
+    "stop_name": "LA DAME",
+    "lat": 49.0987865,
+    "lon": 6.2436053
+  },
+  {
+    "stop_id": "1:ERMIT",
+    "stop_name": "ERMITAGE",
+    "lat": 49.1183137,
+    "lon": 6.0963352
+  },
+  {
+    "stop_id": "1:BERNE",
+    "stop_name": "BERNE",
+    "lat": 49.1229075,
+    "lon": 6.1940176
+  },
+  {
+    "stop_id": "1:BOR",
+    "stop_name": "LES BORDES",
+    "lat": 49.1144135,
+    "lon": 6.2209852
+  },
+  {
+    "stop_id": "1:BAZIN",
+    "stop_name": "BAZIN",
+    "lat": 49.1088321,
+    "lon": 6.0876754
+  },
+  {
+    "stop_id": "1:BERNA",
+    "stop_name": "BERNARD",
+    "lat": 49.1150233,
+    "lon": 6.2108037
+  },
+  {
+    "stop_id": "1:ARBAL",
+    "stop_name": "ARBALETRIERS",
+    "lat": 49.0507714,
+    "lon": 6.1870224
+  },
+  {
+    "stop_id": "1:SILOS",
+    "stop_name": "LES SILOS",
+    "lat": 49.1405514,
+    "lon": 6.186788
+  },
+  {
+    "stop_id": "1:CHOCO",
+    "stop_name": "CHOCOLATERIE",
+    "lat": 49.088638,
+    "lon": 6.1718956
+  },
+  {
+    "stop_id": "1:CAILL",
+    "stop_name": "CAILLOUX",
+    "lat": 49.134625,
+    "lon": 6.1368578
+  },
+  {
+    "stop_id": "1:PAULJ",
+    "stop_name": "PAUL JOLY",
+    "lat": 49.0638786,
+    "lon": 6.1482856
+  },
+  {
+    "stop_id": "1:PSJAC",
+    "stop_name": "PRES ST-JACQUES",
+    "lat": 49.1343139,
+    "lon": 6.1308396
+  },
+  {
+    "stop_id": "1:RTEBO",
+    "stop_name": "ROUTE DE BOULAY",
+    "lat": 49.1265332,
+    "lon": 6.2680561
+  },
+  {
+    "stop_id": "1:LIBER",
+    "stop_name": "LIBERTE",
+    "lat": 49.1074822,
+    "lon": 6.1164517
+  },
+  {
+    "stop_id": "1:OEILL",
+    "stop_name": "OEILLETS",
+    "lat": 49.1251889,
+    "lon": 6.2305537
+  },
+  {
+    "stop_id": "1:PLCHA",
+    "stop_name": "PLACE DE CHAMBRE",
+    "lat": 49.1203174,
+    "lon": 6.1739177
+  },
+  {
+    "stop_id": "1:BLORY",
+    "stop_name": "BLORY",
+    "lat": 49.0873264,
+    "lon": 6.1675477
+  },
+  {
+    "stop_id": "1:STLOU",
+    "stop_name": "ST-LOUIS",
+    "lat": 49.1166866,
+    "lon": 6.179535
+  },
+  {
+    "stop_id": "1:NATIO",
+    "stop_name": "NATION",
+    "lat": 49.1013578,
+    "lon": 6.1547834
+  },
+  {
+    "stop_id": "1:HOTEL",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.0600568,
+    "lon": 6.1541881
+  },
+  {
+    "stop_id": "1:GRONO",
+    "stop_name": "GROS NOYERS",
+    "lat": 49.1338169,
+    "lon": 6.2801448
+  },
+  {
+    "stop_id": "1:PENSE",
+    "stop_name": "PENSEES",
+    "lat": 49.1347133,
+    "lon": 6.2738316
+  },
+  {
+    "stop_id": "1:BERN1",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1331242,
+    "lon": 6.1685388
+  },
+  {
+    "stop_id": "1:BERN2",
+    "stop_name": "GEORGES BERNANOS",
+    "lat": 49.1331844,
+    "lon": 6.1683025
+  },
+  {
+    "stop_id": "1:WGARE",
+    "stop_name": "GARE DE WOIPPY",
+    "lat": 49.1486534,
+    "lon": 6.155409
+  },
+  {
+    "stop_id": "1:CHENO",
+    "stop_name": "CHENEAU",
+    "lat": 49.1088946,
+    "lon": 6.1207991
+  },
+  {
+    "stop_id": "1:D953",
+    "stop_name": "D953",
+    "lat": 49.1627308,
+    "lon": 6.1601982
+  },
+  {
+    "stop_id": "1:COSTE",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0838419,
+    "lon": 6.1491418
+  },
+  {
+    "stop_id": "1:JOURS",
+    "stop_name": "TRENTE JOURS",
+    "lat": 49.0963599,
+    "lon": 6.2458241
+  },
+  {
+    "stop_id": "1:LORRA",
+    "stop_name": "LORRAINE",
+    "lat": 49.1019534,
+    "lon": 6.1086094
+  },
+  {
+    "stop_id": "1:ARSEN",
+    "stop_name": "ARSENAL",
+    "lat": 49.122891,
+    "lon": 6.1870108
+  },
+  {
+    "stop_id": "1:BOUTA",
+    "stop_name": "HAUTS DE BOUTAN",
+    "lat": 49.0672155,
+    "lon": 6.1699005
+  },
+  {
+    "stop_id": "1:COST2",
+    "stop_name": "COSTES ET BELLONTE",
+    "lat": 49.0821104,
+    "lon": 6.148427
+  },
+  {
+    "stop_id": "1:RIMPO",
+    "stop_name": "RIMPORT",
+    "lat": 49.1241696,
+    "lon": 6.1812008
+  },
+  {
+    "stop_id": "1:HMAGN",
+    "stop_name": "HAUTS-DE-MAGNY",
+    "lat": 49.0741551,
+    "lon": 6.1907403
+  },
+  {
+    "stop_id": "1:MUSE",
+    "stop_name": "MUSE",
+    "lat": 49.1058475,
+    "lon": 6.1815973
+  },
+  {
+    "stop_id": "1:POINC",
+    "stop_name": "POINCARE",
+    "lat": 49.1170364,
+    "lon": 6.1688433
+  },
+  {
+    "stop_id": "1:VOLO",
+    "stop_name": "VOLO",
+    "lat": 49.1253948,
+    "lon": 6.2068375
+  },
+  {
+    "stop_id": "1:ZACPE",
+    "stop_name": "ZAC PELTRE",
+    "lat": 49.0710185,
+    "lon": 6.2284797
+  },
+  {
+    "stop_id": "1:ETAIN",
+    "stop_name": "POTIERS D'ETAIN",
+    "lat": 49.1160212,
+    "lon": 6.2436906
+  },
+  {
+    "stop_id": "1:LUXM2",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1214388,
+    "lon": 6.1692703
+  },
+  {
+    "stop_id": "1:LIBE2",
+    "stop_name": "LIBERATION",
+    "lat": 49.0612539,
+    "lon": 6.117994
+  },
+  {
+    "stop_id": "1:LYAUT",
+    "stop_name": "LYAUTEY",
+    "lat": 49.0938214,
+    "lon": 6.1680748
+  },
+  {
+    "stop_id": "1:ARDEC",
+    "stop_name": "ARDECHE",
+    "lat": 49.1012344,
+    "lon": 6.1064901
+  },
+  {
+    "stop_id": "1:OBELL",
+    "stop_name": "OBELLIANE",
+    "lat": 49.0760581,
+    "lon": 6.192782
+  },
+  {
+    "stop_id": "1:AMANV",
+    "stop_name": "AMANVILLERS MAIRIE",
+    "lat": 49.1673698,
+    "lon": 6.0439265
+  },
+  {
+    "stop_id": "1:JUGAN",
+    "stop_name": "JUGAN",
+    "lat": 49.1224531,
+    "lon": 6.2127655
+  },
+  {
+    "stop_id": "1:RUARS",
+    "stop_name": "RUE D'ARS",
+    "lat": 49.1119975,
+    "lon": 6.0288586
+  },
+  {
+    "stop_id": "1:COLIB",
+    "stop_name": "COLIBRI",
+    "lat": 49.1302179,
+    "lon": 6.1586119
+  },
+  {
+    "stop_id": "1:LESSY",
+    "stop_name": "LESSY",
+    "lat": 49.120914,
+    "lon": 6.0947633
+  },
+  {
+    "stop_id": "1:ROU",
+    "stop_name": "EMILE ROUX",
+    "lat": 49.1447271,
+    "lon": 6.1663205
+  },
+  {
+    "stop_id": "1:MER",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.0845487,
+    "lon": 6.242502
+  },
+  {
+    "stop_id": "1:ROCHA",
+    "stop_name": "P+R ROCHAMBEAU",
+    "lat": 49.129636,
+    "lon": 6.1702141
+  },
+  {
+    "stop_id": "1:HRHEL",
+    "stop_name": "HAUT-RHELE",
+    "lat": 49.0990741,
+    "lon": 6.1323489
+  },
+  {
+    "stop_id": "1:STOXE",
+    "stop_name": "STOXEY",
+    "lat": 49.1196268,
+    "lon": 6.1962487
+  },
+  {
+    "stop_id": "1:RIVAG",
+    "stop_name": "BEAU RIVAGE",
+    "lat": 49.1160461,
+    "lon": 6.1507156
+  },
+  {
+    "stop_id": "1:METZA",
+    "stop_name": "METZANINE",
+    "lat": 49.106888,
+    "lon": 6.2313109
+  },
+  {
+    "stop_id": "1:AUGAR",
+    "stop_name": "GARE D'AUGNY",
+    "lat": 49.0702057,
+    "lon": 6.137583
+  },
+  {
+    "stop_id": "1:PREF",
+    "stop_name": "PREFECTURE",
+    "lat": 49.1215177,
+    "lon": 6.1746904
+  },
+  {
+    "stop_id": "1:DAGA",
+    "stop_name": "DAGA",
+    "lat": 49.1365721,
+    "lon": 6.1559825
+  },
+  {
+    "stop_id": "1:HAMEA",
+    "stop_name": "LES HAMEAUX",
+    "lat": 49.0599438,
+    "lon": 6.1411591
+  },
+  {
+    "stop_id": "1:RSCHU",
+    "stop_name": "SCHUMAN",
+    "lat": 49.1107381,
+    "lon": 6.1119873
+  },
+  {
+    "stop_id": "1:COUVE",
+    "stop_name": "COUVENTS",
+    "lat": 49.1034504,
+    "lon": 6.1528757
+  },
+  {
+    "stop_id": "1:VACON",
+    "stop_name": "VACONS",
+    "lat": 49.0874537,
+    "lon": 6.1644249
+  },
+  {
+    "stop_id": "1:FRONT",
+    "stop_name": "FRONTIGNY",
+    "lat": 49.0585415,
+    "lon": 6.2639291
+  },
+  {
+    "stop_id": "1:HMERC",
+    "stop_name": "HOPITAL MERCY",
+    "lat": 49.085837,
+    "lon": 6.2437814
+  },
+  {
+    "stop_id": "1:M113A",
+    "stop_name": "M113A",
+    "lat": 49.0621141,
+    "lon": 6.1613313
+  },
+  {
+    "stop_id": "1:STSIM",
+    "stop_name": "ST-SIMON",
+    "lat": 49.1275783,
+    "lon": 6.1522192
+  },
+  {
+    "stop_id": "1:CITES",
+    "stop_name": "CITE SNCF",
+    "lat": 49.0907682,
+    "lon": 6.1283942
+  },
+  {
+    "stop_id": "1:PLAPP",
+    "stop_name": "PLAPPEVILLE",
+    "lat": 49.1305295,
+    "lon": 6.1244681
+  },
+  {
+    "stop_id": "1:LCLOS",
+    "stop_name": "LES CLOS",
+    "lat": 49.0733814,
+    "lon": 6.1479312
+  },
+  {
+    "stop_id": "1:DOLIC",
+    "stop_name": "DOLICHE",
+    "lat": 49.0944779,
+    "lon": 6.2458707
+  },
+  {
+    "stop_id": "1:MERMAT",
+    "stop_name": "MERCY MATERNITE",
+    "lat": 49.0850456,
+    "lon": 6.2374229
+  },
+  {
+    "stop_id": "1:SEMIN",
+    "stop_name": "SEMINAIRE",
+    "lat": 49.0975861,
+    "lon": 6.160316
+  },
+  {
+    "stop_id": "1:CHENE",
+    "stop_name": "CHENEVIERES",
+    "lat": 49.1658011,
+    "lon": 6.1896258
+  },
+  {
+    "stop_id": "1:GRAVI",
+    "stop_name": "GRAVIERES",
+    "lat": 49.0808021,
+    "lon": 6.110389
+  },
+  {
+    "stop_id": "1:LUXM1",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1212412,
+    "lon": 6.1689155
+  },
+  {
+    "stop_id": "1:BERLA",
+    "stop_name": "BERLANGE",
+    "lat": 49.1559453,
+    "lon": 6.1571568
+  },
+  {
+    "stop_id": "1:LEG",
+    "stop_name": "HOPITAL LEGOUEST",
+    "lat": 49.1117986,
+    "lon": 6.1925103
+  },
+  {
+    "stop_id": "1:PLFRA",
+    "stop_name": "PLACE DE FRANCE",
+    "lat": 49.1562646,
+    "lon": 6.153047
+  },
+  {
+    "stop_id": "1:RLEVY",
+    "stop_name": "RAPHAEL LEVY",
+    "lat": 49.1201755,
+    "lon": 6.1906686
+  },
+  {
+    "stop_id": "1:FRIAN",
+    "stop_name": "FRIANT",
+    "lat": 49.1082937,
+    "lon": 6.1877645
+  },
+  {
+    "stop_id": "1:PRIEU",
+    "stop_name": "PRIEURE",
+    "lat": 49.1079406,
+    "lon": 6.0852513
+  },
+  {
+    "stop_id": "1:NJUNG",
+    "stop_name": "NICOLAS JUNG",
+    "lat": 49.1335187,
+    "lon": 6.1528413
+  },
+  {
+    "stop_id": "1:AULNE",
+    "stop_name": "AULNES",
+    "lat": 49.1272986,
+    "lon": 6.2078832
+  },
+  {
+    "stop_id": "1:BRG",
+    "stop_name": "HENRI BERGSON",
+    "lat": 49.1085014,
+    "lon": 6.2206519
+  },
+  {
+    "stop_id": "1:CEDRE",
+    "stop_name": "CEDRES",
+    "lat": 49.1274149,
+    "lon": 6.2117844
+  },
+  {
+    "stop_id": "1:CTU",
+    "stop_name": "CITE U",
+    "lat": 49.120154,
+    "lon": 6.1596227
+  },
+  {
+    "stop_id": "1:EXP",
+    "stop_name": "P+R FOIRE EXPO",
+    "lat": 49.0914874,
+    "lon": 6.2314538
+  },
+  {
+    "stop_id": "1:CEDRB",
+    "stop_name": "CEDRE BLEU",
+    "lat": 49.0338143,
+    "lon": 6.1581975
+  },
+  {
+    "stop_id": "1:MONTA",
+    "stop_name": "ST-PRIVAT MONTAGNE",
+    "lat": 49.1848882,
+    "lon": 6.0449572
+  },
+  {
+    "stop_id": "1:SOLID",
+    "stop_name": "SOLIDARITE",
+    "lat": 49.107922,
+    "lon": 6.2432041
+  },
+  {
+    "stop_id": "1:STADE",
+    "stop_name": "STADE",
+    "lat": 49.1316518,
+    "lon": 6.1307884
+  },
+  {
+    "stop_id": "1:STPAU",
+    "stop_name": "ST-PAUL",
+    "lat": 49.0832583,
+    "lon": 6.0868508
+  },
+  {
+    "stop_id": "1:COETL",
+    "stop_name": "COETLOSQUET",
+    "lat": 49.1144588,
+    "lon": 6.1768418
+  },
+  {
+    "stop_id": "1:HORGN",
+    "stop_name": "LA HORGNE",
+    "lat": 49.0935977,
+    "lon": 6.1721786
+  },
+  {
+    "stop_id": "1:GRIGY",
+    "stop_name": "GRIGY",
+    "lat": 49.095087,
+    "lon": 6.2207227
+  },
+  {
+    "stop_id": "1:ARP",
+    "stop_name": "AUBEPINE",
+    "lat": 49.07234,
+    "lon": 6.1931831
+  },
+  {
+    "stop_id": "1:CLAUD",
+    "stop_name": "CLAUDEL",
+    "lat": 49.1016541,
+    "lon": 6.1992309
+  },
+  {
+    "stop_id": "1:LMOUL",
+    "stop_name": "LES MOULINS",
+    "lat": 49.1300009,
+    "lon": 6.237662
+  },
+  {
+    "stop_id": "1:BRION",
+    "stop_name": "BRION",
+    "lat": 49.1297608,
+    "lon": 6.1336084
+  },
+  {
+    "stop_id": "1:APREM",
+    "stop_name": "APREMONT",
+    "lat": 49.0805585,
+    "lon": 6.1866412
+  },
+  {
+    "stop_id": "1:SYMPH",
+    "stop_name": "SYMPHONIE",
+    "lat": 49.1042924,
+    "lon": 6.2146821
+  },
+  {
+    "stop_id": "1:MAGNY",
+    "stop_name": "MAGNY-AU-BOIS",
+    "lat": 49.0753266,
+    "lon": 6.1952504
+  },
+  {
+    "stop_id": "1:AVIAT",
+    "stop_name": "11Ãšme D'AVIATION",
+    "lat": 49.0859919,
+    "lon": 6.1457309
+  },
+  {
+    "stop_id": "1:MINE1",
+    "stop_name": "MINE",
+    "lat": 49.1980533,
+    "lon": 6.0348795
+  },
+  {
+    "stop_id": "1:SUGNO",
+    "stop_name": "SUGNON",
+    "lat": 49.0941379,
+    "lon": 6.1632915
+  },
+  {
+    "stop_id": "1:ZACAU",
+    "stop_name": "ZAC D'AUGNY",
+    "lat": 49.0751721,
+    "lon": 6.1059285
+  },
+  {
+    "stop_id": "1:MARDI",
+    "stop_name": "MARDIGNY",
+    "lat": 48.9757411,
+    "lon": 6.0856844
+  },
+  {
+    "stop_id": "1:VANDE",
+    "stop_name": "VANDERNOOT",
+    "lat": 49.0958322,
+    "lon": 6.1807495
+  },
+  {
+    "stop_id": "1:HWOIC",
+    "stop_name": "HAUT DE WOICON",
+    "lat": 49.1327757,
+    "lon": 6.1353128
+  },
+  {
+    "stop_id": "1:PEUMO",
+    "stop_name": "PEUMONT",
+    "lat": 49.0767568,
+    "lon": 6.2321041
+  },
+  {
+    "stop_id": "1:FRICH",
+    "stop_name": "LES FRICHES",
+    "lat": 49.1000249,
+    "lon": 6.1419441
+  },
+  {
+    "stop_id": "1:PLAQU",
+    "stop_name": "LES PLAQUETTES",
+    "lat": 49.1691301,
+    "lon": 6.0513366
+  },
+  {
+    "stop_id": "1:RUEEC",
+    "stop_name": "RUE DES ECOLES",
+    "lat": 49.1888457,
+    "lon": 6.0380592
+  },
+  {
+    "stop_id": "1:POM",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1091131,
+    "lon": 6.180948
+  },
+  {
+    "stop_id": "1:JOUSS",
+    "stop_name": "JOUSSE",
+    "lat": 49.1229463,
+    "lon": 6.2069281
+  },
+  {
+    "stop_id": "1:JLAUR",
+    "stop_name": "JEAN LAURAIN",
+    "lat": 49.1531519,
+    "lon": 6.1399489
+  },
+  {
+    "stop_id": "1:TEMPL",
+    "stop_name": "TEMPLE",
+    "lat": 49.0789659,
+    "lon": 6.0698293
+  },
+  {
+    "stop_id": "1:BLIDA",
+    "stop_name": "BLIDA",
+    "lat": 49.1258163,
+    "lon": 6.1813705
+  },
+  {
+    "stop_id": "1:GAMBE",
+    "stop_name": "GAMBETTA",
+    "lat": 49.1492258,
+    "lon": 6.1598264
+  },
+  {
+    "stop_id": "1:SERRU",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1184361,
+    "lon": 6.2400649
+  },
+  {
+    "stop_id": "1:SERPE",
+    "stop_name": "RUE SERPENOISE",
+    "lat": 49.1171624,
+    "lon": 6.1754928
+  },
+  {
+    "stop_id": "1:HERGO",
+    "stop_name": "ZONE HERGOTT",
+    "lat": 49.15929,
+    "lon": 6.1587945
+  },
+  {
+    "stop_id": "1:MARIE",
+    "stop_name": "MARIEULLES",
+    "lat": 48.998912,
+    "lon": 6.1002251
+  },
+  {
+    "stop_id": "1:PATRO",
+    "stop_name": "PATROTTE",
+    "lat": 49.1347771,
+    "lon": 6.1611183
+  },
+  {
+    "stop_id": "1:PINOT",
+    "stop_name": "PINOTS MELES",
+    "lat": 49.1344723,
+    "lon": 6.2711147
+  },
+  {
+    "stop_id": "1:ORLY",
+    "stop_name": "ORLY",
+    "lat": 49.0757469,
+    "lon": 6.1167425
+  },
+  {
+    "stop_id": "1:THERM",
+    "stop_name": "THERMES",
+    "lat": 49.0502911,
+    "lon": 6.1834196
+  },
+  {
+    "stop_id": "1:LEMOY",
+    "stop_name": "LE MOYNE",
+    "lat": 49.1313842,
+    "lon": 6.1565165
+  },
+  {
+    "stop_id": "1:FELIX",
+    "stop_name": "FELIX MARECHAL",
+    "lat": 49.1293985,
+    "lon": 6.1377273
+  },
+  {
+    "stop_id": "1:NOUIL",
+    "stop_name": "NOUILLONS",
+    "lat": 49.1119529,
+    "lon": 6.0973532
+  },
+  {
+    "stop_id": "1:JEANN",
+    "stop_name": "JEANNE D'ARC",
+    "lat": 49.0894631,
+    "lon": 6.1535388
+  },
+  {
+    "stop_id": "1:SCYCH",
+    "stop_name": "SCY-CHAZELLES",
+    "lat": 49.1141088,
+    "lon": 6.116816
+  },
+  {
+    "stop_id": "1:ARMOI",
+    "stop_name": "ARMOISIERES",
+    "lat": 49.0764276,
+    "lon": 6.1895446
+  },
+  {
+    "stop_id": "1:ACTIS",
+    "stop_name": "ACTISUD DUNIL",
+    "lat": 49.0764923,
+    "lon": 6.1028914
+  },
+  {
+    "stop_id": "1:SANSO",
+    "stop_name": "SANSONNET",
+    "lat": 49.1363854,
+    "lon": 6.1471397
+  },
+  {
+    "stop_id": "1:SCHAF",
+    "stop_name": "SCHAFF",
+    "lat": 49.1000332,
+    "lon": 6.1546822
+  },
+  {
+    "stop_id": "1:FRIER",
+    "stop_name": "FRIERES",
+    "lat": 49.140309,
+    "lon": 6.1354056
+  },
+  {
+    "stop_id": "1:COTSE",
+    "stop_name": "COTEAUX DE LA SEILLE",
+    "lat": 49.0979196,
+    "lon": 6.1889078
+  },
+  {
+    "stop_id": "1:LUXS",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1215442,
+    "lon": 6.1680018
+  },
+  {
+    "stop_id": "1:MAUJE",
+    "stop_name": "MAUJEAN",
+    "lat": 49.1202385,
+    "lon": 6.2148217
+  },
+  {
+    "stop_id": "1:MARCS",
+    "stop_name": "MARC SANGNIER",
+    "lat": 49.0893016,
+    "lon": 6.159345
+  },
+  {
+    "stop_id": "1:VEZON",
+    "stop_name": "VEZON",
+    "lat": 49.0065351,
+    "lon": 6.0947847
+  },
+  {
+    "stop_id": "1:MARCO",
+    "stop_name": "MARCONI",
+    "lat": 49.1005769,
+    "lon": 6.2180078
+  },
+  {
+    "stop_id": "1:SYMP2",
+    "stop_name": "SYMPHONIE",
+    "lat": 49.1048971,
+    "lon": 6.215117
+  },
+  {
+    "stop_id": "1:PEUPL",
+    "stop_name": "PEUPLIERS",
+    "lat": 49.1048514,
+    "lon": 6.2094196
+  },
+  {
+    "stop_id": "1:LGDRU",
+    "stop_name": "LORRY GRAND RUE",
+    "lat": 49.1417817,
+    "lon": 6.1183858
+  },
+  {
+    "stop_id": "1:MAIRI",
+    "stop_name": "MOULINS MAIRIE",
+    "lat": 49.1069925,
+    "lon": 6.1063419
+  },
+  {
+    "stop_id": "1:PLATA",
+    "stop_name": "PLATANES",
+    "lat": 49.1268029,
+    "lon": 6.2018333
+  },
+  {
+    "stop_id": "1:POURN",
+    "stop_name": "POURNOY-LA-CHETIVE",
+    "lat": 49.0206089,
+    "lon": 6.1552663
+  },
+  {
+    "stop_id": "1:LOGES",
+    "stop_name": "LOGES",
+    "lat": 49.0989553,
+    "lon": 6.1587208
+  },
+  {
+    "stop_id": "1:PLATE",
+    "stop_name": "PLATEAU",
+    "lat": 49.0820579,
+    "lon": 6.184562
+  },
+  {
+    "stop_id": "1:JMICH",
+    "stop_name": "JULES MICHELET",
+    "lat": 49.1075932,
+    "lon": 6.2285931
+  },
+  {
+    "stop_id": "1:ENPRI",
+    "stop_name": "EN PRILLE",
+    "lat": 49.1094759,
+    "lon": 6.1256107
+  },
+  {
+    "stop_id": "1:FOCH",
+    "stop_name": "FOCH",
+    "lat": 49.1208386,
+    "lon": 6.1484435
+  },
+  {
+    "stop_id": "1:HSORET",
+    "stop_name": "HAUT SORET",
+    "lat": 49.1353038,
+    "lon": 6.2137342
+  },
+  {
+    "stop_id": "1:BLEUE",
+    "stop_name": "BLEUETS",
+    "lat": 49.0664947,
+    "lon": 6.1644743
+  },
+  {
+    "stop_id": "1:OFFIC",
+    "stop_name": "OFFICE DE TOURISME",
+    "lat": 49.1200698,
+    "lon": 6.1764799
+  },
+  {
+    "stop_id": "1:CHILO",
+    "stop_name": "LES CHILOUX",
+    "lat": 49.1487486,
+    "lon": 6.1430081
+  },
+  {
+    "stop_id": "1:FONNY",
+    "stop_name": "FONNY",
+    "lat": 49.1295876,
+    "lon": 6.2349623
+  },
+  {
+    "stop_id": "1:PASSE",
+    "stop_name": "LA PASSERELLE",
+    "lat": 49.0749746,
+    "lon": 6.2564435
+  },
+  {
+    "stop_id": "1:TIVOL",
+    "stop_name": "TIVOLI",
+    "lat": 49.0996684,
+    "lon": 6.1898102
+  },
+  {
+    "stop_id": "1:LEQUO",
+    "stop_name": "LE QUOITY",
+    "lat": 49.1232774,
+    "lon": 6.094884
+  },
+  {
+    "stop_id": "1:PASSO",
+    "stop_name": "PASSOTTE",
+    "lat": 49.0928622,
+    "lon": 6.2398843
+  },
+  {
+    "stop_id": "1:MOYM1",
+    "stop_name": "MOYEN PONT",
+    "lat": 49.1190001,
+    "lon": 6.1703001
+  },
+  {
+    "stop_id": "1:AMPER",
+    "stop_name": "AMPERE",
+    "lat": 49.1034769,
+    "lon": 6.2288231
+  },
+  {
+    "stop_id": "1:BILLO",
+    "stop_name": "BILLOTTE",
+    "lat": 49.1257233,
+    "lon": 6.1970911
+  },
+  {
+    "stop_id": "1:DEMBO",
+    "stop_name": "DEMBOUR",
+    "lat": 49.1064059,
+    "lon": 6.1793701
+  },
+  {
+    "stop_id": "1:BILAIN",
+    "stop_name": "PAUL BILAINE",
+    "lat": 49.1655664,
+    "lon": 6.0344631
+  },
+  {
+    "stop_id": "1:VICTR",
+    "stop_name": "VICTOIRE",
+    "lat": 49.1252019,
+    "lon": 6.1532811
+  },
+  {
+    "stop_id": "1:COURO",
+    "stop_name": "COUR D'OR",
+    "lat": 49.1205297,
+    "lon": 6.1788249
+  },
+  {
+    "stop_id": "1:LILAS",
+    "stop_name": "LILAS",
+    "lat": 49.095495,
+    "lon": 6.1436358
+  },
+  {
+    "stop_id": "1:ROUSS",
+    "stop_name": "ROUSSEL",
+    "lat": 49.1354686,
+    "lon": 6.1396995
+  },
+  {
+    "stop_id": "1:SCYBA",
+    "stop_name": "SCY BAS",
+    "lat": 49.1084797,
+    "lon": 6.1213566
+  },
+  {
+    "stop_id": "1:HAMJE",
+    "stop_name": "HAMEAU JERUSALEM",
+    "lat": 49.1860672,
+    "lon": 6.0381774
+  },
+  {
+    "stop_id": "1:VICTO",
+    "stop_name": "ST-VICTOR",
+    "lat": 49.0981416,
+    "lon": 6.146859
+  },
+  {
+    "stop_id": "1:ACACI",
+    "stop_name": "ACACIAS",
+    "lat": 49.0733361,
+    "lon": 6.1844715
+  },
+  {
+    "stop_id": "1:TROIS",
+    "stop_name": "TROIS EVECHES",
+    "lat": 49.106299,
+    "lon": 6.1918905
+  },
+  {
+    "stop_id": "1:STREM",
+    "stop_name": "ST-REMY",
+    "lat": 49.1738137,
+    "lon": 6.1621719
+  },
+  {
+    "stop_id": "1:CRXOR",
+    "stop_name": "CROIX D'OREE",
+    "lat": 49.1323089,
+    "lon": 6.1255901
+  },
+  {
+    "stop_id": "1:POULM",
+    "stop_name": "POULMAIRE",
+    "lat": 49.1511356,
+    "lon": 6.1664176
+  },
+  {
+    "stop_id": "1:RUEDE",
+    "stop_name": "RUE DE METZ",
+    "lat": 49.1559808,
+    "lon": 6.1124506
+  },
+  {
+    "stop_id": "1:MASIA",
+    "stop_name": "MASARIEULLES",
+    "lat": 49.20348,
+    "lon": 6.0465805
+  },
+  {
+    "stop_id": "1:SERRE",
+    "stop_name": "SERRET",
+    "lat": 49.1099438,
+    "lon": 6.0997207
+  },
+  {
+    "stop_id": "1:WOIPH",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.151326,
+    "lon": 6.1500781
+  },
+  {
+    "stop_id": "1:FORTM",
+    "stop_name": "FORT MOSELLE",
+    "lat": 49.1243215,
+    "lon": 6.1648743
+  },
+  {
+    "stop_id": "1:BORDE",
+    "stop_name": "LES BORDES",
+    "lat": 49.1138693,
+    "lon": 6.2221508
+  },
+  {
+    "stop_id": "1:FERRA",
+    "stop_name": "JEAN FERRAT",
+    "lat": 49.0779496,
+    "lon": 6.0812339
+  },
+  {
+    "stop_id": "1:STROC",
+    "stop_name": "ST-ROCH",
+    "lat": 49.0787463,
+    "lon": 6.183886
+  },
+  {
+    "stop_id": "1:SLADR",
+    "stop_name": "ST-LADRE",
+    "lat": 49.0970467,
+    "lon": 6.1551581
+  },
+  {
+    "stop_id": "1:CARRI",
+    "stop_name": "CARRIERES",
+    "lat": 49.1299604,
+    "lon": 6.2091816
+  },
+  {
+    "stop_id": "1:ROIGE",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.110746,
+    "lon": 6.1715403
+  },
+  {
+    "stop_id": "1:TETED",
+    "stop_name": "TETE D'OR",
+    "lat": 49.1173181,
+    "lon": 6.1770925
+  },
+  {
+    "stop_id": "1:CARRE",
+    "stop_name": "CARREFOUR",
+    "lat": 49.1444409,
+    "lon": 6.1277283
+  },
+  {
+    "stop_id": "1:SFORT",
+    "stop_name": "ST-JULIEN FORT",
+    "lat": 49.1411294,
+    "lon": 6.2061754
+  },
+  {
+    "stop_id": "1:FRECO",
+    "stop_name": "FRECOT",
+    "lat": 49.090988,
+    "lon": 6.1815415
+  },
+  {
+    "stop_id": "1:POSTE",
+    "stop_name": "POSTE EDF",
+    "lat": 49.1519398,
+    "lon": 6.2137999
+  },
+  {
+    "stop_id": "1:SAULE",
+    "stop_name": "SAULES",
+    "lat": 49.1476377,
+    "lon": 6.152453
+  },
+  {
+    "stop_id": "1:ROIGW",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1103664,
+    "lon": 6.1691002
+  },
+  {
+    "stop_id": "1:ABBEB",
+    "stop_name": "ABBE BAUZIN",
+    "lat": 49.1891256,
+    "lon": 6.0358794
+  },
+  {
+    "stop_id": "1:MARNE",
+    "stop_name": "MARNE",
+    "lat": 49.1267592,
+    "lon": 6.1541163
+  },
+  {
+    "stop_id": "1:OBERL",
+    "stop_name": "OBERLING",
+    "lat": 49.103201,
+    "lon": 6.2036538
+  },
+  {
+    "stop_id": "1:ZACGR",
+    "stop_name": "ZAC LES GRAVIERES",
+    "lat": 49.0774664,
+    "lon": 6.1130653
+  },
+  {
+    "stop_id": "1:GRIMO",
+    "stop_name": "GRIMONT",
+    "lat": 49.1404839,
+    "lon": 6.2175462
+  },
+  {
+    "stop_id": "1:LARDE",
+    "stop_name": "LARDEMELLE",
+    "lat": 49.1239582,
+    "lon": 6.1495791
+  },
+  {
+    "stop_id": "1:RAMON",
+    "stop_name": "RAYMOND MONDON",
+    "lat": 49.2008828,
+    "lon": 6.0379151
+  },
+  {
+    "stop_id": "1:CRIME",
+    "stop_name": "CRIMEE",
+    "lat": 49.113962,
+    "lon": 6.1132776
+  },
+  {
+    "stop_id": "1:COUPI",
+    "stop_name": "COUPILLON",
+    "lat": 49.1415141,
+    "lon": 6.1481783
+  },
+  {
+    "stop_id": "1:MARGU",
+    "stop_name": "MARGUERITE",
+    "lat": 49.0884876,
+    "lon": 6.1593297
+  },
+  {
+    "stop_id": "1:HAIES",
+    "stop_name": "TROIS HAIES",
+    "lat": 49.0906859,
+    "lon": 6.1229088
+  },
+  {
+    "stop_id": "1:STAND",
+    "stop_name": "ST-ANDRE",
+    "lat": 49.0953768,
+    "lon": 6.1586694
+  },
+  {
+    "stop_id": "1:PUYMA",
+    "stop_name": "PUYMAIGRE",
+    "lat": 49.1070963,
+    "lon": 6.1947356
+  },
+  {
+    "stop_id": "1:LUETT",
+    "stop_name": "LUETTE",
+    "lat": 49.085339,
+    "lon": 6.1484998
+  },
+  {
+    "stop_id": "1:SAVOI",
+    "stop_name": "SAVOIE",
+    "lat": 49.0961005,
+    "lon": 6.1273253
+  },
+  {
+    "stop_id": "1:CRXJO",
+    "stop_name": "CROIX ST JOSEPH",
+    "lat": 49.0590004,
+    "lon": 6.159115
+  },
+  {
+    "stop_id": "1:MARLY",
+    "stop_name": "MARLY",
+    "lat": 49.0610094,
+    "lon": 6.166714
+  },
+  {
+    "stop_id": "1:GREGL",
+    "stop_name": "GRAVELOTTE EGLISE",
+    "lat": 49.1091305,
+    "lon": 6.0303356
+  },
+  {
+    "stop_id": "1:SNICOM",
+    "stop_name": "ST-NICOLAS",
+    "lat": 49.1124375,
+    "lon": 6.1770537
+  },
+  {
+    "stop_id": "1:PORTM",
+    "stop_name": "PORT DE METZ",
+    "lat": 49.1374449,
+    "lon": 6.1809193
+  },
+  {
+    "stop_id": "1:JPJEA",
+    "stop_name": "JP JEAN",
+    "lat": 49.1258072,
+    "lon": 6.2173954
+  },
+  {
+    "stop_id": "1:LARGA",
+    "stop_name": "LARGANTIER",
+    "lat": 49.0625202,
+    "lon": 6.1463818
+  },
+  {
+    "stop_id": "1:JERUS",
+    "stop_name": "JERUSALEM",
+    "lat": 49.09183,
+    "lon": 6.1672132
+  },
+  {
+    "stop_id": "1:FEI",
+    "stop_name": "FEIVRES",
+    "lat": 49.1147605,
+    "lon": 6.2392181
+  },
+  {
+    "stop_id": "1:AVMAG",
+    "stop_name": "AVENUE DE MAGNY",
+    "lat": 49.0641636,
+    "lon": 6.1672216
+  },
+  {
+    "stop_id": "1:CASERN",
+    "stop_name": "CASERNE",
+    "lat": 49.1250417,
+    "lon": 6.1803769
+  },
+  {
+    "stop_id": "1:PTJUR",
+    "stop_name": "PETIT JURY",
+    "lat": 49.0670237,
+    "lon": 6.2454807
+  },
+  {
+    "stop_id": "1:REPUB",
+    "stop_name": "REPUBLIQUE",
+    "lat": 49.1149776,
+    "lon": 6.1729531
+  },
+  {
+    "stop_id": "1:GANNE",
+    "stop_name": "GANNE",
+    "lat": 49.1156765,
+    "lon": 6.2047029
+  },
+  {
+    "stop_id": "1:PORTA",
+    "stop_name": "PORTE DES ALLEMANDS",
+    "lat": 49.1177238,
+    "lon": 6.1842048
+  },
+  {
+    "stop_id": "1:ALIZES",
+    "stop_name": "LES ALIZES",
+    "lat": 49.0621353,
+    "lon": 6.1375329
+  },
+  {
+    "stop_id": "1:FEY",
+    "stop_name": "FEY",
+    "lat": 49.0290876,
+    "lon": 6.0966427
+  },
+  {
+    "stop_id": "1:FALOG",
+    "stop_name": "FALOGNE",
+    "lat": 49.0981107,
+    "lon": 6.2403015
+  },
+  {
+    "stop_id": "1:ROGET",
+    "stop_name": "ROGET",
+    "lat": 49.1492275,
+    "lon": 6.1693392
+  },
+  {
+    "stop_id": "1:CHDAM",
+    "stop_name": "CHEMIN DES DAMES",
+    "lat": 49.1170509,
+    "lon": 6.0880556
+  },
+  {
+    "stop_id": "1:HBRUL",
+    "stop_name": "HAIE BRULEE",
+    "lat": 49.1109015,
+    "lon": 6.0971258
+  },
+  {
+    "stop_id": "1:SAULN",
+    "stop_name": "SAULNOIS",
+    "lat": 49.1265033,
+    "lon": 6.221977
+  },
+  {
+    "stop_id": "1:BRAZZ",
+    "stop_name": "BRAZZA",
+    "lat": 49.0572162,
+    "lon": 6.1675778
+  },
+  {
+    "stop_id": "1:CASTO",
+    "stop_name": "CASTORS",
+    "lat": 49.1284769,
+    "lon": 6.1457336
+  },
+  {
+    "stop_id": "1:MSPRI",
+    "stop_name": "MONTIGNY ST-PRIVAT",
+    "lat": 49.0850289,
+    "lon": 6.1548308
+  },
+  {
+    "stop_id": "1:CBANA",
+    "stop_name": "CHAMP BANAL",
+    "lat": 49.1726819,
+    "lon": 6.0455563
+  },
+  {
+    "stop_id": "1:ROIGP",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1108129,
+    "lon": 6.1711081
+  },
+  {
+    "stop_id": "1:FAUBOP",
+    "stop_name": "P+R FAUBOURG",
+    "lat": 49.0851154,
+    "lon": 6.1826583
+  },
+  {
+    "stop_id": "1:TANEU",
+    "stop_name": "TANNEURS",
+    "lat": 49.119771,
+    "lon": 6.1830145
+  },
+  {
+    "stop_id": "1:SEILL",
+    "stop_name": "SEILLE",
+    "lat": 49.1115958,
+    "lon": 6.1859082
+  },
+  {
+    "stop_id": "1:HERMI",
+    "stop_name": "HERMITE",
+    "lat": 49.1057889,
+    "lon": 6.1873774
+  },
+  {
+    "stop_id": "1:LAVOI",
+    "stop_name": "LAVOIR",
+    "lat": 49.0971109,
+    "lon": 6.1749287
+  },
+  {
+    "stop_id": "1:CAMEL",
+    "stop_name": "CAMELIAS",
+    "lat": 49.0659738,
+    "lon": 6.1596493
+  },
+  {
+    "stop_id": "1:MASLV",
+    "stop_name": "MAS AU LIEVRE",
+    "lat": 49.1300215,
+    "lon": 6.275777
+  },
+  {
+    "stop_id": "1:DUPUI",
+    "stop_name": "PARKING DUPUIS",
+    "lat": 49.1129518,
+    "lon": 6.1703549
+  },
+  {
+    "stop_id": "1:VIEAUX",
+    "stop_name": "VIEILLES EAUX",
+    "lat": 49.1038176,
+    "lon": 6.1082004
+  },
+  {
+    "stop_id": "1:VALDE",
+    "stop_name": "VAL DE METZ",
+    "lat": 49.0933183,
+    "lon": 6.0929717
+  },
+  {
+    "stop_id": "1:PAQUE",
+    "stop_name": "PAQUET",
+    "lat": 49.1349845,
+    "lon": 6.1568182
+  },
+  {
+    "stop_id": "1:AUBIG",
+    "stop_name": "AUBIGNY",
+    "lat": 49.094184,
+    "lon": 6.26999
+  },
+  {
+    "stop_id": "1:CORCH",
+    "stop_name": "CORCHADE",
+    "lat": 49.1231657,
+    "lon": 6.2153941
+  },
+  {
+    "stop_id": "1:MARRO",
+    "stop_name": "MARRONNIERS",
+    "lat": 49.1341867,
+    "lon": 6.2154682
+  },
+  {
+    "stop_id": "1:PAQUR",
+    "stop_name": "PAQUERETTES",
+    "lat": 49.0944147,
+    "lon": 6.1238118
+  },
+  {
+    "stop_id": "1:LACOR",
+    "stop_name": "LA CORVEE",
+    "lat": 48.9788277,
+    "lon": 6.0874331
+  },
+  {
+    "stop_id": "1:VAUXM",
+    "stop_name": "VAUX",
+    "lat": 49.0930772,
+    "lon": 6.0806397
+  },
+  {
+    "stop_id": "1:DURUT",
+    "stop_name": "DURUTTE",
+    "lat": 49.1136228,
+    "lon": 6.2027527
+  },
+  {
+    "stop_id": "1:MAXE",
+    "stop_name": "LA MAXE",
+    "lat": 49.1686675,
+    "lon": 6.189432
+  },
+  {
+    "stop_id": "1:GENDA",
+    "stop_name": "GENDARMERIE",
+    "lat": 49.1046629,
+    "lon": 6.1996154
+  },
+  {
+    "stop_id": "1:RMOUL",
+    "stop_name": "RUE DU MOULIN",
+    "lat": 49.1558205,
+    "lon": 6.1050743
+  },
+  {
+    "stop_id": "1:VALEY",
+    "stop_name": "VALERY",
+    "lat": 49.110607,
+    "lon": 6.2183019
+  },
+  {
+    "stop_id": "1:FAVAD",
+    "stop_name": "FAVADE",
+    "lat": 49.1179036,
+    "lon": 6.1804733
+  },
+  {
+    "stop_id": "1:LYFOU",
+    "stop_name": "LYCEE FOURNIER",
+    "lat": 49.1032744,
+    "lon": 6.1776705
+  },
+  {
+    "stop_id": "1:GOUSS",
+    "stop_name": "GOUSSEL",
+    "lat": 49.1015203,
+    "lon": 6.1949606
+  },
+  {
+    "stop_id": "1:DALES",
+    "stop_name": "DALES",
+    "lat": 49.1330939,
+    "lon": 6.1645603
+  },
+  {
+    "stop_id": "1:HETRE",
+    "stop_name": "HETRES",
+    "lat": 49.1320409,
+    "lon": 6.2090546
+  },
+  {
+    "stop_id": "1:VERGE",
+    "stop_name": "VERGERS",
+    "lat": 49.1021024,
+    "lon": 6.1462841
+  },
+  {
+    "stop_id": "1:STMAR",
+    "stop_name": "ST-MARTIN",
+    "lat": 49.1216028,
+    "lon": 6.1508753
+  },
+  {
+    "stop_id": "1:DECHA",
+    "stop_name": "DE CHARDIN",
+    "lat": 49.1442985,
+    "lon": 6.172
+  },
+  {
+    "stop_id": "1:FOSSE",
+    "stop_name": "FOSSE",
+    "lat": 49.1003471,
+    "lon": 6.1452799
+  },
+  {
+    "stop_id": "1:RCHEN",
+    "stop_name": "RUELLE CHENEAU",
+    "lat": 49.1150875,
+    "lon": 6.1974217
+  },
+  {
+    "stop_id": "1:LOTH5",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.0994196,
+    "lon": 6.180353
+  },
+  {
+    "stop_id": "1:ERABL",
+    "stop_name": "ERABLES",
+    "lat": 49.1316603,
+    "lon": 6.2052737
+  },
+  {
+    "stop_id": "1:SELLI",
+    "stop_name": "SELLIERS",
+    "lat": 49.1141285,
+    "lon": 6.2474652
+  },
+  {
+    "stop_id": "1:VERDU",
+    "stop_name": "VERDUN",
+    "lat": 49.080178,
+    "lon": 6.058114
+  },
+  {
+    "stop_id": "1:CLERY",
+    "stop_name": "CLERY",
+    "lat": 49.1216164,
+    "lon": 6.0803766
+  },
+  {
+    "stop_id": "1:JUIN",
+    "stop_name": "JUIN",
+    "lat": 49.1182704,
+    "lon": 6.1898932
+  },
+  {
+    "stop_id": "1:BRIE2",
+    "stop_name": "BRIEY",
+    "lat": 49.1604128,
+    "lon": 6.1037171
+  },
+  {
+    "stop_id": "1:QBORN",
+    "stop_name": "QUATRE BORNES",
+    "lat": 49.1393403,
+    "lon": 6.1535318
+  },
+  {
+    "stop_id": "1:GECOL",
+    "stop_name": "GRANDES ECOLES",
+    "lat": 49.0935187,
+    "lon": 6.2301211
+  },
+  {
+    "stop_id": "1:LEMUD",
+    "stop_name": "LEMUD",
+    "lat": 49.1040501,
+    "lon": 6.1796436
+  },
+  {
+    "stop_id": "1:TIVO",
+    "stop_name": "TIVOLI",
+    "lat": 49.0993562,
+    "lon": 6.1886879
+  },
+  {
+    "stop_id": "1:BOUCH",
+    "stop_name": "BOUCHOTTE",
+    "lat": 49.092561,
+    "lon": 6.1812681
+  },
+  {
+    "stop_id": "1:MOULI",
+    "stop_name": "MOULINS",
+    "lat": 49.1061492,
+    "lon": 6.1111156
+  },
+  {
+    "stop_id": "1:VAUTR",
+    "stop_name": "QUAI VAUTRIN",
+    "lat": 49.119391,
+    "lon": 6.171174
+  },
+  {
+    "stop_id": "1:COTEA",
+    "stop_name": "COTEAUX",
+    "lat": 49.1546316,
+    "lon": 6.148057
+  },
+  {
+    "stop_id": "1:BOILE",
+    "stop_name": "BOILEAU",
+    "lat": 49.1428929,
+    "lon": 6.1689994
+  },
+  {
+    "stop_id": "1:GENER",
+    "stop_name": "GENERAL FRERE",
+    "lat": 49.1001298,
+    "lon": 6.2057833
+  },
+  {
+    "stop_id": "1:LANCE",
+    "stop_name": "LANCEUMONT",
+    "lat": 49.0541378,
+    "lon": 6.2751696
+  },
+  {
+    "stop_id": "1:BRICE",
+    "stop_name": "ST-BRICE",
+    "lat": 49.0604821,
+    "lon": 6.1496404
+  },
+  {
+    "stop_id": "1:BOTAN",
+    "stop_name": "BOTANIQUE",
+    "lat": 49.1036818,
+    "lon": 6.1620514
+  },
+  {
+    "stop_id": "1:BOILV",
+    "stop_name": "BOILVIN",
+    "lat": 49.1034594,
+    "lon": 6.1747558
+  },
+  {
+    "stop_id": "1:CHIEU",
+    "stop_name": "CHIEULLES",
+    "lat": 49.1594369,
+    "lon": 6.2288634
+  },
+  {
+    "stop_id": "1:BSOLE",
+    "stop_name": "BEAUSOLEIL",
+    "lat": 49.0757054,
+    "lon": 6.1869182
+  },
+  {
+    "stop_id": "1:ARIAN",
+    "stop_name": "ARIANE",
+    "lat": 49.0951708,
+    "lon": 6.2386994
+  },
+  {
+    "stop_id": "1:VALER",
+    "stop_name": "VALERIANE",
+    "lat": 49.0707499,
+    "lon": 6.1895241
+  },
+  {
+    "stop_id": "1:CAS",
+    "stop_name": "RENE CASSIN",
+    "lat": 49.135675,
+    "lon": 6.166151
+  },
+  {
+    "stop_id": "1:LOTHR",
+    "stop_name": "LOTHAIRE",
+    "lat": 49.1003897,
+    "lon": 6.1816093
+  },
+  {
+    "stop_id": "1:CLETT",
+    "stop_name": "CLETTE",
+    "lat": 49.1332423,
+    "lon": 6.1336339
+  },
+  {
+    "stop_id": "1:HSCHU",
+    "stop_name": "HOPITAL SCHUMAN",
+    "lat": 49.1234965,
+    "lon": 6.2422804
+  },
+  {
+    "stop_id": "1:ENTRV",
+    "stop_name": "ENTRE DEUX VILLES",
+    "lat": 49.1544111,
+    "lon": 6.2450947
+  },
+  {
+    "stop_id": "1:GRELL",
+    "stop_name": "GRELLOIS",
+    "lat": 49.1183953,
+    "lon": 6.2186349
+  },
+  {
+    "stop_id": "1:QUINT",
+    "stop_name": "CHARLES QUINT",
+    "lat": 49.0907475,
+    "lon": 6.1753268
+  },
+  {
+    "stop_id": "1:CHAUL",
+    "stop_name": "LES CHAULMES",
+    "lat": 49.1337454,
+    "lon": 6.2759988
+  },
+  {
+    "stop_id": "1:LADON",
+    "stop_name": "LADONCHAMPS",
+    "lat": 49.1541973,
+    "lon": 6.1527907
+  },
+  {
+    "stop_id": "1:POMR",
+    "stop_name": "CENTRE POMPIDOU METZ",
+    "lat": 49.1076398,
+    "lon": 6.1817073
+  },
+  {
+    "stop_id": "1:DAMES",
+    "stop_name": "GRANGE-AUX-DAMES",
+    "lat": 49.1462905,
+    "lon": 6.1907555
+  },
+  {
+    "stop_id": "1:SAU",
+    "stop_name": "SAULCY",
+    "lat": 49.120627,
+    "lon": 6.1645595
+  },
+  {
+    "stop_id": "1:MANGI",
+    "stop_name": "MANGIN",
+    "lat": 49.1029371,
+    "lon": 6.1647057
+  },
+  {
+    "stop_id": "1:SAR",
+    "stop_name": "SARRE",
+    "lat": 49.1146373,
+    "lon": 6.2327607
+  },
+  {
+    "stop_id": "1:VACQU",
+    "stop_name": "VACQUINIERE",
+    "lat": 49.1065352,
+    "lon": 6.1584222
+  },
+  {
+    "stop_id": "1:CHAVE",
+    "stop_name": "LE CHAVEAU",
+    "lat": 49.0320708,
+    "lon": 6.15092
+  },
+  {
+    "stop_id": "1:CLERC",
+    "stop_name": "RUE DES CLERCS",
+    "lat": 49.117638,
+    "lon": 6.1741785
+  },
+  {
+    "stop_id": "1:VOSGE",
+    "stop_name": "VOSGES",
+    "lat": 49.0936992,
+    "lon": 6.132805
+  },
+  {
+    "stop_id": "1:VIN",
+    "stop_name": "ST-VINCENT",
+    "lat": 49.1236111,
+    "lon": 6.1718574
+  },
+  {
+    "stop_id": "1:PISCI",
+    "stop_name": "PISCINE OLYMPIQUE",
+    "lat": 49.1005372,
+    "lon": 6.1860608
+  },
+  {
+    "stop_id": "1:POLY",
+    "stop_name": "POLYGONE",
+    "lat": 49.0976014,
+    "lon": 6.1807142
+  },
+  {
+    "stop_id": "1:CORBO",
+    "stop_name": "CORBON",
+    "lat": 49.0676337,
+    "lon": 6.2565235
+  },
+  {
+    "stop_id": "1:PEPIN",
+    "stop_name": "PEPINIERES",
+    "lat": 49.1142168,
+    "lon": 6.1547645
+  },
+  {
+    "stop_id": "1:VILLA",
+    "stop_name": "VILLAS",
+    "lat": 49.1127152,
+    "lon": 6.1578052
+  },
+  {
+    "stop_id": "1:CHNOI",
+    "stop_name": "CHEMIN NOIR",
+    "lat": 49.1141803,
+    "lon": 6.0980346
+  },
+  {
+    "stop_id": "1:RUISS",
+    "stop_name": "RUISSEAU",
+    "lat": 49.1510659,
+    "lon": 6.1586287
+  },
+  {
+    "stop_id": "1:GIRAU",
+    "stop_name": "GIRAUDOUX",
+    "lat": 49.0973947,
+    "lon": 6.2000232
+  },
+  {
+    "stop_id": "1:COINC",
+    "stop_name": "COIN-LES-CUVRY",
+    "lat": 49.0335687,
+    "lon": 6.1552195
+  },
+  {
+    "stop_id": "1:CHASG2",
+    "stop_name": "CHATEL ST GERMAIN",
+    "lat": 49.1250378,
+    "lon": 6.0790582
+  },
+  {
+    "stop_id": "1:HESTA",
+    "stop_name": "HESTAUX",
+    "lat": 49.1009447,
+    "lon": 6.1915607
+  },
+  {
+    "stop_id": "1:DEVIL",
+    "stop_name": "DEVILLY",
+    "lat": 49.1049704,
+    "lon": 6.1944812
+  },
+  {
+    "stop_id": "1:RUCHE",
+    "stop_name": "RUCHER",
+    "lat": 49.1449571,
+    "lon": 6.1479556
+  },
+  {
+    "stop_id": "1:PRENE",
+    "stop_name": "PRE NET",
+    "lat": 49.0811609,
+    "lon": 6.3081785
+  },
+  {
+    "stop_id": "1:METMA",
+    "stop_name": "METMAN",
+    "lat": 49.1201188,
+    "lon": 6.2093647
+  },
+  {
+    "stop_id": "1:ROTON",
+    "stop_name": "ROTONDE",
+    "lat": 49.0876324,
+    "lon": 6.1180051
+  },
+  {
+    "stop_id": "1:CANA1",
+    "stop_name": "CANAL",
+    "lat": 49.1096178,
+    "lon": 6.1635307
+  },
+  {
+    "stop_id": "1:QVENT",
+    "stop_name": "QUATRE VENTS",
+    "lat": 49.0944078,
+    "lon": 6.1760854
+  },
+  {
+    "stop_id": "1:CANAD",
+    "stop_name": "VILLAGE CANADIEN",
+    "lat": 49.0557901,
+    "lon": 6.2399168
+  },
+  {
+    "stop_id": "1:MORLO",
+    "stop_name": "MORLOT",
+    "lat": 49.1411013,
+    "lon": 6.1505395
+  },
+  {
+    "stop_id": "1:FOURN",
+    "stop_name": "FOURNIER",
+    "lat": 49.1224637,
+    "lon": 6.1834405
+  },
+  {
+    "stop_id": "1:SIMMI",
+    "stop_name": "SIMMINGER",
+    "lat": 49.0900523,
+    "lon": 6.1447032
+  },
+  {
+    "stop_id": "1:PIERN",
+    "stop_name": "PIERNE",
+    "lat": 49.1025729,
+    "lon": 6.1796968
+  },
+  {
+    "stop_id": "1:ALSAC",
+    "stop_name": "ALSACE",
+    "lat": 49.0977395,
+    "lon": 6.1293495
+  },
+  {
+    "stop_id": "1:JACIN",
+    "stop_name": "JACINTHES",
+    "lat": 49.1239353,
+    "lon": 6.2261361
+  },
+  {
+    "stop_id": "1:AUGNY",
+    "stop_name": "AUGNY MAIRIE",
+    "lat": 49.0586782,
+    "lon": 6.1218853
+  },
+  {
+    "stop_id": "1:ROEGL",
+    "stop_name": "RONCOURT EGLISE",
+    "lat": 49.199429,
+    "lon": 6.0361616
+  },
+  {
+    "stop_id": "1:SEGOLE",
+    "stop_name": "STE-SEGOLENE",
+    "lat": 49.1212443,
+    "lon": 6.1797051
+  },
+  {
+    "stop_id": "1:VAILL",
+    "stop_name": "VAILLANT",
+    "lat": 49.1000293,
+    "lon": 6.1623629
+  },
+  {
+    "stop_id": "1:CIMET",
+    "stop_name": "CIMETIERE",
+    "lat": 49.1371805,
+    "lon": 6.2059583
+  },
+  {
+    "stop_id": "1:MIGET",
+    "stop_name": "MIGETTE",
+    "lat": 49.1140485,
+    "lon": 6.1388468
+  },
+  {
+    "stop_id": "1:CLEMA",
+    "stop_name": "CLEMENT ADER",
+    "lat": 49.089333,
+    "lon": 6.1495782
+  },
+  {
+    "stop_id": "1:DUPLO",
+    "stop_name": "DUPLOYE",
+    "lat": 49.1094334,
+    "lon": 6.1890682
+  },
+  {
+    "stop_id": "1:TANNE",
+    "stop_name": "TANNERIE",
+    "lat": 49.1268618,
+    "lon": 6.1926331
+  },
+  {
+    "stop_id": "1:CLEME",
+    "stop_name": "CLEMENCEAU",
+    "lat": 49.0805718,
+    "lon": 6.0842458
+  },
+  {
+    "stop_id": "1:GENIE",
+    "stop_name": "GENIE",
+    "lat": 49.1053655,
+    "lon": 6.163552
+  },
+  {
+    "stop_id": "1:RD6",
+    "stop_name": "CROISEMENT RD6",
+    "lat": 49.0934377,
+    "lon": 6.0951505
+  },
+  {
+    "stop_id": "1:ARMES",
+    "stop_name": "PLACE D'ARMES",
+    "lat": 49.1194071,
+    "lon": 6.175507
+  },
+  {
+    "stop_id": "1:ABS",
+    "stop_name": "AUBEPINE",
+    "lat": 49.0717221,
+    "lon": 6.1934052
+  },
+  {
+    "stop_id": "1:SEULH",
+    "stop_name": "SEULHOTTE",
+    "lat": 49.1013771,
+    "lon": 6.2084438
+  },
+  {
+    "stop_id": "1:LOTIS",
+    "stop_name": "LOTISSEMENT",
+    "lat": 49.0637767,
+    "lon": 6.1164818
+  },
+  {
+    "stop_id": "1:RD66",
+    "stop_name": "RD66",
+    "lat": 49.0313098,
+    "lon": 6.097357
+  },
+  {
+    "stop_id": "1:PGARE",
+    "stop_name": "PELTRE GARE",
+    "lat": 49.0743557,
+    "lon": 6.2226675
+  },
+  {
+    "stop_id": "1:GENIV",
+    "stop_name": "GENIVAUX",
+    "lat": 49.122094,
+    "lon": 6.2166026
+  },
+  {
+    "stop_id": "1:CASIN",
+    "stop_name": "CASINO",
+    "lat": 49.11655,
+    "lon": 6.1414316
+  },
+  {
+    "stop_id": "1:TOURA",
+    "stop_name": "TOURAINE",
+    "lat": 49.0953496,
+    "lon": 6.138009
+  },
+  {
+    "stop_id": "1:GFLAM",
+    "stop_name": "GRANDE FLAMEE",
+    "lat": 49.1828475,
+    "lon": 6.0402667
+  },
+  {
+    "stop_id": "1:PIERR",
+    "stop_name": "PIERRET",
+    "lat": 49.1638396,
+    "lon": 6.1886062
+  },
+  {
+    "stop_id": "1:CHATR",
+    "stop_name": "CHATRIAN",
+    "lat": 49.1031769,
+    "lon": 6.1487202
+  },
+  {
+    "stop_id": "1:MNVE",
+    "stop_name": "MAISON NEUVE",
+    "lat": 49.110313,
+    "lon": 6.0911491
+  },
+  {
+    "stop_id": "1:MAZEL",
+    "stop_name": "MAZELLE",
+    "lat": 49.1145523,
+    "lon": 6.1836808
+  },
+  {
+    "stop_id": "1:PONSA",
+    "stop_name": "PONSARD",
+    "lat": 49.0896106,
+    "lon": 6.1472248
+  },
+  {
+    "stop_id": "1:TOURN",
+    "stop_name": "TOURNEBRIDE",
+    "lat": 49.0855135,
+    "lon": 6.1136582
+  },
+  {
+    "stop_id": "1:AMAZO",
+    "stop_name": "AMAZON",
+    "lat": 49.0641225,
+    "lon": 6.1293134
+  },
+  {
+    "stop_id": "1:TREIZ",
+    "stop_name": "TREIZE",
+    "lat": 49.1101319,
+    "lon": 6.1895361
+  },
+  {
+    "stop_id": "1:COINS",
+    "stop_name": "COIN-SUR-SEILLE",
+    "lat": 49.0090605,
+    "lon": 6.1598107
+  },
+  {
+    "stop_id": "1:MECLE",
+    "stop_name": "MECLEUVES",
+    "lat": 49.0423232,
+    "lon": 6.2682886
+  },
+  {
+    "stop_id": "1:LOTIN",
+    "stop_name": "LOTISSEMENT IND",
+    "lat": 49.0894521,
+    "lon": 6.1238141
+  },
+  {
+    "stop_id": "1:RITZC",
+    "stop_name": "CHANOINE RITZ",
+    "lat": 48.9896604,
+    "lon": 6.0864703
+  },
+  {
+    "stop_id": "1:PONT1",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1271962,
+    "lon": 6.1751208
+  },
+  {
+    "stop_id": "1:SER",
+    "stop_name": "SERRURIERS",
+    "lat": 49.1170235,
+    "lon": 6.2405592
+  },
+  {
+    "stop_id": "1:LAROS",
+    "stop_name": "LA ROSERAIE",
+    "lat": 49.0976102,
+    "lon": 6.0757981
+  },
+  {
+    "stop_id": "1:VIGNL",
+    "stop_name": "VIGNEULLES",
+    "lat": 49.1469308,
+    "lon": 6.1210688
+  },
+  {
+    "stop_id": "1:PATIS",
+    "stop_name": "LE PATIS",
+    "lat": 49.1564476,
+    "lon": 6.1388182
+  },
+  {
+    "stop_id": "1:VIGNO",
+    "stop_name": "VIGNOTTES",
+    "lat": 49.0419845,
+    "lon": 6.1566895
+  },
+  {
+    "stop_id": "1:WOI",
+    "stop_name": "P+R WOIPPY",
+    "lat": 49.1503328,
+    "lon": 6.1733231
+  },
+  {
+    "stop_id": "1:FRENE",
+    "stop_name": "FRENES",
+    "lat": 49.1318957,
+    "lon": 6.211459
+  },
+  {
+    "stop_id": "1:LACRE",
+    "stop_name": "LACRETELLE",
+    "lat": 49.1130866,
+    "lon": 6.1855098
+  },
+  {
+    "stop_id": "1:CHARR",
+    "stop_name": "PLACE DES CHARRONS",
+    "lat": 49.1163147,
+    "lon": 6.1830489
+  },
+  {
+    "stop_id": "1:SCHWA",
+    "stop_name": "SCHWALBACH",
+    "lat": 49.0793024,
+    "lon": 6.0656372
+  },
+  {
+    "stop_id": "1:BONSE",
+    "stop_name": "BON SECOURS",
+    "lat": 49.1071604,
+    "lon": 6.1686848
+  },
+  {
+    "stop_id": "1:ROSEG",
+    "stop_name": "ROSE GONTHIER",
+    "lat": 49.1033114,
+    "lon": 6.2433266
+  },
+  {
+    "stop_id": "1:BELLT",
+    "stop_name": "BELLETANCHE",
+    "lat": 49.1103237,
+    "lon": 6.2099676
+  },
+  {
+    "stop_id": "1:VECRI",
+    "stop_name": "VECRIN",
+    "lat": 49.0915386,
+    "lon": 6.266836
+  },
+  {
+    "stop_id": "1:SCHWE",
+    "stop_name": "DOCTEUR SCHWEITZER",
+    "lat": 49.1165362,
+    "lon": 6.2171554
+  },
+  {
+    "stop_id": "1:VIGNE",
+    "stop_name": "LES VIGNES",
+    "lat": 49.1291381,
+    "lon": 6.1452253
+  },
+  {
+    "stop_id": "1:ROSEM",
+    "stop_name": "ROSE MARCUS",
+    "lat": 49.1473744,
+    "lon": 6.1485895
+  },
+  {
+    "stop_id": "1:PTCOE",
+    "stop_name": "PETIT COEUR",
+    "lat": 49.1661099,
+    "lon": 6.0403811
+  },
+  {
+    "stop_id": "1:SALET",
+    "stop_name": "SALETTE",
+    "lat": 49.1528906,
+    "lon": 6.2467554
+  },
+  {
+    "stop_id": "1:NOTRD",
+    "stop_name": "NOTRE DAME",
+    "lat": 48.9862485,
+    "lon": 6.0851191
+  },
+  {
+    "stop_id": "1:LAUVA",
+    "stop_name": "LAUVALLIERES",
+    "lat": 49.124102,
+    "lon": 6.2599915
+  },
+  {
+    "stop_id": "1:SQLUX",
+    "stop_name": "SQUARE DU LUXEMBOURG",
+    "lat": 49.1212691,
+    "lon": 6.1685379
+  },
+  {
+    "stop_id": "1:PONTR",
+    "stop_name": "PONT ROUGE",
+    "lat": 49.1147684,
+    "lon": 6.1889374
+  },
+  {
+    "stop_id": "1:JOBA",
+    "stop_name": "INTENDANTS JOBA",
+    "lat": 49.1413698,
+    "lon": 6.1654192
+  },
+  {
+    "stop_id": "1:ROCEN",
+    "stop_name": "RONCOURT CENTRE",
+    "lat": 49.2021067,
+    "lon": 6.0411106
+  },
+  {
+    "stop_id": "1:PONTI",
+    "stop_name": "PONTIFFROY",
+    "lat": 49.1273341,
+    "lon": 6.1750127
+  },
+  {
+    "stop_id": "1:LACRO",
+    "stop_name": "LA CROIX",
+    "lat": 49.1290346,
+    "lon": 6.1303971
+  },
+  {
+    "stop_id": "1:CHARL",
+    "stop_name": "CHARLES PETRE",
+    "lat": 49.1052345,
+    "lon": 6.1666483
+  },
+  {
+    "stop_id": "1:MEYVI",
+    "stop_name": "MEY LES VIGNES",
+    "lat": 49.1341174,
+    "lon": 6.237172
+  },
+  {
+    "stop_id": "1:DUCRO",
+    "stop_name": "DUCROCQ",
+    "lat": 49.1013655,
+    "lon": 6.1884209
+  },
+  {
+    "stop_id": "1:MYMAN",
+    "stop_name": "MY MANGENOT",
+    "lat": 49.1278638,
+    "lon": 6.2256061
+  },
+  {
+    "stop_id": "1:COLSO",
+    "stop_name": "COLSON",
+    "lat": 49.0901259,
+    "lon": 6.1663144
+  },
+  {
+    "stop_id": "1:ALLOR",
+    "stop_name": "ALSACE-LORRAINE",
+    "lat": 49.1214085,
+    "lon": 6.1950631
+  },
+  {
+    "stop_id": "1:RONC",
+    "stop_name": "RONCOURT",
+    "lat": 49.2036605,
+    "lon": 6.049756
+  },
+  {
+    "stop_id": "1:CHANT",
+    "stop_name": "CHANTRENNE",
+    "lat": 49.1440903,
+    "lon": 6.0104521
+  },
+  {
+    "stop_id": "1:ENFOU",
+    "stop_name": "EN FOURNIRUE",
+    "lat": 49.1180128,
+    "lon": 6.1787253
+  },
+  {
+    "stop_id": "1:JURA",
+    "stop_name": "JURA",
+    "lat": 49.1184815,
+    "lon": 6.2005718
+  },
+  {
+    "stop_id": "1:ROIM1",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1105221,
+    "lon": 6.1717277
+  },
+  {
+    "stop_id": "1:CONST",
+    "stop_name": "CONSTANTINE",
+    "lat": 49.0919415,
+    "lon": 6.1254918
+  },
+  {
+    "stop_id": "1:MALMA",
+    "stop_name": "MALMAISON",
+    "lat": 49.1250282,
+    "lon": 6.017138
+  },
+  {
+    "stop_id": "1:ROIM3",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1100148,
+    "lon": 6.1704904
+  },
+  {
+    "stop_id": "1:ROIM4",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1099749,
+    "lon": 6.1702961
+  },
+  {
+    "stop_id": "1:CHEFER",
+    "stop_name": "CHEMIN DE FER",
+    "lat": 49.0583376,
+    "lon": 6.1461418
+  },
+  {
+    "stop_id": "1:ROIM2",
+    "stop_name": "ROI GEORGE",
+    "lat": 49.1107071,
+    "lon": 6.1715334
+  },
+  {
+    "stop_id": "1:VALLO",
+    "stop_name": "LES VALLONS",
+    "lat": 49.0780793,
+    "lon": 6.2652276
+  },
+  {
+    "stop_id": "1:ALGER",
+    "stop_name": "ALGER",
+    "lat": 49.0943864,
+    "lon": 6.1350937
+  },
+  {
+    "stop_id": "1:VERLI",
+    "stop_name": "VERLIN",
+    "lat": 49.1133309,
+    "lon": 6.0278948
+  },
+  {
+    "stop_id": "1:BUCHO",
+    "stop_name": "BUCHOZ",
+    "lat": 49.1353744,
+    "lon": 6.1494986
+  },
+  {
+    "stop_id": "1:CHA",
+    "stop_name": "DOCTEUR CHARCOT",
+    "lat": 49.1484112,
+    "lon": 6.167026
+  },
+  {
+    "stop_id": "1:PONTV",
+    "stop_name": "PONT DE VERDUN",
+    "lat": 49.1193186,
+    "lon": 6.1444646
+  },
+  {
+    "stop_id": "1:CENTR",
+    "stop_name": "CENTRALE",
+    "lat": 49.1548567,
+    "lon": 6.1861665
+  },
+  {
+    "stop_id": "1:ROSEA",
+    "stop_name": "ROSEAUX",
+    "lat": 49.0712372,
+    "lon": 6.1862532
+  },
+  {
+    "stop_id": "1:ROEDE",
+    "stop_name": "ROEDERER",
+    "lat": 49.0982211,
+    "lon": 6.202952
+  },
+  {
+    "stop_id": "1:LABUT",
+    "stop_name": "LA BUTTE",
+    "lat": 49.1330359,
+    "lon": 6.1472241
+  },
+  {
+    "stop_id": "1:BREUI",
+    "stop_name": "BREUIL",
+    "lat": 49.1604146,
+    "lon": 6.2257893
+  },
+  {
+    "stop_id": "1:MERMO",
+    "stop_name": "MERMOZ",
+    "lat": 49.0938311,
+    "lon": 6.151852
+  },
+  {
+    "stop_id": "1:MIRAB",
+    "stop_name": "MIRABELLES",
+    "lat": 49.1308952,
+    "lon": 6.1456474
+  },
+  {
+    "stop_id": "1:RTBOR",
+    "stop_name": "ROUTE DE BORNY",
+    "lat": 49.1150228,
+    "lon": 6.1924074
+  },
+  {
+    "stop_id": "1:SABLI",
+    "stop_name": "SABLIERES",
+    "lat": 49.0863595,
+    "lon": 6.1634333
+  },
+  {
+    "stop_id": "1:EXUPE",
+    "stop_name": "ST-EXUPERY",
+    "lat": 49.0864791,
+    "lon": 6.1542615
+  },
+  {
+    "stop_id": "1:WAVES",
+    "stop_name": "WAVES ACTISUD",
+    "lat": 49.08102,
+    "lon": 6.1005666
+  },
+  {
+    "stop_id": "1:08MAI",
+    "stop_name": "8 MAI 45",
+    "lat": 49.0998668,
+    "lon": 6.1385223
+  },
+  {
+    "stop_id": "1:SORBI",
+    "stop_name": "LES SORBIERS",
+    "lat": 49.0683982,
+    "lon": 6.1465947
+  },
+  {
+    "stop_id": "1:ARSLA",
+    "stop_name": "ARS LAQUENEXY",
+    "lat": 49.0928187,
+    "lon": 6.2702259
+  },
+  {
+    "stop_id": "1:BURGE",
+    "stop_name": "JEAN BURGER",
+    "lat": 49.1280059,
+    "lon": 6.1948325
+  },
+  {
+    "stop_id": "1:BARBE",
+    "stop_name": "BARBE",
+    "lat": 49.1295061,
+    "lon": 6.2297946
+  },
+  {
+    "stop_id": "1:CUVRY",
+    "stop_name": "CUVRY",
+    "lat": 49.0429232,
+    "lon": 6.1588067
+  },
+  {
+    "stop_id": "1:LITAL",
+    "stop_name": "HOTEL DE VILLE",
+    "lat": 49.0999053,
+    "lon": 6.1523516
+  },
+  {
+    "stop_id": "1:COUBE",
+    "stop_name": "COUBERTIN",
+    "lat": 49.091991,
+    "lon": 6.1448071
+  },
+  {
+    "stop_id": "1:CHAMB",
+    "stop_name": "CHAMBIERE",
+    "lat": 49.1277262,
+    "lon": 6.1850254
+  },
+  {
+    "stop_id": "1:MOMEN",
+    "stop_name": "MOMENE",
+    "lat": 49.1291881,
+    "lon": 6.1276093
+  },
+  {
+    "stop_id": "1:GRA",
+    "stop_name": "GRAHAM BELL",
+    "lat": 49.1051036,
+    "lon": 6.2233669
+  },
+  {
+    "stop_id": "1:MONEUF",
+    "stop_name": "MOULIN NEUF",
+    "lat": 49.1122305,
+    "lon": 6.0951356
+  },
+  {
+    "stop_id": "1:POMME",
+    "stop_name": "LA POMMERAIE",
+    "lat": 49.0335335,
+    "lon": 6.1621973
+  },
+  {
+    "stop_id": "1:TARRE",
+    "stop_name": "LES TARREAUX",
+    "lat": 49.0439864,
+    "lon": 6.2706659
+  },
+  {
+    "stop_id": "1:WCHAT",
+    "stop_name": "WOIPPY CHATEAU",
+    "lat": 49.1529082,
+    "lon": 6.1451469
+  },
+  {
+    "stop_id": "1:CHAMP",
+    "stop_name": "CHAMPAGNE",
+    "lat": 49.041392,
+    "lon": 6.1607394
+  },
+  {
+    "stop_id": "1:SEBAS",
+    "stop_name": "SEBASTOPOL",
+    "lat": 49.1077407,
+    "lon": 6.238416
+  },
+  {
+    "stop_id": "1:SCENT",
+    "stop_name": "SAULNY CENTRE",
+    "lat": 49.1587416,
+    "lon": 6.1060658
+  },
+  {
+    "stop_id": "1:GSNCF",
+    "stop_name": "GARE",
+    "lat": 49.1105383,
+    "lon": 6.1766768
+  },
+  {
+    "stop_id": "1:ARAGO",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1011782,
+    "lon": 6.2228555
+  },
+  {
+    "stop_id": "1:CHAPI",
+    "stop_name": "CHAPITRE",
+    "lat": 49.1521077,
+    "lon": 6.1616142
+  },
+  {
+    "stop_id": "1:PIVOI",
+    "stop_name": "PIVOINES",
+    "lat": 49.1258585,
+    "lon": 6.2274008
+  },
+  {
+    "stop_id": "1:ARTME",
+    "stop_name": "ARTS ET METIERS",
+    "lat": 49.0965121,
+    "lon": 6.226135
+  },
+  {
+    "stop_id": "1:CIM",
+    "stop_name": "CIMETIERE DE L'EST",
+    "lat": 49.1095658,
+    "lon": 6.2038863
+  },
+  {
+    "stop_id": "1:FALEE",
+    "stop_name": "FALEE",
+    "lat": 49.132885,
+    "lon": 6.2528307
+  },
+  {
+    "stop_id": "1:FON",
+    "stop_name": "DEUX FONTAINES",
+    "lat": 49.1493781,
+    "lon": 6.1721604
+  },
+  {
+    "stop_id": "1:VERNE",
+    "stop_name": "VERNEVILLE",
+    "lat": 49.1451531,
+    "lon": 6.0055492
+  },
+  {
+    "stop_id": "1:ARAGM",
+    "stop_name": "FRANCOIS ARAGO",
+    "lat": 49.1019188,
+    "lon": 6.2243474
+  },
+  {
+    "stop_id": "1:18AOU",
+    "stop_name": "18 AOUT",
+    "lat": 49.1914648,
+    "lon": 6.0349872
+  },
+  {
+    "stop_id": "1:CHAPL",
+    "stop_name": "CHAPELLE",
+    "lat": 49.1417236,
+    "lon": 6.1155913
+  },
+  {
+    "stop_id": "1:LECLE",
+    "stop_name": "LECLERC",
+    "lat": 49.1109011,
+    "lon": 6.1301444
+  },
+  {
+    "stop_id": "1:GRDRU",
+    "stop_name": "GRAND RUE",
+    "lat": 49.1686587,
+    "lon": 6.0488116
+  },
+  {
+    "stop_id": "1:JUNGL",
+    "stop_name": "JUNGLING",
+    "lat": 49.1484545,
+    "lon": 6.1525301
+  },
+  {
+    "stop_id": "1:CHAPP",
+    "stop_name": "CHAPPE",
+    "lat": 49.1068739,
+    "lon": 6.2217226
+  },
+  {
+    "stop_id": "1:PRESS",
+    "stop_name": "PRESSOIR",
+    "lat": 49.1351883,
+    "lon": 6.257165
+  },
+  {
+    "stop_id": "1:PARAI",
+    "stop_name": "PARAIGES",
+    "lat": 49.117231,
+    "lon": 6.1797055
+  },
+  {
+    "stop_id": "1:JURY",
+    "stop_name": "JURY",
+    "lat": 49.0695982,
+    "lon": 6.253435
+  },
+  {
+    "stop_id": "1:VALLA",
+    "stop_name": "PLACE VALLADIER",
+    "lat": 49.123932,
+    "lon": 6.1767441
+  },
+  {
+    "stop_id": "1:CHEVR",
+    "stop_name": "CHEVROTTES",
+    "lat": 49.092707,
+    "lon": 6.2744941
+  },
+  {
+    "stop_id": "1:PREVO",
+    "stop_name": "PREVOTE",
+    "lat": 49.0922453,
+    "lon": 6.1558729
+  },
+  {
+    "stop_id": "1:TILLE",
+    "stop_name": "TILLEULS",
+    "lat": 49.1339564,
+    "lon": 6.2074111
+  },
+  {
+    "stop_id": "1:LASSA",
+    "stop_name": "LASSAUX",
+    "lat": 49.1162385,
+    "lon": 6.0979521
+  },
+  {
+    "stop_id": "1:VORME",
+    "stop_name": "VILLERS-L'ORME",
+    "lat": 49.1519417,
+    "lon": 6.2475738
+  },
+  {
+    "stop_id": "1:PEM",
+    "stop_name": "POLE MULTIMODAL",
+    "lat": 49.1070189,
+    "lon": 6.1771791
+  },
+  {
+    "stop_id": "1:PREVI",
+    "stop_name": "PREVILLE",
+    "lat": 49.1022811,
+    "lon": 6.1049838
+  },
+  {
+    "stop_id": "1:JUSSY",
+    "stop_name": "JUSSY - STE-RUFFINE",
+    "lat": 49.1050828,
+    "lon": 6.0893158
+  },
+  {
+    "stop_id": "1:EUROP",
+    "stop_name": "EUROPA COURCELLES",
+    "lat": 49.102022,
+    "lon": 6.1586131
+  },
+  {
+    "stop_id": "1:MAHIR",
+    "stop_name": "MAHIRE",
+    "lat": 49.0501,
+    "lon": 6.1845168
+  },
+  {
+    "stop_id": "1:CLO",
+    "stop_name": "CLOUTIERS",
+    "lat": 49.1140653,
+    "lon": 6.2301068
+  },
+  {
+    "stop_id": "1:MAGCES",
+    "stop_name": "MAGNY CES",
+    "lat": 49.0738523,
+    "lon": 6.1863865
+  },
+  {
+    "stop_id": "1:LIVIE",
+    "stop_name": "ST-LIVIER",
+    "lat": 49.1006096,
+    "lon": 6.1753349
+  },
+  {
+    "stop_id": "1:PCLOU",
+    "stop_name": "PETIT CLOU",
+    "lat": 49.0762823,
+    "lon": 6.183995
+  },
+  {
+    "stop_id": "1:CARCA",
+    "stop_name": "CARCAN",
+    "lat": 49.0937449,
+    "lon": 6.0868794
+  },
+  {
+    "stop_id": "1:ATELI",
+    "stop_name": "ATELIERS MUNICIPAUX",
+    "lat": 49.1425106,
+    "lon": 6.1218515
+  },
+  {
+    "stop_id": "1:LORIE",
+    "stop_name": "LORIENT",
+    "lat": 49.1225455,
+    "lon": 6.2251104
+  },
+  {
+    "stop_id": "1:POMORO",
+    "stop_name": "PONT MOREAU",
+    "lat": 49.1237252,
+    "lon": 6.1753741
+  },
+  {
+    "stop_id": "1:STJEA",
+    "stop_name": "ST-JEAN",
+    "lat": 49.107942,
+    "lon": 6.1052887
+  },
+  {
+    "stop_id": "1:ARSMO",
+    "stop_name": "ARS SUR MOSELLE",
+    "lat": 49.0758421,
+    "lon": 6.0765681
+  },
+  {
+    "stop_id": "1:GRAND",
+    "stop_name": "GRANDMAISON",
+    "lat": 49.0980641,
+    "lon": 6.1939733
+  },
+  {
+    "stop_id": "1:CHEVH",
+    "stop_name": "CHEVRE HAIE",
+    "lat": 49.0547951,
+    "lon": 6.1874887
+  },
+  {
+    "stop_id": "1:GRANG",
+    "stop_name": "GRANGE AUX ORMES",
+    "lat": 49.080761,
+    "lon": 6.1463519
+  },
+  {
+    "stop_id": "1:CONSE",
+    "stop_name": "CONSERVATOIRE",
+    "lat": 49.1206834,
+    "lon": 6.1811787
+  },
+  {
+    "stop_id": "1:MEURI",
+    "stop_name": "MEURISSE",
+    "lat": 49.1019739,
+    "lon": 6.15565
+  },
+  {
+    "stop_id": "1:COLOM",
+    "stop_name": "COLOMBIER",
+    "lat": 49.0482731,
+    "lon": 6.1855409
+  },
+  {
+    "stop_id": "1:VERLA",
+    "stop_name": "VERLAINE",
+    "lat": 49.10881,
+    "lon": 6.1675521
+  },
+  {
+    "stop_id": "1:JUSTI",
+    "stop_name": "JUSTICE",
+    "lat": 49.1665477,
+    "lon": 6.0383624
+  },
+  {
+    "stop_id": "1:GEORG",
+    "stop_name": "ST-GEORGES",
+    "lat": 49.1226016,
+    "lon": 6.1782255
+  },
+  {
+    "stop_id": "1:BELFO",
+    "stop_name": "BELLE FONTAINE",
+    "lat": 49.0669124,
+    "lon": 6.1427384
+  },
+  {
+    "stop_id": "1:GUY",
+    "stop_name": "GUYENNE",
+    "lat": 49.111504,
+    "lon": 6.2189127
+  },
+  {
+    "stop_id": "1:DUNAN",
+    "stop_name": "DUNANT",
+    "lat": 49.1238195,
+    "lon": 6.2029193
+  },
+  {
+    "stop_id": "1:MAXIM",
+    "stop_name": "ST-MAXIMIN",
+    "lat": 49.1057614,
+    "lon": 6.196716
+  },
+  {
+    "stop_id": "1:WBELL",
+    "stop_name": "BELLEVUE",
+    "lat": 49.1722383,
+    "lon": 6.152943
+  },
+  {
+    "stop_id": "1:LOUVI",
+    "stop_name": "LOUVIERE",
+    "lat": 49.0393239,
+    "lon": 6.1510936
+  },
+  {
+    "stop_id": "1:VOLON",
+    "stop_name": "VOLONTAIRES",
+    "lat": 49.086583,
+    "lon": 6.1566448
+  },
+  {
+    "stop_id": "1:DOUAN",
+    "stop_name": "DOUANIERS",
+    "lat": 49.1700498,
+    "lon": 6.047885
+  },
+  {
+    "stop_id": "1:VILAQ",
+    "stop_name": "VILLERS",
+    "lat": 49.0772343,
+    "lon": 6.3240927
+  },
+  {
+    "stop_id": "1:TERRE",
+    "stop_name": "TERRES ROUGES",
+    "lat": 49.1298938,
+    "lon": 6.1974377
+  },
+  {
+    "stop_id": "1:MELEZ",
+    "stop_name": "MELEZES",
+    "lat": 49.1280101,
+    "lon": 6.203471
+  },
+  {
+    "stop_id": "1:MICHA",
+    "stop_name": "MICHEL ANGE",
+    "lat": 49.0593629,
+    "lon": 6.1690919
+  },
+  {
+    "stop_id": "1:19NOV",
+    "stop_name": "19 NOVEMBRE",
+    "lat": 49.091902,
+    "lon": 6.1614012
+  },
+  {
+    "stop_id": "1:BLE",
+    "stop_name": "HAUTS DE BLEMONT",
+    "lat": 49.1156418,
+    "lon": 6.2258527
+  },
+  {
+    "stop_id": "1:TORTU",
+    "stop_name": "TORTUE",
+    "lat": 49.1284008,
+    "lon": 6.1482999
+  },
+  {
+    "stop_id": "1:CNOUI",
+    "stop_name": "NOUILLY CENTRE",
+    "lat": 49.1361277,
+    "lon": 6.2583623
+  },
+  {
+    "stop_id": "1:COLLI",
+    "stop_name": "COLLIGNON",
+    "lat": 49.1045195,
+    "lon": 6.1872308
+  },
+  {
+    "stop_id": "1:CHESM",
+    "stop_name": "CHESNY MAIRIE",
+    "lat": 49.0542473,
+    "lon": 6.2418446
+  },
+  {
+    "stop_id": "1:IKEA",
+    "stop_name": "IKEA",
+    "lat": 49.1517505,
+    "lon": 6.188616
+  },
+  {
+    "stop_id": "1:AZALE",
+    "stop_name": "AZALEES",
+    "lat": 49.0673188,
+    "lon": 6.1680306
+  },
+  {
+    "stop_id": "1:BOUZO",
+    "stop_name": "BOUZONVILLE",
+    "lat": 49.1378581,
+    "lon": 6.2173144
+  },
+  {
+    "stop_id": "1:BAUCH",
+    "stop_name": "BAUCHEZ",
+    "lat": 49.1365032,
+    "lon": 6.142978
+  },
+  {
+    "stop_id": "1:LONGE",
+    "stop_name": "LONGEVILLE",
+    "lat": 49.1125448,
+    "lon": 6.1347465
+  },
+  {
+    "stop_id": "1:TELEG",
+    "stop_name": "TELEGRAPHE",
+    "lat": 49.1468287,
+    "lon": 6.0031229
+  },
+  {
+    "stop_id": "1:ARTIL",
+    "stop_name": "ARTILLEURS",
+    "lat": 49.1202354,
+    "lon": 6.1933251
+  },
+  {
+    "stop_id": "1:SAGAT",
+    "stop_name": "STE-AGATHE",
+    "lat": 49.1642059,
+    "lon": 6.1538738
+  },
+  {
+    "stop_id": "1:LAFAY",
+    "stop_name": "LAFAYETTE",
+    "lat": 49.1079478,
+    "lon": 6.1729475
+  },
+  {
+    "stop_id": "1:SIGIS",
+    "stop_name": "ST-SIGISBERT",
+    "lat": 49.1223183,
+    "lon": 6.148979
+  },
+  {
+    "stop_id": "1:PLAIN",
+    "stop_name": "LA PLAINE",
+    "lat": 49.07868,
+    "lon": 6.1897791
+  },
+  {
+    "stop_id": "1:LAVAN",
+    "stop_name": "LAVANDIERES",
+    "lat": 49.1483747,
+    "lon": 6.1242008
+  }
+]
