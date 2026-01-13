@@ -30,6 +30,7 @@ header {
   font-size: 1.8rem;
   font-weight: 600;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  z-index: 2001;
 }
 
 #map {
@@ -44,6 +45,7 @@ footer {
   text-align: center;
   padding: 0.5rem;
   font-size: 0.9rem;
+  z-index: 2001;
 }
 
 #searchBar {
@@ -97,6 +99,7 @@ footer {
 }
 
 .nav-content {
+  top: -800%;
   display: none;
   height: 100vh;
   margin-left: 20px;
@@ -116,7 +119,7 @@ footer {
 
 nav.Lt {
   position: fixed;
-  top: 50%;
+  bottom: 2%;
   right: 0;
   transform: translateY(-50%);
   display: flex;
@@ -144,6 +147,42 @@ nav.Lt a {
   gap: 10px;
   text-decoration: none;
   color: black;
+}
+
+/* Cache le contenu par défaut */
+nav.Lt .nav-content {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Affiche le contenu quand le menu a la classe .open */
+nav.Lt.open .nav-content {
+  display: flex;
+  /* Aligne les liens verticalement */
+  opacity: 1;
+  background: white;
+  box-shadow: -5px 0 150px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  right: 0;
+  width: 250px;
+  /* Largeur du menu déplié */
+  height: 100vh;
+  padding: 20px;
+  z-index: 1999;
+}
+
+/* L'icône doit rester au-dessus */
+.icon-menu {
+  position: relative;
+  z-index: 2001;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+nav.Lt.open .icon-menu {
+  transform: rotate(180deg);
+  /* Petit effet de rotation à l'ouverture */
 }
 
 /* === Responsive === */
