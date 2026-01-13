@@ -27,8 +27,12 @@ function displayParkings(list) {
       Vélo : ${p.nb_velo}<br>
       Électrique : ${p.nb_voitures_electriques}<br>
       Tarif 1h : ${p.tarif_1h} €<br>
-      <button onclick="goToParking(${p.lat}, ${p.lon})">M'y amener</button>
-      <button onclick="showMobilites(${p.lat}, ${p.lon}, '${p.name}')">🚏 Arrêts à proximité</button>
+      <button class="go-btn" onclick="goToParking(${p.lat}, ${
+      p.lon
+    })">M'y amener</button><br>
+      <button class="go-btn" onclick="showMobilites(${p.lat}, ${p.lon}, '${
+      p.name
+    }')">🚏 Arrêts à proximité</button>
 
     `;
 
