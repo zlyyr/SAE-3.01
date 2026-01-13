@@ -8,8 +8,7 @@ export function initMobilities() {
 
   // fonction globale UNIQUEMENT pour le popup
   globalThis.showMobilites = async (lat, lon) => {
-    console.log("showMobilites appelée", lat, lon);
-    alert("CLICK OK");
+    console.log("CLICK OK", lat, lon);
   
     mobilitesLayer.clearLayers();
   
@@ -19,20 +18,27 @@ export function initMobilities() {
     };
   
     const stops = await getMobilitesAutourParking(parking, 500);
-    console.log("stops:", stops);
-
+  
+    console.log("STOPS REÇUS :", stops);
+  
+    if (!stops || stops.length === 0) {
+      alert("Aucun arrêt trouvé");
+      return;
+    }
+  
     stops.forEach(stop => {
+      console.log("STOP:", stop);
+  
       L.circleMarker([stop.lat, stop.lon], {
         radius: 6,
-        color: "#0066ff",
-        fillOpacity: 0.8
+        color: "blue",
+        fillOpacity: 1
       })
-        .bindPopup(
-          `<b>${stop.name}</b><br>📍 ${Math.round(stop.distance)} m`
-        )
+        .bindPopup(stop.name ?? "Sans nom")
         .addTo(mobilitesLayer);
     });
   };
+  
 
   // nettoyage si on annule le trajet
   const btn = document.getElementById("arretTrajet");
