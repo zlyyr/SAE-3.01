@@ -1,4 +1,5 @@
 export async function loadStops() {
-    const response = await fetch("vue/data/stops.json");
+    const response = await fetch("../modele/getStops.php");
     return await response.json();
-}
+  }
+  
