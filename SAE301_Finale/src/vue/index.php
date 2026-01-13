@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION["user"])) {
+if (!isset($_SESSION["username"])) {
   header("Location: login.php");
   exit;
 }
@@ -63,7 +63,7 @@ if (!isset($_SESSION["user"])) {
 
   <div id="map"></div>
 
-  <footer>© 2025 Sparking — L’étincelle qui te guide vers ta place</footer>
+  <footer>© 2025 Sparking — Meme une fusée pourrait se garer !</footer>
 
   <script type="module">
     globalThis.userCity = <?= json_encode($_SESSION['city']) ?>;

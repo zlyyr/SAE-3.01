@@ -6,6 +6,6 @@ export function initMap() {
   //On initialise la map avec Leaflet
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-    attribution: "© OpenStreetMap"
+    attribution: "© OpenStreetMap",
   }).addTo(map);
 }

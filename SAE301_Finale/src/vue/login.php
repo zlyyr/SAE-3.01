@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $user = $res[0] ?? null;
 
   if ($user && password_verify($password, $user['password'])) {
-    $_SESSION['userdevbdd.iutmetz.univ-lorraine.fr'] = $user['username'];
+    $_SESSION['username'] = $user['username'];
     $_SESSION['user_id'] = $user['ID_User']; // Utile pour les futures requêtes
     $_SESSION['city'] = $user['city'];
     header("Location: index.php");

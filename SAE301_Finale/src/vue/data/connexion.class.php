@@ -8,11 +8,11 @@ class Connexion
     {
         $db_config = [
             'SGBD' => 'mysql',
-            'host' => 'localhost',
+            'host' => 'devbdd.iutmetz.univ-lorraine.fr',
             'port' => '3306',
-            'dbname' => 'sae_301',
-            'user' => 'sae',
-            'pass' => 'password'
+            'dbname' => 'e98735u_SAE301',
+            'user' => 'e98735u_appli',
+            'pass' => '32402754'
         ];
 
         try {
@@ -30,3 +30,4 @@ class Connexion
         return $query->fetchAll();
     }
 }
+?>
