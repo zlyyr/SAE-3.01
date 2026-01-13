@@ -8,14 +8,18 @@ export function initMobilities() {
 
   // fonction globale UNIQUEMENT pour le popup
   globalThis.showMobilites = async (lat, lon) => {
+    console.log("showMobilites appelée", lat, lon);
+    alert("CLICK OK");
+  
     mobilitesLayer.clearLayers();
-
+  
     const parking = {
       latitude: lat,
       longitude: lon
     };
-
+  
     const stops = await getMobilitesAutourParking(parking, 500);
+    console.log("stops:", stops);
 
     stops.forEach(stop => {
       L.circleMarker([stop.lat, stop.lon], {

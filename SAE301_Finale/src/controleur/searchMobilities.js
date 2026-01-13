@@ -1,5 +1,4 @@
 import { loadStops } from "../modele/loadStops.js";
-import { distanceMeters } from "../modele/utils.js";
 
 export async function getMobilitesAutourParking(parking, rayon = 500) {
     const stops = await loadStops();
