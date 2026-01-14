@@ -47,6 +47,8 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
 
       <a href="Profil.php">👤 Profil</a>
       <a href="Aide.php">❓ Aide / Support</a>
+      <a href="Parkings.php">🅿️ Parkings</a>
+
 
       <div class="form-container">
         <h2>Filtres</h2>
