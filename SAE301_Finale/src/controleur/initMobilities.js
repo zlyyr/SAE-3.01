@@ -7,11 +7,8 @@ export function initMobilities() {
   mobilitesLayer = L.layerGroup().addTo(map);
 
   // fonction globale UNIQUEMENT pour le popup
-  globalThis.showMobilites = async (lat, lon) => {
-    alert("CLICK OK", lat, lon);
 
-    mobilitesLayer.clearLayers();
-
+  globalThis.showMobilites = async (lat, lon, btn) => {
     const parking = {
       latitude: lat,
       longitude: lon,
@@ -19,24 +16,18 @@ export function initMobilities() {
 
     const stops = await getMobilitesAutourParking(parking, 500);
 
-    console.log("STOPS REÇUS :", stops);
+    let html = "<b>🚏 Arrêts à proximité :</b><br>";
 
     if (!stops || stops.length === 0) {
-      alert("Aucun arrêt trouvé");
-      return;
+      html += "Aucun arrêt trouvé à moins de 500 m.";
+    } else {
+      stops.slice(0, 5).forEach((stop) => {
+        html += `• ${stop.name} (${Math.round(stop.distance)} m)<br>`;
+      });
     }
 
-    stops.forEach((stop) => {
-      console.log("STOP:", stop);
-
-      L.circleMarker([stop.lat, stop.lon], {
-        radius: 6,
-        color: "blue",
-        fillOpacity: 1,
-      })
-        .bindPopup(stop.name ?? "Sans nom")
-        .addTo(mobilitesLayer);
-    });
+    const popupDiv = btn.closest(".leaflet-popup-content");
+    popupDiv.innerHTML += `<div class="stops-list">${html}</div>`;
   };
 
   // nettoyage si on annule le trajet
