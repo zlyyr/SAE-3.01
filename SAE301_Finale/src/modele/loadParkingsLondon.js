@@ -49,9 +49,11 @@ export async function loadLondonParkings() {
       if (!capacity || isNaN(capacity) || capacity < 10) return;
 
       const marker = L.marker([lat, lon], {
-        icon: L.icon({
-          iconUrl: "./images/location.png",
-          iconSize: [32, 32],
+        icon: L.divIcon({
+          className: "parking-marker",
+          html: "<div></div>",
+          iconSize: [24, 24],
+          iconAnchor: [12, 12],
         }),
       });
 

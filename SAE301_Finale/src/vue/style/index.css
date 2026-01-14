@@ -374,3 +374,18 @@ nav.Lt.open .icon-menu {
     padding: 0.6rem;
   }
 }
+
+/* Parking markers */
+.parking-marker {
+  background: none !important;
+  border: none !important;
+}
+
+.parking-marker div {
+  width: 20px;
+  height: 20px;
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  border-radius: 50%;
+  border: 2px solid #1c1c1c;
+  box-shadow: 0 2px 8px rgba(255, 140, 0, 0.6);
+}
