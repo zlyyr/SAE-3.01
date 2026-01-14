@@ -36,7 +36,8 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
     <button id="goButton">Aller</button>
     <button id="nearestBtn">Le plus proche</button>
     <button id="stopBtn" style="display:none;">Annuler le trajet</button>
-    <button hidden=false id="clearStopsBtn">🧹 Nettoyer les arrêts</button>
+    <button id="btn-clean-arrets" style="display:none;">🧹 Nettoyer les arrêts</button>
+
 
   </div>
 
@@ -47,7 +48,6 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
 
       <a href="Profil.php">👤 Profil</a>
       <a href="Aide.php">❓ Aide / Support</a>
-
 
       <div class="form-container">
         <h2>Filtres</h2>
@@ -111,6 +111,9 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
     // Load saved language or default to fr
     const savedLang = localStorage.getItem('lang') || 'fr';
     setLanguage(savedLang);
+
+    window.arretMarkers = [];
+
   </script>
 
   <div id="map"></div>

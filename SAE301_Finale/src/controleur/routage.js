@@ -14,6 +14,11 @@ if (nearestBtn) nearestBtn.style.display = "flex";
 if (stopBtn) stopBtn.style.display = "none";
 
 export function goToParking(lat, lon) {
+
+  if (window.clearStops) {
+    window.clearStops();
+  }
+
   //On vérifie qu'on a la position de l'utilisateur
   if (!userMarker) {
     alert("Position utilisateur non disponible.");
