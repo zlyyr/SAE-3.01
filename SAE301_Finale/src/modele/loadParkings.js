@@ -12,9 +12,11 @@ function displayParkings(list) {
 
   list.forEach((p) => {
     const marker = L.marker([p.lat, p.lon], {
-      icon: L.icon({
-        iconUrl: "./images/location.png",
-        iconSize: [32, 32],
+      icon: L.divIcon({
+        className: "parking-marker",
+        html: "<div></div>",
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
       }),
     });
 
@@ -37,18 +39,17 @@ function displayParkings(list) {
     marker._parkingData = p;
     parkingClusterGroup.addLayer(marker);
 
-
     marker.on("popupopen", (e) => {
-    const popupEl = e.popup.getElement();
+      const popupEl = e.popup.getElement();
 
-    const btnMob = popupEl.querySelector(".go-mobilites");
+      const btnMob = popupEl.querySelector(".go-mobilites");
 
-    if (btnMob) {
-      btnMob.addEventListener("click", () => {
-        showMobilites(p.id);
-      });
-    }
-  });
+      if (btnMob) {
+        btnMob.addEventListener("click", () => {
+          showMobilites(p.id);
+        });
+      }
+    });
   });
 
   map.addLayer(parkingClusterGroup);
