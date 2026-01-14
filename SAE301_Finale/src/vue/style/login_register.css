@@ -86,6 +86,7 @@ body {
 }
 
 .lang-selector select {
+  width: 250px;
   padding: 0.6rem 1rem;
   border: 2px solid #333;
   border-radius: 15px;
@@ -96,6 +97,7 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   outline: none;
+  box-sizing: border-box;
 }
 
 .lang-selector select:focus {
@@ -105,7 +107,7 @@ body {
 
 .form-container input,
 .form-container select {
-  width: 100%;
+  width: 451px;
   padding: 1rem 1.2rem;
   margin-bottom: 1.5rem;
   border: 2px solid #333;
@@ -116,6 +118,7 @@ body {
   font-family: inherit;
   transition: all 0.3s ease;
   outline: none;
+  box-sizing: border-box;
 }
 
 .form-container input::placeholder {
