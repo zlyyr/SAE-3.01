@@ -1,44 +1,49 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #f6d251, #da6709);
+  color: #fff;
 }
 
 .title-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 1rem;
+  gap: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .icon-car {
-  width: 80px;
-  height: 40px;
+  width: 90px;
+  height: 45px;
+  opacity: 0.9;
 }
 
 .icon-parking {
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
+  opacity: 0.9;
 }
 
 .arrow {
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: #ffd700;
   font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
 }
 
 .spark-title {
   text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: 3.5rem;
+  font-weight: 700;
   color: #ffd700;
-  margin-top: 0;
-  position: relative;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  letter-spacing: 2px;
 }
 
 .overlay {
@@ -47,99 +52,154 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .form-container {
-  background: #1c1c1c;
-  padding: 2.5rem 3rem;
-  border-radius: 20px;
-  box-shadow: 0 0 25px #ffa500, 0 0 50px #ffd700;
-  width: 380px;
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  padding: 3rem 3.5rem;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
   text-align: center;
   animation: fadeIn 0.8s ease-out;
+  border: 1px solid rgba(255, 215, 0, 0.1);
 }
 
 .form-container h2 {
   color: #ffd700;
   margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.lang-selector {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.lang-selector select {
+  padding: 0.6rem 1rem;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.lang-selector select:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
 }
 
 .form-container input,
 .form-container select {
   width: 100%;
-  padding: 0.9rem 1rem;
-  margin-bottom: 1.2rem;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
   border: 2px solid #333;
-  border-radius: 12px;
+  border-radius: 15px;
   background: #2a2a2a;
   color: #fff;
-  font-size: 1rem;
-  transition: 0.3s;
+  font-size: 1.1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  outline: none;
 }
 
-.form-container input {
-  width: 90.5%;
+.form-container input::placeholder {
+  color: #aaa;
+  font-style: italic;
 }
 
 .form-container input:focus,
 .form-container select:focus {
   border-color: #ffd700;
-  box-shadow: 0 0 10px #ffd700;
-  outline: none;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 0.8rem;
+  transform: scale(1.2);
+  accent-color: #ffd700;
 }
 
 button {
   width: 100%;
-  padding: 0.9rem;
+  padding: 1rem 1.5rem;
   background: linear-gradient(90deg, #ffd700, #ff8c00);
   color: #1c1c1c;
   border: none;
-  border-radius: 12px;
-  font-size: 1rem;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
-  transition: 0.3s;
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.4);
+  transition: all 0.3s ease;
+  outline: none;
+  margin-top: 1rem;
 }
 
 button:hover {
   background: linear-gradient(90deg, #ffe135, #ffa500);
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 8px 25px rgba(255, 165, 0, 0.6);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(255, 165, 0, 0.6);
 }
 
 .form-container a {
   display: block;
   text-align: center;
-  margin-top: 1rem;
-  color: #555;
+  margin-top: 2rem;
+  color: #aaa;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 .form-container a:hover {
+  color: #ffd700;
   text-decoration: underline;
 }
 
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-30px) scale(0.95);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
-@media (max-height: 700px) {
+@media (max-width: 768px) {
   .form-container {
-    width: 135%;
-    padding: 3rem 1.5rem;
+    padding: 2.5rem 2rem;
+    max-width: 90%;
   }
 
   .spark-title {
@@ -147,35 +207,51 @@ button:hover {
   }
 
   .form-container h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .form-container input,
   .form-container select,
-  .form-container button {
-    font-size: 1.2rem;
-    padding: 1.1rem;
+  .lang-selector select {
+    font-size: 1rem;
+    padding: 0.9rem 1rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.2rem;
   }
 }
 
-@media (max-height: 400px) {
+@media (max-width: 480px) {
   .form-container {
-    width: 95%;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
+    max-width: 95%;
   }
 
   .spark-title {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
 
   .form-container h2 {
     font-size: 1.6rem;
   }
 
-  .form-container input,
-  .form-container select,
-  .form-container button {
-    font-size: 1.2rem;
-    padding: 1.1rem;
+  .title-container {
+    gap: 10px;
+  }
+
+  .icon-car {
+    width: 70px;
+    height: 35px;
+  }
+
+  .icon-parking {
+    width: 45px;
+    height: 45px;
+  }
+
+  .arrow {
+    font-size: 2.5rem;
   }
 }
