@@ -32,6 +32,7 @@ if (!isset($_SESSION["email"])) {
     <button id="goButton">Aller</button>
     <button id="nearestBtn">Le plus proche</button>
     <button hidden=false id="arretTrajet">Annuler le trajet</button>
+    <button hidden=false id="clearStopsBtn">🧹 Nettoyer les arrêts</button>
   </div>
 
   <nav class="Lt" id="menu">
@@ -46,7 +47,7 @@ if (!isset($_SESSION["email"])) {
         <h2>Filtres</h2>
 
         <div style="text-align: left; margin: 20px 0;">
-          <p><input type="checkbox" id="v"> 🚲 Vélos uniquement</p>
+          <p><input type="checkbox" id="v"> 🚲 Places Vélos</p>
           <p><input type="checkbox" id="pmr"> ♿ Places Handicapées (PMR)</p>
           <p><input type="checkbox" id="e"> ⚡ Bornes Électriques</p>
           <p><input type="checkbox" id="p"> 💷 Gratuits</p>

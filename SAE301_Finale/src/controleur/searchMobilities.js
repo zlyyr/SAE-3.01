@@ -1,37 +1,29 @@
-import { map } from "../vue/initMap.js";
+import { loadStops } from "../modele/loadStops.js";
+import { distance } from "../modele/utils.js";
 
-let stopsLayer = null;
+export async function getMobilitesAutourParking(parking, rayon = 500) {
+  const stops = await loadStops();
 
-export async function showMobilites(lat, lon, name) {
-  try {
-    // retire l'ancien layer de stops si existant
-    if (stopsLayer) {
-      map.removeLayer(stopsLayer);
-    }
+return stops
+  .map(stop => {
+    const slat = Number(stop.lat);
+    const slon = Number(stop.lon);
 
-    const response = await fetch("../modele/getStops.php");
-    if (!response.ok) throw new Error("Erreur chargement stops");
-
-    const stops = await response.json();
-
-    // filtre les stops proches (exemple rayon 500m)
-    const nearbyStops = stops.filter(
-      (s) => Math.hypot(s.lat - lat, s.lon - lon) * 111000 < 500 // approximation en mètres
+    const d = distance(
+      Number(parking.lat),
+      Number(parking.lon),
+      slat,
+      slon
     );
 
-    stopsLayer = L.layerGroup();
+    return {
+      ...stop,
+      distance: d
+    };
+  })
+  .filter(stop => Number.isFinite(stop.distance) && stop.distance <= rayon)
+  .sort((a, b) => a.distance - b.distance)
+  .slice(0, 5);
 
-    nearbyStops.forEach((s) => {
-      L.marker([s.lat, s.lon])
-        .bindPopup(`<b>${s.stop_name}</b><br>ID: ${s.stop_id}`)
-        .addTo(stopsLayer);
-    });
-
-    stopsLayer.addTo(map);
-
-    // recentre la map sur le parking
-    map.setView([lat, lon], 16);
-  } catch (err) {
-    console.error("Erreur affichage arrêts :", err);
-  }
 }
+
