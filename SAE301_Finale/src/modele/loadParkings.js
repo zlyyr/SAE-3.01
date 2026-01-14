@@ -34,9 +34,7 @@ function displayParkings(list) {
     `;
 
     marker.bindPopup(popup);
-    marker._parkingData = p;
     parkingClusterGroup.addLayer(marker);
-
 
     marker.on("popupopen", (e) => {
     const popupEl = e.popup.getElement();
