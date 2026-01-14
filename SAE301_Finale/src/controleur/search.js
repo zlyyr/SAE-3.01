@@ -1,4 +1,5 @@
 import { map } from "../vue/initMap.js";
+import { goToParking } from "./routage.js";
 
 export function initSearch() {
   const input = document.getElementById("parkingName");
@@ -10,7 +11,6 @@ export function initSearch() {
   });
   //Lorsqu'on clique sur le bouton "Aller"
   button.addEventListener("click", () => {
-    
     const search = input.value.toLowerCase();
 
     const markers = map._layers;
@@ -19,15 +19,18 @@ export function initSearch() {
     //On parcourt les noms des parkings
     Object.values(markers).forEach((layer) => {
       //Quand on trouve le bon, on le stock dans found
-      if (layer._popup && layer._popup._content.toLowerCase().includes(search)) {
+      if (
+        layer._popup &&
+        layer._popup._content.toLowerCase().includes(search)
+      ) {
         found = layer;
       }
     });
 
-    //On zoom sur le parking et on affiche son popup
+    //On lance le trajet vers le parking trouvé
     if (found) {
-      map.setView(found.getLatLng(), 17);
-      found.openPopup();
+      const latLng = found.getLatLng();
+      goToParking(latLng.lat, latLng.lng);
     } else {
       alert("Parking non trouvé. Le nom doit etre exacte.");
     }

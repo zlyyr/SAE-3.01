@@ -4,7 +4,14 @@ import { userMarker } from "../modele/geoLoc.js";
 let routeControl = null;
 let currentTarget = null;
 
-const arretTrajetBtn = document.getElementById("arretTrajet");
+const stopBtn = document.getElementById("stopBtn");
+const goButton = document.getElementById("goButton");
+const nearestBtn = document.getElementById("nearestBtn");
+
+// Ensure initial visibility
+if (goButton) goButton.style.display = "flex";
+if (nearestBtn) nearestBtn.style.display = "flex";
+if (stopBtn) stopBtn.style.display = "none";
 
 export function goToParking(lat, lon) {
   //On vérifie qu'on a la position de l'utilisateur
@@ -42,19 +49,27 @@ export function goToParking(lat, lon) {
     [userLat, userLon],
     [lat, lon],
   ]);
-  arretTrajetBtn.hidden = false;
+
+  // Masquer les boutons Go et Nearest, afficher Stop
+  if (goButton) goButton.style.display = "none";
+  if (nearestBtn) nearestBtn.style.display = "none";
+  if (stopBtn) stopBtn.style.display = "flex";
 }
 
 // Annuler le trajet
-arretTrajetBtn.addEventListener("click", () => {
-  if (routeControl) {
-    map.removeControl(routeControl);
-    routeControl = null;
-    currentTarget = null;
-  }
-  // Cacher le bouton après annulation
-  arretTrajetBtn.hidden = true;
-});
+if (stopBtn) {
+  stopBtn.addEventListener("click", () => {
+    if (routeControl) {
+      map.removeControl(routeControl);
+      routeControl = null;
+      currentTarget = null;
+    }
+    // Masquer Stop, afficher Go et Nearest
+    if (stopBtn) stopBtn.style.display = "none";
+    if (goButton) goButton.style.display = "flex";
+    if (nearestBtn) nearestBtn.style.display = "flex";
+  });
+}
 
 //On recalcule la position si l'utilisateur bouge
 export function recalculateRoute() {

@@ -61,6 +61,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <h1 class="spark-title">Sparking</h1>
       <h2>Mon Profil</h2>
 
+      <div class="lang-selector">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
       <?php if (isset($error))
         echo "<p style='color:red'>$error</p>"; ?>
       <?php if (isset($success))
@@ -70,31 +77,76 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="profile-info">
           <div class="avatar">👤</div>
 
-          <p><strong>Prénom :</strong>
+          <p><strong id="firstNameLabel">Prénom :</strong>
             <span class="view"><?= htmlspecialchars($user['first_name']) ?></span>
             <input class="edit" type="text" name="first_name" value="<?= htmlspecialchars($user['first_name']) ?>"
               style="display:none;">
           </p>
 
-          <p><strong>Nom :</strong>
+          <p><strong id="lastNameLabel">Nom :</strong>
             <span class="view"><?= htmlspecialchars($user['last_name']) ?></span>
             <input class="edit" type="text" name="last_name" value="<?= htmlspecialchars($user['last_name']) ?>"
               style="display:none;">
           </p>
 
-          <p><strong>Email :</strong> <?= htmlspecialchars($user['email']) ?></p>
+          <p><strong id="emailLabel">Email :</strong> <?= htmlspecialchars($user['email']) ?></p>
 
-          <p><strong>Ville :</strong> <?= htmlspecialchars($user['city']) ?></p>
+          <p><strong id="cityLabel">Ville :</strong> <?= htmlspecialchars($user['city']) ?></p>
         </div>
 
         <button type="button" id="editBtn">Modifier vos informations</button>
         <button type="submit" id="saveBtn" style="display:none;">Enregistrer</button>
-        <button type="button" onclick="location.href='index.php'">Retour à la carte</button>
+        <button type="button" id="backBtn" onclick="location.href='index.php'">Retour à la carte</button>
       </form>
     </div>
   </div>
 
   <script>
+    const translations = {
+      fr: {
+        h2: "Mon Profil",
+        firstName: "Prénom",
+        lastName: "Nom",
+        email: "Email",
+        city: "Ville",
+        editBtn: "Modifier vos informations",
+        saveBtn: "Enregistrer",
+        backBtn: "Retour à la carte"
+      },
+      en: {
+        h2: "My Profile",
+        firstName: "First name",
+        lastName: "Last name",
+        email: "Email",
+        city: "City",
+        editBtn: "Modify your information",
+        saveBtn: "Save",
+        backBtn: "Back to map"
+      }
+    };
+
+    const setLanguage = (lang) => {
+      document.documentElement.lang = lang;
+      document.querySelector('h2').textContent = translations[lang].h2;
+      document.getElementById('firstNameLabel').textContent = translations[lang].firstName + ' :';
+      document.getElementById('lastNameLabel').textContent = translations[lang].lastName + ' :';
+      document.getElementById('emailLabel').textContent = translations[lang].email + ' :';
+      document.getElementById('cityLabel').textContent = translations[lang].city + ' :';
+      document.getElementById('editBtn').textContent = translations[lang].editBtn;
+      document.getElementById('saveBtn').textContent = translations[lang].saveBtn;
+      document.getElementById('backBtn').textContent = translations[lang].backBtn;
+      localStorage.setItem('lang', lang);
+    };
+
+    document.getElementById('lang-select').addEventListener('change', (e) => {
+      setLanguage(e.target.value);
+    });
+
+    // Load saved language
+    const savedLang = localStorage.getItem('lang') || 'fr';
+    document.getElementById('lang-select').value = savedLang;
+    setLanguage(savedLang);
+
     const editBtn = document.getElementById('editBtn');
     const saveBtn = document.getElementById('saveBtn');
     const views = document.querySelectorAll('.view');
