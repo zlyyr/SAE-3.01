@@ -35,4 +35,3 @@ export function initMobilities() {
   btn?.addEventListener("click", () => {
     mobilitesLayer.clearLayers();
   });
-}

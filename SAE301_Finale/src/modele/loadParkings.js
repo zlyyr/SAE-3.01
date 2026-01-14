@@ -30,11 +30,10 @@ function displayParkings(list) {
       <button class="go-btn" onclick="goToParking(${p.lat}, ${
       p.lon
     })">M'y amener</button><br>
-      <button class="go-btn" onclick="showMobilites(${p.lat}, ${p.lon}, '${
-      p.name
-    }')">🚏 Arrêts à proximité</button>
-
-    `;
+      <button class="go-btn" onclick="showMobilites(${p.lat}, ${p.lon}, this)">
+  🚏 Arrêts à proximité
+</button>
+`;
 
     marker.bindPopup(popup);
     parkingClusterGroup.addLayer(marker);
