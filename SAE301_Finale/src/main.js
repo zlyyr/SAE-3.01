@@ -4,7 +4,7 @@ import { loadParkings } from "./modele/loadParkings.js";
 import { loadLondonParkings } from "./modele/loadParkingsLondon.js";
 import { initSearch } from "./controleur/search.js";
 import { initNearest } from "./controleur/searchNearest.js";
-import { showMobilites } from "./controleur/searchMobilities.js";
+import { initMobilities } from "./controleur/initMobilities.js";
 
 const city = globalThis.userCity;
 
@@ -15,4 +15,4 @@ loadParkings();
 loadLondonParkings();
 initSearch();
 initNearest();
-showMobilites();
+initMobilities();

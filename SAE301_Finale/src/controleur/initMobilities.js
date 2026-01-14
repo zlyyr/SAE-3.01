@@ -1,38 +1,39 @@
 import { map } from "../vue/initMap.js";
 import { getMobilitesAutourParking } from "./searchMobilities.js";
+import { parkingList } from "../modele/loadParkings.js";
 
-let mobilitesLayer = null;
+let stopsLayer = null;
 
 export function initMobilities() {
-  mobilitesLayer = L.layerGroup().addTo(map);
 
-  // fonction globale UNIQUEMENT pour le popup
+  stopsLayer = L.layerGroup().addTo(map);
 
-  globalThis.showMobilites = async (lat, lon, btn) => {
-    const parking = {
-      latitude: lat,
-      longitude: lon,
-    };
+  window.showMobilites = async (parkingId) => {
 
-    const stops = await getMobilitesAutourParking(parking, 500);
+    stopsLayer.clearLayers();
 
-    let html = "<b>🚏 Arrêts à proximité :</b><br>";
+    const parking = parkingList.find(p => p.id === parkingId);
+    if (!parking) return;
 
-    if (!stops || stops.length === 0) {
-      html += "Aucun arrêt trouvé à moins de 500 m.";
-    } else {
-      stops.slice(0, 5).forEach((stop) => {
-        html += `• ${stop.name} (${Math.round(stop.distance)} m)<br>`;
-      });
-    }
+    const stops = await getMobilitesAutourParking(
+      {
+        lat: parking.lat,
+        lon: parking.lon
+      },
+      500
+    );
 
-    const popupDiv = btn.closest(".leaflet-popup-content");
-    popupDiv.innerHTML += `<div class="stops-list">${html}</div>`;
+    stops.forEach(stop => {
+
+      
+      L.circleMarker([stop.lat, stop.lon], {
+        radius: 6,
+        color: "blue",
+        fillOpacity: 0.9
+      })
+      .bindPopup(`${stop.name}<br>${Math.round(stop.distance)} m`)
+      .addTo(stopsLayer);
+
+    });
   };
-
-  // nettoyage si on annule le trajet
-  const btn = document.getElementById("arretTrajet");
-  btn?.addEventListener("click", () => {
-    mobilitesLayer.clearLayers();
-  });
 }

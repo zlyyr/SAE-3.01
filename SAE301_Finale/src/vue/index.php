@@ -35,7 +35,9 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
     <input type="text" id="parkingName" placeholder="Rechercher un parking…" />
     <button id="goButton">Aller</button>
     <button id="nearestBtn">Le plus proche</button>
-    <button id="stopBtn" style="display:none;">Annuler le trajet</button>
+    <button hidden=false id="arretTrajet">Annuler le trajet</button>
+    <button hidden=false id="clearStopsBtn">🧹 Nettoyer les arrêts</button>
+
   </div>
 
   <nav class="Lt" id="menu">

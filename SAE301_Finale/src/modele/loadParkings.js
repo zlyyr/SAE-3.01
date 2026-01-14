@@ -30,14 +30,25 @@ function displayParkings(list) {
       <button class="go-btn" onclick="goToParking(${p.lat}, ${
       p.lon
     })">M'y amener</button><br>
-      <button class="go-btn" onclick="showMobilites(${p.lat}, ${p.lon}, '${
-      p.name
-    }')">🚏 Arrêts à proximité</button>
-
+      <button class="go-btn go-mobilites">🚏 Arrêts à proximité</button>
     `;
 
     marker.bindPopup(popup);
+    marker._parkingData = p;
     parkingClusterGroup.addLayer(marker);
+
+
+    marker.on("popupopen", (e) => {
+    const popupEl = e.popup.getElement();
+
+    const btnMob = popupEl.querySelector(".go-mobilites");
+
+    if (btnMob) {
+      btnMob.addEventListener("click", () => {
+        showMobilites(p.id);
+      });
+    }
+  });
   });
 
   map.addLayer(parkingClusterGroup);
