@@ -16,14 +16,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   if (strpos($email, '@') === false) {
     $error = "Email au mauvais format.";
-  } else if ($existing[0]['email'] > 0) {
+  } else if ($existing[0]['count'] > 0) {
     $error = "Email déjà utilisé.";
+  } else if (!preg_match("/^[a-zA-ZÀ-ÿ '-]+$/u", $first_name)) {
+    $error = "Le prénom ne peut contenir que des lettres.";
+  } else if (!preg_match("/^[a-zA-ZÀ-ÿ '-]+$/u", $last_name)) {
+    $error = "Le nom ne peut contenir que des lettres.";
   } else {
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
     // INSERT
     try {
       $conn->execSQL("INSERT INTO Users (email, password, city, first_name, last_name) VALUES (?, ?, ?, ?, ?)", [$email, $hashedPassword, $city, $first_name, $last_name]);
-      header("Location: login.php");
+      header("Location: register.php");
       exit;
     } catch (Exception $e) {
       $error = "Une erreur est survenue lors de l'inscription : " . $e->getMessage();
@@ -55,11 +59,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <option value="">Choisir la ville</option>
           <option value="metz">Metz</option>
           <option value="london">Londres</option>
-        </select>
-        <select name="Motorization" required>
-          <option value="">Choisir la motorisation</option>
-          <option value="Gaz">Essence</option>
-          <option value="Electric">Électrique</option>
         </select>
         <button type="submit">S'inscrire</button>
       </form>

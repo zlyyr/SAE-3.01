@@ -4,6 +4,10 @@ if (!isset($_SESSION["email"])) {
   header("Location: login.php");
   exit;
 }
+
+require_once 'data/connexion.class.php';
+$conn = new Connexion();
+$user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email']]);
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +50,7 @@ if (!isset($_SESSION["email"])) {
         <h2>Filtres</h2>
 
         <div style="text-align: left; margin: 20px 0;">
-          <p><input type="checkbox" id="v"> 🚲 Vélos uniquement</p>
+          <p><input type="checkbox" id="v"> 🚲 Places Vélos</p>
           <p><input type="checkbox" id="pmr"> ♿ Places Handicapées (PMR)</p>
           <p><input type="checkbox" id="e"> ⚡ Bornes Électriques</p>
           <p><input type="checkbox" id="p"> 💷 Gratuits</p>
@@ -88,9 +92,6 @@ if (!isset($_SESSION["email"])) {
 
   <footer>© 2025 Sparking — Meme une fusée pourrait se garer !</footer>
 
-  <script type="module">
-    globalThis.userCity = <?= json_encode($_SESSION['city']) ?>;
-  </script>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
