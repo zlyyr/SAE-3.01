@@ -3,26 +3,26 @@ session_start();
 require_once 'data/connexion.class.php'; // On inclut la connexion
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $username = $_POST['username'] ?? '';
+  $email = $_POST['email'] ?? '';
   $password = $_POST['password'] ?? '';
 
   $conn = new Connexion();
 
   $res = $conn->execSQL(
-    "SELECT * FROM Users WHERE username = ?",
-    [$username]
+    "SELECT * FROM Users WHERE email = ?",
+    [$email]
   );
 
   $user = $res[0] ?? null;
 
   if ($user && password_verify($password, $user['password'])) {
-    $_SESSION['username'] = $user['username'];
+    $_SESSION['email'] = $user['email'];
     $_SESSION['user_id'] = $user['ID_User']; // Utile pour les futures requêtes
     $_SESSION['city'] = $user['city'];
     header("Location: index.php");
     exit;
   } else {
-    $error = "Nom d'utilisateur ou mot de passe incorrect.";
+    $error = "Email ou mot de passe incorrect.";
   }
 }
 ?>
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <?php if (isset($error))
         echo "<p style='color:red'>$error</p>"; ?>
       <form method="POST">
-        <input type="text" name="username" placeholder="Nom d'utilisateur" required>
+        <input type="text" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Mot de passe" required>
         <button type="submit">Se connecter</button>
       </form>

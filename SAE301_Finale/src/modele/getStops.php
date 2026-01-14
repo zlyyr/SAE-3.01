@@ -13,7 +13,7 @@ try {
             stop_id,
             stop_name AS name,
             lat,
-            lon,
+            lon
         FROM MobilityService
     ");
 

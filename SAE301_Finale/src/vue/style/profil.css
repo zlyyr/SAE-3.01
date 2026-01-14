@@ -1,0 +1,108 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #f6d251, #da6709);
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: #1c1c1c;
+  padding: 2.5rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #ffa500, 0 0 50px #ffd700;
+  width: 380px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+  color: white;
+}
+
+.spark-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffd700;
+  margin: 0;
+}
+
+.form-container h2 {
+  color: #ffd700;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background: #2a2a2a;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #ffd700;
+}
+
+.profile-info p {
+  margin: 8px 0;
+}
+
+button {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  color: #1c1c1c;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(255, 140, 0, 0.4);
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ffe135, #ffa500);
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(255, 165, 0, 0.6);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .form-container {
+    width: 95%;
+    padding: 3rem 1.5rem;
+  }
+
+  .spark-title {
+    font-size: 2.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}

@@ -82,6 +82,10 @@ body {
   transition: 0.3s;
 }
 
+.form-container input {
+  width: 90.5%;
+}
+
 .form-container input:focus,
 .form-container select:focus {
   border-color: #ffd700;
@@ -129,5 +133,49 @@ button:hover {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-height: 700px) {
+  .form-container {
+    width: 135%;
+    padding: 3rem 1.5rem;
+  }
+
+  .spark-title {
+    font-size: 2.8rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    font-size: 1.2rem;
+    padding: 1.1rem;
+  }
+}
+
+@media (max-height: 400px) {
+  .form-container {
+    width: 95%;
+    padding: 3rem 1.5rem;
+  }
+
+  .spark-title {
+    font-size: 2.8rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    font-size: 1.2rem;
+    padding: 1.1rem;
   }
 }

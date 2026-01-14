@@ -1,6 +1,6 @@
 <?php
 session_start();
-if (!isset($_SESSION["username"])) {
+if (!isset($_SESSION["email"])) {
   header("Location: login.php");
   exit;
 }
@@ -39,8 +39,7 @@ if (!isset($_SESSION["username"])) {
 
     <div class="nav-content">
 
-      <a href="Profil.html">👤 Profil</a>
-      <a href="Parametres.html">⚙️ Paramètres</a>
+      <a href="Profil.php">👤 Profil</a>
       <a href="Aide.php">❓ Aide / Support</a>
 
       <div class="form-container">
@@ -69,7 +68,7 @@ if (!isset($_SESSION["username"])) {
       menu.classList.toggle("open");
     });
 
-    const k = "filters_<?php echo $_SESSION['username'] ?? 'guest'; ?>";
+    const k = "filters_<?php echo $_SESSION['email'] ?? 'guest'; ?>";
 
     const cb = {
       v: document.getElementById('v'),

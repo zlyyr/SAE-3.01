@@ -95,11 +95,11 @@ footer {
 }
 
 .icon-menu {
-  width: 60px;
+  width: 40px;
 }
 
 .nav-content {
-  top: -1000%;
+  top: -1300%;
   display: none;
   height: 100vh;
   margin-left: 20px;
@@ -211,6 +211,14 @@ nav.Lt.open .icon-menu {
     font-size: 0.8rem;
     padding: 0.4rem;
   }
+
+  nav.Lt {
+    bottom: 11%;
+  }
+
+  #nav-content {
+    margin-bottom: auto;
+  }
 }
 
 @media (max-width: 420px) {
@@ -226,5 +234,9 @@ nav.Lt.open .icon-menu {
 
   #searchBar button {
     width: 100%;
+  }
+
+  #menu-btn .icon-menu {
+    margin-top: 30%;
   }
 }
