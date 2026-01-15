@@ -5,10 +5,10 @@ header('Content-Type: application/json; charset=utf-8');
 
 try {
 
-    // Connexion BDD
+    //Connexion BDD
     $conn = new Connexion();
 
-    // 1) BDD
+    //On récupère les données des parkings depuis la BDD
     $parkings = $conn->execSQL("
         SELECT id, id_api, nom AS name, adresse, gratuit, nb_places, nb_pmr, nb_velo,
                nb_voitures_electriques, Ylat AS lat, Xlong AS lon,
@@ -16,12 +16,12 @@ try {
         FROM ParkingMetz
     ");
 
-    // 2) API temps réel Metz
+    //On récupère les données de l'API en temps réel de Metz
     $apiUrl = "https://maps.eurometropolemetz.eu/public/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=public:pub_tsp_sta&srsName=EPSG:4326&outputFormat=application/json&cql_filter=id%20is%20not%20null";
     $apiJson = file_get_contents($apiUrl);
     $apiData = json_decode($apiJson, true);
 
-    // Index API
+    //Index de l'API
     $byId = [];
     $byName = [];
 
@@ -35,7 +35,7 @@ try {
         }
     }
 
-    // 3) Fusion
+    //On fait la fusion entre la BDD et l'API
     $out = [];
 
     foreach ($parkings as $p) {
@@ -48,6 +48,7 @@ try {
 
         $api = !empty($p["id_api"]) ? ($byId[$p["id_api"]] ?? null) : null;
 
+        //Ajout des données temps réel si disponibles
         $p["place_libre"] = $api["place_libre"] ?? null;
         $p["place_total_rt"] = $api["place_total"] ?? null;
         $p["place_update"] = $api["place_update"] ?? null;
@@ -58,6 +59,7 @@ try {
 
     echo json_encode($out);
 
+    //Gestion des erreurs
 } catch (Throwable $e) {
     http_response_code(500);
     echo json_encode(["error" => $e->getMessage()]);

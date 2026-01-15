@@ -6,6 +6,7 @@ import { goToParking } from "./routage.js";
 import { distance } from "../modele/utils.js";
 
 export function initNearest() {
+  //On initialise le bouton "Le plus proche"
   const btn = document.getElementById("nearestBtn");
 
   btn.addEventListener("click", () => {

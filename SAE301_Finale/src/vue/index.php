@@ -1,5 +1,6 @@
 <?php
 session_start();
+//Si l'utilisateur n'est pas connecté, redirection vers la page de login
 if (!isset($_SESSION["email"])) {
   header("Location: login.php");
   exit;
@@ -7,6 +8,7 @@ if (!isset($_SESSION["email"])) {
 
 require_once 'data/connexion.class.php';
 $conn = new Connexion();
+//Récupération des informations de l'utilisateur connecté
 $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email']]);
 ?>
 
@@ -72,6 +74,7 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
   <script type="module">
     import { translations, setLanguage } from './lang/lang.js';
 
+    //Gestion ouverture/fermeture du menu
     const menu = document.getElementById("menu");
     const btn = document.getElementById("menu-btn");
 
@@ -81,6 +84,7 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
 
     const k = "filters_<?php echo $_SESSION['email'] ?? 'guest'; ?>";
 
+    //Récupération des checkbox
     const cb = {
       v: document.getElementById('v'),
       pmr: document.getElementById('pmr'),
@@ -94,13 +98,13 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
     cb.e.checked = d.e;
     cb.p.checked = d.p;
 
-    // Trigger initial filtering
+    //Déclenchement de l'événement "change" pour appliquer les filtres dès le chargement
     cb.v.dispatchEvent(new Event('change'));
     cb.pmr.dispatchEvent(new Event('change'));
     cb.e.dispatchEvent(new Event('change'));
     cb.p.dispatchEvent(new Event('change'));
 
-    // Language toggle
+    //Changement de la langue
     const langToggle = document.getElementById('lang-toggle');
     langToggle.addEventListener('click', () => {
       const currentLang = localStorage.getItem('lang') || 'fr';
@@ -108,7 +112,7 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
       setLanguage(newLang);
     });
 
-    // Load saved language or default to fr
+    //Chargement de la langue sauvegardée ou par défaut FR
     const savedLang = localStorage.getItem('lang') || 'fr';
     setLanguage(savedLang);
 
@@ -120,7 +124,7 @@ $user = $conn->execSQL("SELECT * FROM Users WHERE email = ?", [$_SESSION['email'
 
   <footer>© 2025 Sparking — Meme une fusée pourrait se garer !</footer>
 
-
+  <!-- Librairies Leaflet -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>

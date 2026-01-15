@@ -80,6 +80,7 @@
         const langSelect = document.getElementById('lang-select');
         const langLabel = document.querySelector('.lang-selector label');
 
+        //Fonction qui applique la langue choisie
         const setLanguage = (lang) => {
             document.title = translations[lang].title;
             document.documentElement.lang = lang;
@@ -87,6 +88,8 @@
             document.querySelector('h2').textContent = translations[lang].h2;
             langLabel.textContent = translations[lang].langLabel;
             const ps = document.querySelectorAll('.help-content p');
+
+            //Paragraphes du contenu d'aide
             ps[0].innerHTML = translations[lang].guidance;
             ps[1].innerHTML = translations[lang].filters;
             ps[2].innerHTML = translations[lang].stops;
@@ -96,11 +99,12 @@
             localStorage.setItem('lang', lang);
         };
 
+        //Événement au changement du select
         langSelect.addEventListener('change', (e) => {
             setLanguage(e.target.value);
         });
 
-        // Load saved language or default to fr
+        //Chargement initial de la langue sauvegardée ou français par défaut
         const savedLang = localStorage.getItem('lang') || 'fr';
         langSelect.value = savedLang;
         setLanguage(savedLang);

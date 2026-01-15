@@ -34,6 +34,7 @@ export const translations = {
 };
 
 export function setLanguage(lang) {
+  //Met à jour l'attribut lang de la page HTML
   document.documentElement.lang = lang;
   const parkingName = document.getElementById("parkingName");
   if (parkingName)

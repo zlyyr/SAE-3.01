@@ -8,13 +8,13 @@ const stopBtn = document.getElementById("stopBtn");
 const goButton = document.getElementById("goButton");
 const nearestBtn = document.getElementById("nearestBtn");
 
-// Ensure initial visibility
+//On initialise les boutons et on met le stopBtn en caché
 if (goButton) goButton.style.display = "flex";
 if (nearestBtn) nearestBtn.style.display = "flex";
 if (stopBtn) stopBtn.style.display = "none";
 
 export function goToParking(lat, lon) {
-
+  //On enlève les arrêts affichés si on lance un trajet
   if (window.clearStops) {
     window.clearStops();
   }
@@ -55,13 +55,13 @@ export function goToParking(lat, lon) {
     [lat, lon],
   ]);
 
-  // Masquer les boutons Go et Nearest, afficher Stop
+  //Masquer les boutons Go et Nearest et afficher Stop quand on a un trajet de lancé
   if (goButton) goButton.style.display = "none";
   if (nearestBtn) nearestBtn.style.display = "none";
   if (stopBtn) stopBtn.style.display = "flex";
 }
 
-// Annuler le trajet
+//Annuler le trajet
 if (stopBtn) {
   stopBtn.addEventListener("click", () => {
     if (routeControl) {
@@ -69,7 +69,7 @@ if (stopBtn) {
       routeControl = null;
       currentTarget = null;
     }
-    // Masquer Stop, afficher Go et Nearest
+    //Masquer Stop, afficher Go et Nearest
     if (stopBtn) stopBtn.style.display = "none";
     if (goButton) goButton.style.display = "flex";
     if (nearestBtn) nearestBtn.style.display = "flex";

@@ -9,6 +9,7 @@ if (!isset($_SESSION['user_id'])) {
 
 $conn = new Connexion();
 
+//Récupère les informations de l'utilisateur connecté
 $res = $conn->execSQL(
   "SELECT first_name, last_name, email, city FROM Users WHERE ID_User = ?",
   [$_SESSION['user_id']]
@@ -20,11 +21,12 @@ if (!$user) {
   die("Utilisateur introuvable.");
 }
 
-// Si le formulaire de modification est soumis
+//Si le formulaire de modification est soumis
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $first_name = $_POST['first_name'] ?? '';
   $last_name = $_POST['last_name'] ?? '';
 
+  //Validation des champs
   if (empty($first_name) || empty($last_name)) {
     $error = "Veuillez remplir tous les champs.";
   } else if (!preg_match("/^[a-zA-ZÀ-ÿ '-]+$/u", $first_name)) {
@@ -37,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       [$first_name, $last_name, $_SESSION['user_id']]
     );
     $success = "Informations mises à jour.";
-    // Mettre à jour la variable $user pour afficher les nouvelles infos
+    //Mettre à jour la variable $user pour afficher les nouvelles infos
     $user['first_name'] = $first_name;
     $user['last_name'] = $last_name;
   }
@@ -125,6 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       }
     };
 
+    //Appliquer la langue sélectionnée
     const setLanguage = (lang) => {
       document.documentElement.lang = lang;
       document.querySelector('h2').textContent = translations[lang].h2;
@@ -138,15 +141,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       localStorage.setItem('lang', lang);
     };
 
+    //Charger la langue sauvegardée ou défaut fr
     document.getElementById('lang-select').addEventListener('change', (e) => {
       setLanguage(e.target.value);
     });
 
-    // Load saved language
     const savedLang = localStorage.getItem('lang') || 'fr';
     document.getElementById('lang-select').value = savedLang;
     setLanguage(savedLang);
 
+    //Gestion du mode édition
     const editBtn = document.getElementById('editBtn');
     const saveBtn = document.getElementById('saveBtn');
     const views = document.querySelectorAll('.view');

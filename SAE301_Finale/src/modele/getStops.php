@@ -6,8 +6,9 @@ header('Content-Type: application/json; charset=utf-8');
 try {
     $conn = new Connexion();
 
-    // ⚠️ adapte le nom de la table et des colonnes si besoin
+    // On récupère tous les arrêts stockés dans la table MobilityService
     $stops = $conn->execSQL("
+
         SELECT
             id,
             stop_id,
@@ -17,6 +18,7 @@ try {
         FROM MobilityService
     ");
 
+    //Les données sont envoyées au format JSON
     echo json_encode($stops);
 
 } catch (Throwable $e) {

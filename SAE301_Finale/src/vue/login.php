@@ -1,6 +1,7 @@
 <?php
 session_start();
-require_once 'data/connexion.class.php'; // On inclut la connexion
+//On inclut la connexion
+require_once 'data/connexion.class.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $email = $_POST['email'] ?? '';
@@ -8,6 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   $conn = new Connexion();
 
+  //Requête pour récupérer l'utilisateur correspondant à l'email
   $res = $conn->execSQL(
     "SELECT * FROM Users WHERE email = ?",
     [$email]
@@ -15,12 +17,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
   $user = $res[0] ?? null;
 
+  //Vérification du mot de passe avec password_verify
   if ($user && password_verify($password, $user['password'])) {
     $_SESSION['email'] = $user['email'];
     $_SESSION['user_id'] = $user['ID_User']; // Utile pour les futures requêtes
     $_SESSION['city'] = $user['city'];
     header("Location: index.php");
     exit;
+    //Message d'erreur si email ou mot de passe incorrect
   } else {
     $error = "Email ou mot de passe incorrect.";
   }
@@ -52,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <option value="en">English</option>
         </select>
       </div>
-
+      <!-- Messages d'erreur en rouge-->
       <?php if (isset($error))
         echo "<p style='color:red'>$error</p>"; ?>
       <form method="POST">
@@ -84,6 +88,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       }
     };
 
+    //Fonction pour appliquer la langue choisie
     const setLanguage = (lang) => {
       document.documentElement.lang = lang;
       document.querySelector('h2').textContent = translations[lang].h2;
@@ -98,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       setLanguage(e.target.value);
     });
 
-    // Load saved language
+    //Chargement de la langue sauvegardée ou défaut français
     const savedLang = localStorage.getItem('lang') || 'fr';
     document.getElementById('lang-select').value = savedLang;
     setLanguage(savedLang);

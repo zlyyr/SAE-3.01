@@ -1,5 +1,6 @@
 import { map } from "../vue/initMap.js";
 
+//Liste globale des parkings de Metz
 export let parkingList = [];
 let parkingClusterGroup = null;
 
@@ -8,8 +9,10 @@ function displayParkings(list) {
     map.removeLayer(parkingClusterGroup);
   }
 
+  //Création d’un groupe de clusters pour les parkings
   parkingClusterGroup = L.markerClusterGroup({ maxClusterRadius: 120 });
 
+  //Création du marker avec une icône personnalisée
   list.forEach((p) => {
     const marker = L.marker([p.lat, p.lon], {
       icon: L.divIcon({
@@ -20,6 +23,7 @@ function displayParkings(list) {
       }),
     });
 
+    //Contenu HTML du popup du marker
     const popup = `
       <b>${p.name}</b><br>
       Adresse : ${p.adresse ?? "?"}<br>
@@ -35,9 +39,11 @@ function displayParkings(list) {
       <button class="go-btn go-mobilites">🚏 Arrêts à proximité</button>
     `;
 
+    //Association du popup au marker
     marker.bindPopup(popup);
     parkingClusterGroup.addLayer(marker);
 
+    //Récupération du bouton dans le HTML du popup
     marker.on("popupopen", (e) => {
       const popupEl = e.popup.getElement();
 
@@ -54,25 +60,30 @@ function displayParkings(list) {
   map.addLayer(parkingClusterGroup);
 }
 
+//Chargement des parkings depuis le serveur
 export function loadParkings() {
   fetch("../modele/getParking.php")
     .then((r) => r.json())
     .then((data) => {
       parkingList = data;
+      //Affichage sur la carte
       displayParkings(parkingList);
     })
     .catch((err) => console.error("Erreur chargement parkings :", err));
 }
 
+//Gestion des filtres
 const cbVelo = document.getElementById("v");
 const cbPMR = document.getElementById("pmr");
 const cbElec = document.getElementById("e");
 const cbPayant = document.getElementById("p");
 
+//À chaque fois qu'on coche la case, on applique le filtre correspondant
 [cbVelo, cbPMR, cbElec, cbPayant].forEach((cb) =>
   cb.addEventListener("change", applyFilters)
 );
 
+//Application des filtres
 function applyFilters() {
   let filtered = parkingList;
 
@@ -92,5 +103,6 @@ function applyFilters() {
     filtered = filtered.filter((p) => p.tarif_1h == 0);
   }
 
+  //Réaffichage des parkings filtrés
   displayParkings(filtered);
 }

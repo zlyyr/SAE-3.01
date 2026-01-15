@@ -4,7 +4,7 @@ export let londonParkingList = [];
 
 let londonCluster = null;
 
-// Supprimer les parkings Londres
+//Supprimer les parkings de Londres
 export function clearLondonParkingMarkers() {
   if (londonCluster) {
     map.removeLayer(londonCluster);
@@ -13,12 +13,12 @@ export function clearLondonParkingMarkers() {
   londonParkingList = [];
 }
 
-// Charger les parkings de Londres (centre uniquement)
+//Charger les parkings de Londres
 export async function loadLondonParkings() {
-  // Sécurité : ne pas recharger 2 fois
+  //Sécurité : ne pas recharger 2 fois les parkings
   if (londonCluster) return;
 
-  // Bounding box : centre de Londres
+  //Bounding box : centre de Londres
   const overpassQuery = `
     [out:json];
     (
@@ -29,8 +29,10 @@ export async function loadLondonParkings() {
   `;
 
   try {
+    //Création du cluster des markers
     londonCluster = L.markerClusterGroup();
 
+    //Envoi de la requête POST à l’API Overpass
     const response = await fetch("https://overpass-api.de/api/interpreter", {
       method: "POST",
       body: overpassQuery,
@@ -38,6 +40,7 @@ export async function loadLondonParkings() {
 
     const data = await response.json();
 
+    //Récupération des coordonnées
     data.elements.forEach((el) => {
       const lat = el.lat || el.center?.lat;
       const lon = el.lon || el.center?.lon;
@@ -46,8 +49,10 @@ export async function loadLondonParkings() {
       const name = el.tags?.name || "Parking";
       const capacity = el.tags?.capacity || "Inconnue";
 
+      //On ignore les parkings sans capacité ou trop petits
       if (!capacity || isNaN(capacity) || capacity < 10) return;
 
+      //Création du marker Leaflet
       const marker = L.marker([lat, lon], {
         icon: L.divIcon({
           className: "parking-marker",
@@ -64,6 +69,7 @@ export async function loadLondonParkings() {
         capacity,
       });
 
+      //Contenu du popup
       const popup = `
         <b>${name}</b><br>
         Capacité : <b>${capacity}</b><br>
@@ -80,6 +86,7 @@ export async function loadLondonParkings() {
       londonCluster.addLayer(marker);
     });
 
+    //Ajout de tous les markers sur la carte
     map.addLayer(londonCluster);
 
     console.log(`Parkings Londres chargés : ${londonParkingList.length}`);

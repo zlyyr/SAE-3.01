@@ -11,9 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $first_name = $_POST['first_name'] ?? '';
   $last_name = $_POST['last_name'] ?? '';
 
-  // Vérifier si l'utilisateur existe déjà
+  //Vérifier si l'utilisateur existe déjà
   $existing = $conn->execSQL("SELECT COUNT(*) as count FROM Users WHERE email = ?", [$email]);
 
+  //Validation des champs
   if (strpos($email, '@') === false) {
     $error = "Email au mauvais format.";
   } else if ($existing[0]['count'] > 0) {
@@ -24,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $error = "Le nom ne peut contenir que des lettres.";
   } else {
     $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-    // INSERT
+    //Tentative d'insertion dans la BDD
     try {
       $conn->execSQL("INSERT INTO Users (email, password, city, first_name, last_name) VALUES (?, ?, ?, ?, ?)", [$email, $hashedPassword, $city, $first_name, $last_name]);
       header("Location: register.php");
@@ -102,6 +103,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       }
     };
 
+
+    //Appliquer la langue sélectionnée
     const setLanguage = (lang) => {
       document.documentElement.lang = lang;
       document.querySelector('h2').textContent = translations[lang].h2;
@@ -109,6 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       document.querySelector('input[name="last_name"]').placeholder = translations[lang].lastName;
       document.querySelector('input[name="email"]').placeholder = translations[lang].email;
       document.querySelector('input[name="password"]').placeholder = translations[lang].password;
+      //Sélecteur ville
       const select = document.querySelector('select[name="city"]');
       select.options[0].text = translations[lang].city;
       select.options[1].text = translations[lang].metz;
