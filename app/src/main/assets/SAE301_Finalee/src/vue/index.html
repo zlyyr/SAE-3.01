@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Sparking 🚗</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
+  <link rel="stylesheet" href="./style/index.css" />
+
+</head>
+
+<body>
+
+  <header>Sparking</header>
+
+  <div id="searchBar">
+    <input type="text" id="parkingName" placeholder="Rechercher un parking…" />
+    <button id="goButton">Aller</button>
+    <button id="nearestBtn">Le plus proche</button>
+    <button id="stopBtn" style="display:none;">Annuler le trajet</button>
+    <button id="btn-clean-arrets" style="display:none;">🧹 Nettoyer les arrêts</button>
+
+
+  </div>
+
+  <nav class="Lt" id="menu">
+    <img src="./images/menu.png" alt="Menu" class="icon-menu" id="menu-btn">
+
+    <div class="nav-content">
+
+      <a href="Profil.html">👤 Profil</a>
+      <a href="Aide.html">❓ Aide / Support</a>
+
+      <div class="form-container">
+        <h2>Filtres</h2>
+
+        <div style="text-align: left; margin: 20px 0;">
+          <p><input type="checkbox" id="v"> 🚲 Places Vélos</p>
+          <p><input type="checkbox" id="pmr"> ♿ Places Handicapées (PMR)</p>
+          <p><input type="checkbox" id="e"> ⚡ Bornes Électriques</p>
+          <p><input type="checkbox" id="p"> 💷 Gratuits</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <button id="lang-toggle">🌐 FR</button>
+
+      <a href="logout.html" class="logout">🚪 Se déconnecter</a>
+
+    </div>
+  </nav>
+
+  <script type="module">
+    import { translations, setLanguage } from './lang/lang.js';
+
+    //Gestion ouverture/fermeture du menu
+    const menu = document.getElementById("menu");
+    const btn = document.getElementById("menu-btn");
+
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("open");
+    });
+
+    // Check if user is logged in
+    const user = JSON.parse(localStorage.getItem('user'));
+    if (!user) {
+      window.location.href = 'login.html';
+    }
+    globalThis.userCity = user.city;
+
+    const k = "filters_" + user.email;
+
+    //Récupération des checkbox
+    const cb = {
+      v: document.getElementById('v'),
+      pmr: document.getElementById('pmr'),
+      e: document.getElementById('e'),
+      p: document.getElementById('p')
+    };
+
+    const d = JSON.parse(localStorage.getItem(k)) || { v: false, pmr: user.pmr || false, e: user.motorization === 'Electric' || false, p: false };
+    cb.v.checked = d.v;
+    cb.pmr.checked = d.pmr;
+    cb.e.checked = d.e;
+    cb.p.checked = d.p;
+
+    //Déclenchement de l'événement "change" pour appliquer les filtres dès le chargement
+    cb.v.dispatchEvent(new Event('change'));
+    cb.pmr.dispatchEvent(new Event('change'));
+    cb.e.dispatchEvent(new Event('change'));
+    cb.p.dispatchEvent(new Event('change'));
+
+    //Changement de la langue
+    const langToggle = document.getElementById('lang-toggle');
+    langToggle.addEventListener('click', () => {
+      const currentLang = localStorage.getItem('lang') || 'fr';
+      const newLang = currentLang === 'fr' ? 'en' : 'fr';
+      setLanguage(newLang);
+    });
+
+    //Chargement de la langue sauvegardée ou par défaut FR
+    const savedLang = localStorage.getItem('lang') || 'fr';
+    setLanguage(savedLang);
+
+    window.arretMarkers = [];
+
+  </script>
+
+  <div id="map"></div>
+
+  <footer>© 2025 Sparking — Meme une fusée pourrait se garer !</footer>
+
+  <!-- Librairies Leaflet -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+  <script type="module" src="../main.js"></script>
+</body>
+
+</html>

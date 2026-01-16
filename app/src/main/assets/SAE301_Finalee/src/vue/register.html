@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style/login_register.css" />
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="form-container">
+      <h1 class="spark-title">Sparking</h1>
+      <h2>Inscription</h2>
+
+      <div class="lang-selector">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div id="error" style="color:red; display:none;"></div>
+      <form id="registerForm">
+        <input type="text" name="first_name" placeholder="Prénom" required>
+        <input type="text" name="last_name" placeholder="Nom de famille" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <select name="city" required>
+          <option value="">Choisir la ville</option>
+          <option value="metz">Metz</option>
+          <option value="london">Londres</option>
+        </select>
+        <button type="submit">S'inscrire</button>
+      </form>
+      <a href="login.html">J'ai déjà un compte</a>
+    </div>
+  </div>
+
+  <script>
+    const translations = {
+      fr: {
+        h2: "Inscription",
+        firstName: "Prénom",
+        lastName: "Nom de famille",
+        email: "Email",
+        password: "Mot de passe",
+        city: "Choisir la ville",
+        metz: "Metz",
+        london: "Londres",
+        button: "S'inscrire",
+        link: "J'ai déjà un compte",
+        emailInvalid: "Email au mauvais format.",
+        emailExists: "Email déjà utilisé.",
+        nameInvalid: "Le nom ne peut contenir que des lettres.",
+        success: "Inscription réussie."
+      },
+      en: {
+        h2: "Registration",
+        firstName: "First name",
+        lastName: "Last name",
+        email: "Email",
+        password: "Password",
+        city: "Choose city",
+        metz: "Metz",
+        london: "London",
+        button: "Register",
+        link: "I already have an account",
+        emailInvalid: "Invalid email format.",
+        emailExists: "Email already used.",
+        nameInvalid: "Name can only contain letters.",
+        success: "Registration successful."
+      }
+    };
+
+    const setLanguage = (lang) => {
+      document.documentElement.lang = lang;
+      document.querySelector('h2').textContent = translations[lang].h2;
+      document.querySelector('input[name="first_name"]').placeholder = translations[lang].firstName;
+      document.querySelector('input[name="last_name"]').placeholder = translations[lang].lastName;
+      document.querySelector('input[name="email"]').placeholder = translations[lang].email;
+      document.querySelector('input[name="password"]').placeholder = translations[lang].password;
+      document.querySelector('select[name="city"] option[value=""]').textContent = translations[lang].city;
+      document.querySelector('select[name="city"] option[value="metz"]').textContent = translations[lang].metz;
+      document.querySelector('select[name="city"] option[value="london"]').textContent = translations[lang].london;
+      document.querySelector('button').textContent = translations[lang].button;
+      document.querySelector('a').textContent = translations[lang].link;
+      localStorage.setItem('lang', lang);
+    };
+
+    document.getElementById('lang-select').addEventListener('change', (e) => {
+      setLanguage(e.target.value);
+    });
+
+    const savedLang = localStorage.getItem('lang') || 'fr';
+    document.getElementById('lang-select').value = savedLang;
+    setLanguage(savedLang);
+
+    document.getElementById('registerForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const first_name = e.target.first_name.value;
+      const last_name = e.target.last_name.value;
+      const email = e.target.email.value;
+      const password = e.target.password.value;
+      const city = e.target.city.value;
+
+      const users = JSON.parse(localStorage.getItem('users')) || [];
+      let error = '';
+
+      if (!email.includes('@')) {
+        error = translations[savedLang].emailInvalid;
+      } else if (users.some(u => u.email === email)) {
+        error = translations[savedLang].emailExists;
+      } else if (!/^[a-zA-ZÀ-ÿ '-]+$/u.test(first_name)) {
+        error = translations[savedLang].nameInvalid;
+      } else if (!/^[a-zA-ZÀ-ÿ '-]+$/u.test(last_name)) {
+        error = translations[savedLang].nameInvalid;
+      } else {
+        const newUser = { id: Date.now(), email, password, first_name, last_name, city, pmr: false, motorization: 'Gas' };
+        users.push(newUser);
+        localStorage.setItem('users', JSON.stringify(users));
+        alert(translations[savedLang].success);
+        window.location.href = 'login.html';
+        return;
+      }
+
+      document.getElementById('error').textContent = error;
+      document.getElementById('error').style.display = 'block';
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6d251, #da6709);
+  color: #fff;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  padding: 3rem 3.5rem;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.spark-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+.form-container h2 {
+  color: #ffd700;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.lang-selector {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.lang-selector select {
+  padding: 0.6rem 1rem;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.lang-selector select:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(145deg, #2a2a2a, #333);
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #ffd700;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-info p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.profile-info strong {
+  color: #ffd700;
+  font-weight: 600;
+}
+
+.edit {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.edit:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+button {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  color: #1c1c1c;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.4);
+  transition: all 0.3s ease;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ffe135, #ffa500);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(255, 165, 0, 0.6);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 2.5rem 2rem;
+    max-width: 90%;
+  }
+
+  .spark-title {
+    font-size: 2.8rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .profile-info p {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-container {
+    padding: 2rem 1.5rem;
+    max-width: 95%;
+  }
+
+  .spark-title {
+    font-size: 2.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .avatar {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+}

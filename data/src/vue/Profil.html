@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon Profil — Sparking</title>
+  <link rel="stylesheet" href="style/profil.css">
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="form-container">
+
+      <h1 class="spark-title">Sparking</h1>
+      <h2>Mon Profil</h2>
+
+      <div class="lang-selector">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
+      <div id="error" style="color:red; display:none;"></div>
+      <div id="success" style="color:green; display:none;"></div>
+
+      <form id="editForm">
+        <div class="profile-info">
+          <div class="avatar">👤</div>
+
+          <p><strong id="firstNameLabel">Prénom :</strong>
+            <span class="view" id="firstNameView"></span>
+            <input class="edit" type="text" name="first_name" style="display:none;">
+          </p>
+
+          <p><strong id="lastNameLabel">Nom :</strong>
+            <span class="view" id="lastNameView"></span>
+            <input class="edit" type="text" name="last_name" style="display:none;">
+          </p>
+
+          <p><strong id="emailLabel">Email :</strong> <span id="emailView"></span></p>
+
+          <p><strong id="cityLabel">Ville :</strong> <span id="cityView"></span></p>
+        </div>
+
+        <button type="button" id="editBtn">Modifier vos informations</button>
+        <button type="submit" id="saveBtn" style="display:none;">Enregistrer</button>
+        <button type="button" id="backBtn" onclick="location.href='index.html'">Retour à la carte</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Check login
+    const email = localStorage.getItem('email');
+    if (!email) {
+      window.location.href = 'login.html';
+    }
+
+    const user = JSON.parse(localStorage.getItem('user') || '{}');
+
+    // Fill fields
+    document.getElementById('firstNameView').textContent = user.first_name || '';
+    document.getElementById('lastNameView').textContent = user.last_name || '';
+    document.getElementById('emailView').textContent = user.email || '';
+    document.getElementById('cityView').textContent = user.city || '';
+    document.querySelector('input[name="first_name"]').value = user.first_name || '';
+    document.querySelector('input[name="last_name"]').value = user.last_name || '';
+
+    const translations = {
+      fr: {
+        h2: "Mon Profil",
+        firstName: "Prénom",
+        lastName: "Nom",
+        email: "Email",
+        city: "Ville",
+        editBtn: "Modifier vos informations",
+        saveBtn: "Enregistrer",
+        backBtn: "Retour à la carte",
+        error: "Veuillez remplir tous les champs.",
+        firstNameInvalid: "Le prénom ne peut contenir que des lettres.",
+        lastNameInvalid: "Le nom ne peut contenir que des lettres.",
+        success: "Informations mises à jour."
+      },
+      en: {
+        h2: "My Profile",
+        firstName: "First name",
+        lastName: "Last name",
+        email: "Email",
+        city: "City",
+        editBtn: "Modify your information",
+        saveBtn: "Save",
+        backBtn: "Back to map",
+        error: "Please fill all fields.",
+        firstNameInvalid: "First name can only contain letters.",
+        lastNameInvalid: "Last name can only contain letters.",
+        success: "Information updated."
+      }
+    };
+
+    const setLanguage = (lang) => {
+      document.documentElement.lang = lang;
+      document.querySelector('h2').textContent = translations[lang].h2;
+      document.getElementById('firstNameLabel').textContent = translations[lang].firstName + ' :';
+      document.getElementById('lastNameLabel').textContent = translations[lang].lastName + ' :';
+      document.getElementById('emailLabel').textContent = translations[lang].email + ' :';
+      document.getElementById('cityLabel').textContent = translations[lang].city + ' :';
+      document.getElementById('editBtn').textContent = translations[lang].editBtn;
+      document.getElementById('saveBtn').textContent = translations[lang].saveBtn;
+      document.getElementById('backBtn').textContent = translations[lang].backBtn;
+      localStorage.setItem('lang', lang);
+    };
+
+    document.getElementById('lang-select').addEventListener('change', (e) => {
+      setLanguage(e.target.value);
+    });
+
+    // Load saved language
+    const savedLang = localStorage.getItem('lang') || 'fr';
+    document.getElementById('lang-select').value = savedLang;
+    setLanguage(savedLang);
+
+    const editBtn = document.getElementById('editBtn');
+    const saveBtn = document.getElementById('saveBtn');
+    const views = document.querySelectorAll('.view');
+    const edits = document.querySelectorAll('.edit');
+
+    editBtn.addEventListener('click', () => {
+      views.forEach(v => v.style.display = 'none');
+      edits.forEach(e => e.style.display = 'inline-block');
+      editBtn.style.display = 'none';
+      saveBtn.style.display = 'inline-block';
+    });
+
+    document.getElementById('editForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const first_name = e.target.first_name.value;
+      const last_name = e.target.last_name.value;
+      let error = '';
+
+      if (!first_name || !last_name) {
+        error = translations[savedLang].error;
+      } else if (!/^[a-zA-ZÀ-ÿ '-]+$/u.test(first_name)) {
+        error = translations[savedLang].firstNameInvalid;
+      } else if (!/^[a-zA-ZÀ-ÿ '-]+$/u.test(last_name)) {
+        error = translations[savedLang].lastNameInvalid;
+      } else {
+        user.first_name = first_name;
+        user.last_name = last_name;
+        localStorage.setItem('user', JSON.stringify(user));
+        // Update users array
+        const users = JSON.parse(localStorage.getItem('users') || '[]');
+        const index = users.findIndex(u => u.email === email);
+        if (index !== -1) {
+          users[index] = user;
+          localStorage.setItem('users', JSON.stringify(users));
+        }
+        document.getElementById('firstNameView').textContent = first_name;
+        document.getElementById('lastNameView').textContent = last_name;
+        views.forEach(v => v.style.display = 'inline');
+        edits.forEach(e => e.style.display = 'none');
+        editBtn.style.display = 'inline-block';
+        saveBtn.style.display = 'none';
+        document.getElementById('success').textContent = translations[savedLang].success;
+        document.getElementById('success').style.display = 'block';
+        document.getElementById('error').style.display = 'none';
+        return;
+      }
+      document.getElementById('error').textContent = error;
+      document.getElementById('error').style.display = 'block';
+      document.getElementById('success').style.display = 'none';
+    });
+  </script>
+</body>
+
+</html>

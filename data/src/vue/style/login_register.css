@@ -1,0 +1,333 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f6d251, #da6709);
+  color: #fff;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.icon-car {
+  width: 90px;
+  height: 45px;
+  opacity: 0.9;
+}
+
+.icon-parking {
+  width: 55px;
+  height: 55px;
+  opacity: 0.9;
+}
+
+.arrow {
+  font-size: 3.2rem;
+  color: #ffd700;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.spark-title {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin: 0 0 1rem 0;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+  letter-spacing: 2px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  background: linear-gradient(145deg, #1c1c1c, #2a2a2a);
+  padding: 3rem 3.5rem;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.form-container h2 {
+  color: #ffd700;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.lang-selector {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.lang-selector select {
+  width: 250px;
+  padding: 0.6rem 1rem;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.lang-selector select:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.form-container input,
+.form-container select {
+  width: 451px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #333;
+  border-radius: 15px;
+  background: #2a2a2a;
+  color: #fff;
+  font-size: 1.1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-container input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+.form-container input:focus,
+.form-container select:focus {
+  border-color: #ffd700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-group input[type="checkbox"] {
+  margin-right: 0.8rem;
+  transform: scale(1.2);
+  accent-color: #ffd700;
+}
+
+button {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(90deg, #ffd700, #ff8c00);
+  color: #1c1c1c;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 140, 0, 0.4);
+  transition: all 0.3s ease;
+  outline: none;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #ffe135, #ffa500);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(255, 165, 0, 0.6);
+}
+
+.form-container a {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.form-container a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 2rem 1.5rem;
+    max-width: 95%;
+    margin: 10px;
+  }
+
+  .spark-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form-container h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .title-container {
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .icon-car {
+    width: 60px;
+    height: 30px;
+  }
+
+  .icon-parking {
+    width: 40px;
+    height: 40px;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+
+  .lang-selector select {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    font-size: 16px; /* Prevent zoom on iOS */
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 0.9rem 1.2rem;
+    margin-top: 0.5rem;
+  }
+
+  .form-container a {
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+
+  .overlay {
+    padding: 10px;
+  }
+
+  .form-container {
+    padding: 1.5rem 1rem;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
+  .spark-title {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .form-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .title-container {
+    gap: 8px;
+    margin-bottom: 0.8rem;
+  }
+
+  .icon-car {
+    width: 50px;
+    height: 25px;
+  }
+
+  .icon-parking {
+    width: 35px;
+    height: 35px;
+  }
+
+  .arrow {
+    font-size: 1.8rem;
+  }
+
+  .lang-selector {
+    margin-bottom: 1.5rem;
+  }
+
+  .lang-selector select {
+    width: 100%;
+    padding: 0.7rem 0.8rem;
+    font-size: 16px;
+  }
+
+  .form-container input,
+  .form-container select {
+    padding: 0.8rem 0.9rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+
+  button {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+  }
+
+  .form-container a {
+    font-size: 0.85rem;
+    margin-top: 1rem;
+  }
+}

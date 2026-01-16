@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="./style/login_register.css" />
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="form-container">
+      <div class="title-container">
+        <img src="./images/voiture.png" alt="Voiture" class="icon-car" />
+        <span class="arrow">→</span>
+        <img src="./images/parking.jpg" alt="Parking" class="icon-parking" />
+      </div>
+
+      <h1 class="spark-title">Sparking</h1>
+      <h2>Connexion</h2>
+
+      <div class="lang-selector">
+        <select id="lang-select">
+          <option value="fr">Français</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+      <!-- Messages d'erreur en rouge-->
+      <div id="error" style="color:red; display:none;"></div>
+      <form id="loginForm">
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Mot de passe" required>
+        <button type="submit">Se connecter</button>
+      </form>
+      <a href="register.html">Créer un compte</a>
+    </div>
+  </div>
+
+  <script>
+    const translations = {
+      fr: {
+        h2: "Connexion",
+        emailPlaceholder: "Email",
+        passwordPlaceholder: "Mot de passe",
+        button: "Se connecter",
+        link: "Créer un compte",
+        error: "Email ou mot de passe incorrect."
+      },
+      en: {
+        h2: "Login",
+        emailPlaceholder: "Email",
+        passwordPlaceholder: "Password",
+        button: "Log in",
+        link: "Create an account",
+        error: "Incorrect email or password."
+      }
+    };
+
+    //Fonction pour appliquer la langue choisie
+    const setLanguage = (lang) => {
+      document.documentElement.lang = lang;
+      document.querySelector('h2').textContent = translations[lang].h2;
+      document.querySelector('input[name="email"]').placeholder = translations[lang].emailPlaceholder;
+      document.querySelector('input[name="password"]').placeholder = translations[lang].passwordPlaceholder;
+      document.querySelector('button').textContent = translations[lang].button;
+      document.querySelector('a').textContent = translations[lang].link;
+      localStorage.setItem('lang', lang);
+    };
+
+    document.getElementById('lang-select').addEventListener('change', (e) => {
+      setLanguage(e.target.value);
+    });
+
+    //Chargement de la langue sauvegardée ou défaut français
+    const savedLang = localStorage.getItem('lang') || 'fr';
+    document.getElementById('lang-select').value = savedLang;
+    setLanguage(savedLang);
+
+    // Handle login
+    document.getElementById('loginForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const email = e.target.email.value;
+      const password = e.target.password.value;
+      const users = JSON.parse(localStorage.getItem('users')) || [];
+      const user = users.find(u => u.email === email);
+      if (user && user.password === password) { // Note: in real app, hash passwords
+        localStorage.setItem('user', JSON.stringify(user));
+        window.location.href = 'index.html';
+      } else {
+        document.getElementById('error').textContent = translations[savedLang].error;
+        document.getElementById('error').style.display = 'block';
+      }
+    });
+  </script>
+
+</body>
+
+</html>
